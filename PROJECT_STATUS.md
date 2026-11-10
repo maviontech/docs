@@ -3,6 +3,13 @@
 **Last updated:** 10 November 2026
 **Current stage:** All work is approved as of 10 Nov 2026: the eight product decks, the catalogue vNext (re-sequenced to the MavionTech product order), the master records and the 14-slide sales introduction deck. Next: final delivery packaging, which has not started and is waiting for the packaging brief or the default package.
 
+## Repository (10 Nov 2026)
+- **Pushed to** https://github.com/maviontech/docs (branch `main`, commit `100ba4f`): 357 files, about 181 MB.
+- **Author and committer:** `sant.vihangam <sant.vihangam@gmail.com>`, set in this repository only. There is no co-author trailer, as the user instructed.
+- **Contents:** all deliverables, records, strategy, design system and reports, plus `02_Working_Notes/design_build` generators and scripts. `README.md` indexes the repository.
+- **Excluded by `.gitignore`:** node_modules, working build copies, renders, extracted media, the skill copy (`skv`) and generated assets (product marks are kept).
+- This status note was committed and pushed in a follow-up commit.
+
 ## Sales introduction deck (approved 10 Nov 2026, "Approve both")
 - **Request:** a send-anywhere MavionTech introduction: what we do, how we simplify operations, the product catalogue, today's problems and how our products tackle them. Limit: 15 slides at most. User additions: one detail slide per flagship product, kept after the combined flagship slide, which must not be replaced.
 - **Deliverables in `Sales_Introduction/`:** `MavionTech_Sales_Introduction.pptx` (14 slides, editable), `.pdf` (14 pages), `renders/` and `contact_sheets/`.
