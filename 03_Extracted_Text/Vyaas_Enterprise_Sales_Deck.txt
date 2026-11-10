@@ -1,0 +1,620 @@
+<!-- Slide number: 1 -->
+MavionTech
+![D:\MavionTech_sales\deck_work\build\assets\maviontech-logo.png](Image 0)
+Enterprise Software Solutions
+ENTERPRISE SALES OVERVIEW
+![D:\MavionTech_sales\deck_work\build\assets\crop\chat_home_1.71.png](Image 2)
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-logo.png](Image 1)
+Answers you can cite.
+Code you can ship.
+![D:\MavionTech_sales\deck_work\build\assets\crop\chat_cited_1.68.png](Image 3)
+The enterprise AI assistant that chats over your own knowledge with citations, generates real documents, and hands engineering work to an agent that opens pull requests — under organization-grade governance.
+Crafted by MavionTech Pvt. Ltd.  ·  Enterprise Software Solutions  ·  maviontech.com
+
+### Notes:
+Vyaas AI by MavionTech. One secure workspace: cited chat over your knowledge, real document and image generation, and an agentic coding assistant that opens PRs — all governed at the organization level. Everything you'll see is the running product with live demo data.
+
+<!-- Slide number: 2 -->
+THE PROBLEM
+AI pilots stall when they can't be trusted, governed, or shipped
+Answers you can't trust
+Your data, somewhere else
+![D:\MavionTech_sales\deck_work\build\assets\icons\chat.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\icons\lock.png](Image 1)
+Generic chatbots hallucinate and cite nothing, so teams re-verify every answer by hand.
+Sending company knowledge to consumer AI tools means no isolation, no policy, no audit trail.
+Talks, doesn't build
+Runaway token spend
+![D:\MavionTech_sales\deck_work\build\assets\icons\code.png](Image 2)
+![D:\MavionTech_sales\deck_work\build\assets\icons\coin.png](Image 3)
+Copilots autocomplete lines but can't take a task end-to-end and open a reviewed pull request.
+Unoptimised prompts and bloated context make model bills unpredictable at scale.
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+2
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 4)
+
+### Notes:
+Four reasons AI pilots stall in the enterprise: answers you can't trust, data you can't govern, tools that talk but don't ship, and spend you can't predict. Vyaas is built to remove all four.
+
+<!-- Slide number: 3 -->
+MEET VYAAS
+One platform: converse, build and govern
+![D:\MavionTech_sales\deck_work\build\assets\crop\chat_compare_1.64.png](Image 3)
+![D:\MavionTech_sales\deck_work\build\assets\icons\chat.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\icons\code.png](Image 1)
+![D:\MavionTech_sales\deck_work\build\assets\icons\shield.png](Image 2)
+Converse & Create
+Build & Ship
+Govern & Scale
+Cited chat over your knowledge, plus real documents and images.
+An agentic coding assistant that works in a sandbox and opens PRs.
+Organizations, policies, audit and a Token Optimisation Engine.
+Lead with the answer — grounded, structured, cited
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+3
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 4)
+
+### Notes:
+Three pillars on one platform. Converse and create: cited chat, documents, images. Build and ship: the coding agent. Govern and scale: organizations, policy, audit, and cost control. The screenshot is a real answer that leads with a recommendation and a comparison table.
+
+<!-- Slide number: 4 -->
+AT A GLANCE
+A real platform, counted from the code
+14
+38
+102
+368
+Functional modules
+Data models
+Screens & routes
+Automated tests
+2
+5
+3
+23k+
+Model providers
+Plan tiers
+Org roles
+Lines of Python
+Source: static analysis of the Vyaas repository (github.com/maviontech/llm). Usage figures elsewhere are labelled demo data.
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+4
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 0)
+
+### Notes:
+These numbers are counted from the source, not marketing: 14 modules, 38 models, 102 routes, 368 tests, two model providers, five plan tiers, three roles, over twenty-three thousand lines of Python.
+
+<!-- Slide number: 5 -->
+WHO IT'S FOR
+One platform, every seat in the room
+![D:\MavionTech_sales\deck_work\build\assets\icons\users.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\icons\code.png](Image 1)
+![D:\MavionTech_sales\deck_work\build\assets\icons\book.png](Image 2)
+![D:\MavionTech_sales\deck_work\build\assets\icons\shield.png](Image 3)
+The buyer
+Engineers
+Knowledge workers
+Org admins
+CTO / Head of Engineering
+Members
+Members
+Owner / Admin
+Governs rollout, spend and data policy across the org.
+Hand tasks to the coding agent; review and merge its PRs.
+Cited answers, documents and assistants over company knowledge.
+Members, policies, shared assets and the audit trail.
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+5
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 4)
+
+### Notes:
+Vyaas serves the whole room: the economic buyer who governs it, engineers who ship with the agent, knowledge workers who get cited answers, and admins who run the org.
+
+<!-- Slide number: 6 -->
+PRODUCT MAP
+Fourteen modules, three pillars
+Converse & Create
+Build & Ship
+Govern & Scale
+Chat
+Coding Agent
+Organizations
+![D:\MavionTech_sales\deck_work\build\assets\icons\check.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\icons\check.png](Image 5)
+![D:\MavionTech_sales\deck_work\build\assets\icons\check.png](Image 9)
+Knowledge Base
+Git import & PRs
+Policies & Audit
+![D:\MavionTech_sales\deck_work\build\assets\icons\check.png](Image 1)
+![D:\MavionTech_sales\deck_work\build\assets\icons\check.png](Image 6)
+![D:\MavionTech_sales\deck_work\build\assets\icons\check.png](Image 10)
+Documents
+Sandbox & approvals
+Billing & Plans
+![D:\MavionTech_sales\deck_work\build\assets\icons\check.png](Image 2)
+![D:\MavionTech_sales\deck_work\build\assets\icons\check.png](Image 7)
+![D:\MavionTech_sales\deck_work\build\assets\icons\check.png](Image 11)
+Assistants
+Connect companion
+Analytics
+![D:\MavionTech_sales\deck_work\build\assets\icons\check.png](Image 3)
+![D:\MavionTech_sales\deck_work\build\assets\icons\check.png](Image 8)
+![D:\MavionTech_sales\deck_work\build\assets\icons\check.png](Image 12)
+Tools
+Admin console
+![D:\MavionTech_sales\deck_work\build\assets\icons\check.png](Image 4)
+![D:\MavionTech_sales\deck_work\build\assets\icons\check.png](Image 13)
+Token Optimiser
+![D:\MavionTech_sales\deck_work\build\assets\icons\check.png](Image 14)
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+6
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 15)
+
+### Notes:
+Every module, grouped into three pillars. We'll walk each one with a real screenshot. Nothing here is on a roadmap unless the roadmap slide says so.
+
+<!-- Slide number: 7 -->
+WHY VYAAS WINS
+Eight differentiators the product actually proves
+![D:\MavionTech_sales\deck_work\build\assets\icons\cite.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\icons\code.png](Image 1)
+![D:\MavionTech_sales\deck_work\build\assets\icons\coin.png](Image 2)
+![D:\MavionTech_sales\deck_work\build\assets\icons\layers.png](Image 3)
+Answers you can cite
+Code you can ship
+Token Optimisation Engine
+Multi-model, no lock-in
+Every answer links its sources
+The agent opens real pull requests
+Cuts model spend automatically
+Claude and OpenAI, per task
+![D:\MavionTech_sales\deck_work\build\assets\icons\shield.png](Image 4)
+![D:\MavionTech_sales\deck_work\build\assets\icons\doc.png](Image 5)
+![D:\MavionTech_sales\deck_work\build\assets\icons\lock.png](Image 6)
+![D:\MavionTech_sales\deck_work\build\assets\icons\chat.png](Image 7)
+Enterprise governance
+Premium docs & images
+Hardened sandbox
+Clean, cite-first UX
+Policy, audit, data isolation
+Real Word, PPT, Excel & graphics
+gVisor + three-mode approvals
+Clarifying cards, visible reasoning
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+7
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 8)
+
+### Notes:
+The eight USPs we'll prove with screenshots, not claims: cited answers, shippable code, the token optimiser, multi-model freedom, governance, premium documents, a hardened sandbox, and a clean cite-first UX.
+
+<!-- Slide number: 8 -->
+PILLAR 1 · CONVERSE & CREATE
+Cited answers and finished work, in one chat
+Chat, Knowledge, Documents, Assistants and Tools — grounded in your content.
+
+### Notes:
+Chat, Knowledge, Documents, Assistants and Tools — grounded in your content.
+
+<!-- Slide number: 9 -->
+CHAT
+Lead with the answer — grounded and structured
+Any model, one composer
+![D:\MavionTech_sales\deck_work\build\assets\icons\layers.png](Image 1)
+![D:\MavionTech_sales\deck_work\build\assets\crop\chat_compare_1.65.png](Image 0)
+Switch between Claude and OpenAI per conversation.
+Finished deliverables
+![D:\MavionTech_sales\deck_work\build\assets\icons\doc.png](Image 2)
+Produces downloadable files, not walls of text.
+Governed tools
+![D:\MavionTech_sales\deck_work\build\assets\icons\tool.png](Image 3)
+Web search, fetch and code execution, per policy.
+Controllable reasoning
+![D:\MavionTech_sales\deck_work\build\assets\icons\bolt.png](Image 4)
+Dial effort from quick to extra-deep per task.
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+9
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 5)
+
+### Notes:
+The core chat leads with the answer, then structure and tables. One composer switches models, attaches knowledge and tools, and controls reasoning depth. Large answers come back as downloadable files.
+
+<!-- Slide number: 10 -->
+ANSWERS YOU CAN CITE
+Every answer carries its sources
+![D:\MavionTech_sales\deck_work\build\assets\crop\chat_cited_1.89.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\crop\kb_collection_1.54.png](Image 1)
+Grounded answer with a numbered citation
+The collection it was grounded in — indexed and searchable
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+10
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 2)
+
+### Notes:
+This is the tagline, proven. A real answer — 24 days of annual leave, 5 carry over — with citation [1] pointing at the exact source document. On the right, the indexed collection it was grounded in. Lexical BM25 retrieval, numbered sources, no black box.
+
+<!-- Slide number: 11 -->
+KNOWLEDGE BASE
+Grounded answers from your own content
+Collections
+![D:\MavionTech_sales\deck_work\build\assets\icons\book.png](Image 1)
+![D:\MavionTech_sales\deck_work\build\assets\crop\kb_index_1.65.png](Image 0)
+Group documents by team, product or policy.
+Cited retrieval
+![D:\MavionTech_sales\deck_work\build\assets\icons\cite.png](Image 2)
+Top chunks injected with numbered sources.
+Org or private
+![D:\MavionTech_sales\deck_work\build\assets\icons\shield.png](Image 3)
+Share with the organization or keep to yourself.
+Many formats
+![D:\MavionTech_sales\deck_work\build\assets\icons\doc.png](Image 4)
+PDF, Word, Markdown, CSV, JSON and more.
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+11
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 5)
+
+### Notes:
+The Knowledge Base holds collections of your documents, ingested and indexed. Chat retrieves the most relevant chunks and cites them. Collections can be private or shared across the org.
+
+<!-- Slide number: 12 -->
+DOCUMENTS & IMAGES
+Deliverables, not walls of text
+Word · PPT · Excel
+![D:\MavionTech_sales\deck_work\build\assets\crop\docs_index_1.44.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\crop\chat_image_1.46.png](Image 1)
+![D:\MavionTech_sales\deck_work\build\assets\icons\doc.png](Image 3)
+Designed by Claude skills.
+Images
+![D:\MavionTech_sales\deck_work\build\assets\icons\bolt.png](Image 4)
+Graphics & photos on demand.
+Your library
+Designed images
+![D:\MavionTech_sales\deck_work\build\assets\icons\check.png](Image 5)
+![D:\MavionTech_sales\deck_work\build\assets\crop\chat_docgen_1.46.png](Image 2)
+Owner-only, re-downloadable.
+In-chat file build
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+12
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 6)
+
+### Notes:
+Ask for a report, deck, spreadsheet or image and Vyaas builds a real, downloadable file — designed, not pasted. Everything lands in a per-user Documents library with owner-only access.
+
+<!-- Slide number: 13 -->
+ASSISTANTS
+Repeatable expertise, shared with the team
+![D:\MavionTech_sales\deck_work\build\assets\crop\assistants_index_1.47.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\crop\assistants_edit_1.93.png](Image 1)
+Starter templates
+Org default
+![D:\MavionTech_sales\deck_work\build\assets\icons\robot.png](Image 2)
+![D:\MavionTech_sales\deck_work\build\assets\icons\users.png](Image 3)
+Pick model, tools, knowledge and instructions
+Spin up proven assistants fast.
+Share one way of working.
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+13
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 4)
+
+### Notes:
+Assistants package a model, tools, knowledge and instructions into a reusable expert — a SQL analyst, a release-notes writer, a security reviewer. Share them org-wide or set an org default.
+
+<!-- Slide number: 14 -->
+TOOLS
+Live data and compute, under policy
+Web search & fetch
+![D:\MavionTech_sales\deck_work\build\assets\crop\tools_index_1.65.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\icons\cloud.png](Image 1)
+Current information with sources.
+Code execution
+![D:\MavionTech_sales\deck_work\build\assets\icons\code.png](Image 2)
+Run code for data work in a sandbox.
+Per-user & plan gated
+![D:\MavionTech_sales\deck_work\build\assets\icons\shield.png](Image 3)
+Admins decide what's available.
+Preferences
+![D:\MavionTech_sales\deck_work\build\assets\icons\bolt.png](Image 4)
+Turn tools on where they help.
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+14
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 5)
+
+### Notes:
+Server-side tools — web search, web fetch, code execution — give the model live data and compute, gated by plan and per-user preference so admins stay in control.
+
+<!-- Slide number: 15 -->
+PILLAR 2 · BUILD & SHIP
+From a task to a merged pull request
+A resumable coding agent in a hardened sandbox — it imports your repo, edits, tests and opens a PR.
+
+### Notes:
+A resumable coding agent in a hardened sandbox — it imports your repo, edits, tests and opens a PR.
+
+<!-- Slide number: 16 -->
+CODING AGENT
+An engineer, not an autocomplete
+Imports your repo
+![D:\MavionTech_sales\deck_work\build\assets\crop\w_detail_1.77.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\icons\git.png](Image 1)
+Clone from GitHub, work on a branch.
+Edits & runs tests
+![D:\MavionTech_sales\deck_work\build\assets\icons\code.png](Image 2)
+Multi-file changes, verified by the suite.
+Opens the PR
+![D:\MavionTech_sales\deck_work\build\assets\icons\check.png](Image 3)
+Authored as the user, summary as the body.
+Resumable & crash-safe
+![D:\MavionTech_sales\deck_work\build\assets\icons\bolt.png](Image 4)
+Long tasks survive restarts.
+Files, diffs, terminal and the task rail — one workspace
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+16
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 5)
+
+### Notes:
+The coding agent takes a task end to end: imports the repo, reads and edits files, runs the tests, and opens a pull request authored as the user with its summary as the body. The loop is resumable and crash-safe.
+
+<!-- Slide number: 17 -->
+SAFE AUTONOMY
+Powerful, and contained
+![D:\MavionTech_sales\deck_work\build\assets\crop\w_providers_2.00.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\crop\w_connect_1.90.png](Image 1)
+gVisor sandbox
+Three-mode approvals
+Registry-only egress
+Connect Git providers
+Or run on your own machine via Connect
+![D:\MavionTech_sales\deck_work\build\assets\icons\lock.png](Image 2)
+![D:\MavionTech_sales\deck_work\build\assets\icons\shield.png](Image 3)
+![D:\MavionTech_sales\deck_work\build\assets\icons\cloud.png](Image 4)
+Network-off by default.
+Destructive-command gate.
+Dependency installs, scoped.
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+17
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 5)
+
+### Notes:
+Autonomy with containment: the agent runs in a gVisor sandbox with no network by default, a destructive-command approval gate with three run modes, and a registry-only egress proxy for dependency installs. Or run it on your own machine with the Connect companion.
+
+<!-- Slide number: 18 -->
+PILLAR 3 · GOVERN & SCALE
+Control that scales with the org
+Organizations, policies, audit, billing, analytics and automatic cost control.
+
+### Notes:
+Organizations, policies, audit, billing, analytics and automatic cost control.
+
+<!-- Slide number: 19 -->
+ORGANIZATIONS
+Control at scale
+![D:\MavionTech_sales\deck_work\build\assets\crop\org_admin_1.44.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\crop\org_members_1.37.png](Image 1)
+Members, roles and seats
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+19
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 2)
+
+### Notes:
+Organizations bring Owner, Admin and Member roles, seat management, invitations and an overview of activity — the backbone for rolling Vyaas out across teams.
+
+<!-- Slide number: 20 -->
+GOVERNANCE
+Policy and audit, by design
+![D:\MavionTech_sales\deck_work\build\assets\crop\org_policies_1.44.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\crop\org_audit_1.37.png](Image 1)
+Set allowed models, tools and sharing
+Every administrative action, logged
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+20
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 2)
+
+### Notes:
+Admins choose allowed models, enable or force cost optimisation, and control web tools and knowledge sharing. Every administrative action is written to an audit trail. Provider credentials are encrypted at rest and never reach the model.
+
+<!-- Slide number: 21 -->
+SHARED ASSETS
+Share expertise, not just access
+Shared assistants
+![D:\MavionTech_sales\deck_work\build\assets\crop\org_assets_1.65.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\icons\robot.png](Image 1)
+One approved way of working for all.
+Shared knowledge
+![D:\MavionTech_sales\deck_work\build\assets\icons\book.png](Image 2)
+Collections the whole org can cite.
+Org defaults
+![D:\MavionTech_sales\deck_work\build\assets\icons\users.png](Image 3)
+New members productive on day one.
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+21
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 4)
+
+### Notes:
+Assistants and knowledge collections can be shared across the organization, so the whole team works from the same approved expertise and sources.
+
+<!-- Slide number: 22 -->
+BILLING & PLANS
+Predictable spend, clear tiers
+![D:\MavionTech_sales\deck_work\build\assets\crop\pricing_1.53.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\crop\billing_home_1.26.png](Image 1)
+Guest to Enterprise — priced for the work
+Plan, seats and invoices in one place
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+22
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 2)
+
+### Notes:
+A five-tier plan ladder from Guest to Enterprise, with seats, invoices and allowances in one place. Plans gate models, tools, workspaces and org features. Demo figures are labelled as demo data.
+
+<!-- Slide number: 23 -->
+ANALYTICS & COST CONTROL
+See every token — and spend fewer
+Usage dashboard
+![D:\MavionTech_sales\deck_work\build\assets\crop\analytics_home_1.70.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\icons\chart.png](Image 1)
+Tokens and cost by model and day.
+Token Optimisation Engine
+![D:\MavionTech_sales\deck_work\build\assets\icons\coin.png](Image 2)
+Trims context and prunes tools automatically.
+Per-message receipts
+![D:\MavionTech_sales\deck_work\build\assets\icons\check.png](Image 3)
+See exactly what was sent and saved.
+Policy-controlled
+![D:\MavionTech_sales\deck_work\build\assets\icons\shield.png](Image 4)
+Force optimisation org-wide.
+Usage and cost by model, day and member — demo data
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+23
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 5)
+
+### Notes:
+Full visibility into usage and cost by model, day and member. Behind the scenes the Token Optimisation Engine trims context and prunes unused tools on every request, and admins can force it org-wide. Usage shown is demo data.
+
+<!-- Slide number: 24 -->
+ADMIN CONSOLE
+Operate the whole fleet
+Per-user reports
+![D:\MavionTech_sales\deck_work\build\assets\crop\admin_dashboard_1.65.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\icons\users.png](Image 1)
+Drill into any account's usage.
+Grant credits
+![D:\MavionTech_sales\deck_work\build\assets\icons\coin.png](Image 2)
+One-off allowance when needed.
+Toggle access
+![D:\MavionTech_sales\deck_work\build\assets\icons\gear.png](Image 3)
+Activate or suspend accounts.
+Notifications
+![D:\MavionTech_sales\deck_work\build\assets\icons\bell.png](Image 4)
+Tasks, approvals, invites, billing.
+Platform dashboard — users, usage, spend
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+24
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 5)
+
+### Notes:
+The platform admin console gives operators a fleet-wide view: usage and spend, per-user reports, one-off credits, and account controls. In-app notifications keep everyone current on tasks, approvals, invites and billing.
+
+<!-- Slide number: 25 -->
+NO LOCK-IN
+Choose your horsepower: Claude and OpenAI
+![D:\MavionTech_sales\deck_work\build\assets\crop\chat_composer_1.63.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\crop\org_policies_1.43.png](Image 1)
+Provider-agnostic catalogue · Claude Sonnet / Opus / Haiku · GPT-5.5 / GPT-5.4 mini · model IDs never hard-coded
+One composer — models, tools and reasoning
+Admins set which models are allowed
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+25
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 2)
+
+### Notes:
+Vyaas is provider-agnostic. Users pick Claude or OpenAI per conversation from one composer; admins set which models are allowed. Model IDs are never hard-coded — new models drop into the catalogue.
+
+<!-- Slide number: 26 -->
+ARCHITECTURE
+Built for the enterprise from the ground up
+Experience
+Enterprise shell · chat · workspaces · admin console
+Platform
+Django + DRF · provider-agnostic model catalogue · Token Optimiser
+Intelligence
+Anthropic Claude + OpenAI · BM25 retrieval · document skills
+Execution
+gVisor sandbox · registry-only egress · Connect companion
+Foundation
+MySQL · Redis/Celery · multi-tenant orgs · encrypted secrets
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+26
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 0)
+
+### Notes:
+Five layers, each proven in the code: the enterprise experience, a platform with a provider-agnostic catalogue and the token optimiser, the intelligence layer with retrieval and document skills, a sandboxed execution layer, and a multi-tenant foundation with encrypted secrets.
+
+<!-- Slide number: 27 -->
+WHY VYAAS
+Today vs. with Vyaas
+Dimension
+Today
+With Vyaas
+Trust in answers
+Hallucinations, no sources
+Cited answers from your knowledge
+Engineering work
+Autocomplete snippets
+Agent opens reviewed pull requests
+Data & governance
+Data leaves, no audit
+Isolation, policy and audit trail
+Model choice
+Locked to one vendor
+Claude + OpenAI, swappable
+Cost
+Unpredictable token bills
+Token Optimisation Engine
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+27
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 0)
+
+### Notes:
+Side by side: where teams are today versus with Vyaas — on trust, engineering throughput, governance, model choice and cost.
+
+<!-- Slide number: 28 -->
+ROLLOUT — INDICATIVE
+Live in weeks, not quarters
+Week 1
+Week 2
+Week 3
+Week 4+
+Stand up
+Seed knowledge
+Pilot
+Scale
+Deploy on your VPS, connect models, create the org.
+Load collections, set policies, invite the team.
+Engineers use the coding agent; analysts use cited chat.
+Shared assistants, dashboards, org-wide rollout.
+Indicative timeline — tailored to your environment and scope.
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+28
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 0)
+
+### Notes:
+An indicative four-week path from stand-up to org-wide scale. Real timelines depend on your environment and scope — this is a planning guide, not a commitment.
+
+<!-- Slide number: 29 -->
+ROADMAP
+What's next (on the roadmap)
+OAuth for Git providers
+GitLab support
+![D:\MavionTech_sales\deck_work\build\assets\icons\git.png](Image 0)
+![D:\MavionTech_sales\deck_work\build\assets\icons\cloud.png](Image 1)
+One-click connect; PAT works today.
+Beyond GitHub, same workflow.
+Connect push & PR
+Warm task containers
+![D:\MavionTech_sales\deck_work\build\assets\icons\code.png](Image 2)
+![D:\MavionTech_sales\deck_work\build\assets\icons\bolt.png](Image 3)
+Open PRs from a workspace on your own machine.
+Faster installs that persist across steps.
+Roadmap items are planned, not shipped. Everything else in this deck is live in the product today.
+Vyaas AI  ·  Answers you can cite. Code you can ship.  ·  by MavionTech
+29
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-mark.png](Image 4)
+
+### Notes:
+What's next and clearly labelled as roadmap: OAuth for Git providers, GitLab, push and PR from a Connect workspace, and warm task containers. Everything earlier in the deck is live today.
+
+<!-- Slide number: 30 -->
+MavionTech
+![D:\MavionTech_sales\deck_work\build\assets\maviontech-logo.png](Image 0)
+Enterprise Software Solutions
+LET'S GET YOU LIVE
+Put a cite-first, ship-ready AI platform to work — on your data, under your control.
+![D:\MavionTech_sales\deck_work\build\assets\vyaas-logo.png](Image 1)
+Answers you can cite.
+Code you can ship.
+Book a demo  ?
+Plan a pilot
+by MavionTech Pvt. Ltd.
+Crafted by MavionTech Pvt. Ltd.  ·  Enterprise Software Solutions  ·  maviontech.com
+
+### Notes:
+The ask: book a demo or plan a pilot. We'll stand Vyaas up on your environment, connect your models and knowledge, and get a team shipping with cited answers and the coding agent. Confirm contact details, pricing and timelines before sending.

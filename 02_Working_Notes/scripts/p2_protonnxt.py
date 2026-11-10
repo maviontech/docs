@@ -1,0 +1,108 @@
+# -*- coding: utf-8 -*-
+NAME = "ProtonNxt"
+FILE = "Protonnxt_Content_Architecture.docx"
+ACCENT = "1BA6A6"
+TAGLINE = "Enterprise ATS — from requisition to hire, for recruitment firms and talent teams"
+SOURCES = [
+ "Protonnxt_Sales_Demo_Revised.pptx (42 slides, ~26 high-resolution screenshots, 3 diagram images)",
+ "maviontech.com/products/protonnxt/ (official page; lists Job boards, LinkedIn, Email, Calendar, MavionMeet integrations)",
+ "Company PDF p13–14",
+ "Naming: the official site uses 'ProtonNxt'. This architecture standardises on 'ProtonNxt'.",
+]
+POSITIONING = [
+ ("What exactly is the product?", "A multi-tenant, AI-assisted applicant tracking system. It runs requisitions, sourcing (careers URL, invite uploads, vendors), resume intake with GPT/Gemini parsing, the candidate pipeline, interviews (L1–L3, calendar, MavionMeet video), offers and joining. It adds reporting, client-engagement analytics, a cross-tenant candidate portal and a mobile recruiter app. Each tenant gets an isolated MySQL database."),
+ ("What business problem does it solve?", "Manual resume screening; unclear ownership of requisitions; interview and offer data in email threads; improvised Monday-morning metrics; no insight into which clients are worth investing in; ungoverned agency submissions; poor candidate experience."),
+ ("Who needs it?", "Recruitment and staffing firms serving multiple clients (the primary fit, given client analytics, JD SPOCs and vendor management), and enterprise talent-acquisition teams. Roles: SuperUser, Admin, Team Lead, Recruiter/User, vendor users, candidates."),
+ ("What industries can use it?", "Staffing & recruitment, IT services, HR and enterprise hiring in any sector (official: Staffing, HR, IT Services)."),
+ ("Primary value proposition", "One structured, AI-assisted pipeline from requisition to joining, with explicit ownership, decision-ready reporting and client intelligence."),
+ ("Core capabilities", "15 modules (see module analysis) plus an admin dashboard."),
+ ("What makes it different?", "(1) Client Engagement Analytics (BETA): a scored, segmented, explainable view of every client. (2) A candidate portal that works across all ProtonNxt tenants, with one login and resume fan-out. (3) Tenant-defined custom candidate schema. (4) Pluggable AI parsing (OpenAI + Gemini) with manual override. (5) Database-per-tenant isolation. (6) Enterprise XLSX packs and HMAC-signed share links. (7) Vendor portal with deny-by-default isolation."),
+ ("Why should a customer evaluate it?", "It covers the full hiring lifecycle plus agency, calendar/video and mobile workflows in one product, with no add-ons per the deck."),
+ ("Business value", "Faster time-to-hire through parsing and structured intake; accountability through explicit ownership; reporting leadership trusts; data-driven client account management; an agency channel that becomes measurable. No numeric outcomes are claimed. The demo dashboard figures (382 open positions etc.) need a demo-data label or replacement."),
+]
+MODULES = [
+ ("0. Admin Dashboard", "KPI tiles; customer JD statistics; recruitment funnel; team-wise contribution; unworked-JD alerts; new customers this month", "Tenant landing page.", "Open positions, pipeline, average time-to-fill, joining rate; per-customer JD status; idle JD alerts.", "Admins land after login.", "-", "All modules.", "Monday triage.", "One-glance health.", "Slide 7/8 (slide 8 data: redact client names)"),
+ ("1. Job Requisitions", "JD with SPOC name/email, must/good-to-have skills, positions, budget CTC, experience bands, lifecycle Active/On-hold/Closed", "Make each requisition a structured contract.", "Create, assign and track JDs.", "Account managers/admins create.", "Create JD → assign → track → close.", "Feeds sourcing, assignment, reports.", "Spreadsheet requisitions.", "Clear scope and ownership.", "Slide 9"),
+ ("2. Candidate Sourcing", "Branded careers URL; signed per-JD invite upload; AI auto-assign to active JDs; recruiter upload with dedupe; generic-JD routing", "Bring every channel into one pipeline.", "Multiple intake channels with dedupe.", "Candidates submit; recruiters upload.", "Submit → auto-assign → pipeline.", "Intake, portal.", "Lost profiles.", "Single structured view.", "Slide 10"),
+ ("3. Talent Intake & Matching", "Single/multi/ZIP upload; file validation; GPT + Gemini parsing with override; attach existing candidate to JD; batch tracking", "Fast resume intake.", "Bulk upload overlay; per-row batch status.", "Recruiters upload and review.", "Upload → parse → review → save/attach.", "AI providers; candidates DB.", "Manual screening.", "Speed without duplicates.", "Slides 11–12"),
+ ("4. Applicant Tracking", "Candidate pipeline; muster; finalised view; screen status; L1–L3 outcomes; offer & joining status; activity log", "Single source of truth for each candidate.", "Stage, owner and next action always visible.", "Recruiters and HR members update.", "Screen → interview → offer → join.", "Interviews, offers, reports.", "Ambiguous status.", "Pipeline truth.", "Slide 13"),
+ ("5. JD Assignment", "Recruiter/team assignment; multi-recruiter coverage; load and active-JD counts; filters", "Explicit ownership.", "Structured assignment interface.", "Team leads assign.", "Assign → monitor load.", "Teams, reports.", "Tribal knowledge.", "Balanced workload.", "Slide 14"),
+ ("6. Team Collaboration", "Teams (lead + members); roles; shared activity notes; real-time notifications (Channels + Redis); dual web+mobile login", "Work in one context.", "Team management and live notifications.", "Admins manage teams.", "-", "All.", "Email hand-offs.", "Shared context.", "Slide 15"),
+ ("7. Interview Workflow", "L1/L2/L3 scheduling; interviewer, location, type; scheduled/completed/cancelled; structured feedback", "Structured interviews.", "Level-wise scheduling and outcomes.", "Recruiters schedule; interviewers give feedback.", "Schedule → conduct → feedback → outcome.", "Calendar & Video (14), pipeline.", "Lost feedback.", "One interview record.", "Slide 16"),
+ ("8. Offer Management", "CTC components (Basic, HRA, Special Allowance, PF, Gratuity, Bonus, Other); auto total; joining date; Accept/Decline/Released/Joined", "Offers as first-class records.", "Structured offer letters tied to candidate.", "Recruiters/HR.", "Draft → release → accept → join.", "Pipeline, reports.", "Offers in attachments.", "Offer-to-join visibility.", "Slide 17"),
+ ("9. Public Submission & Candidate Portal", "Tenant-scoped careers URL; opt-in portal; spam controls; cross-tenant identity; aggregated applications; real-time status; resume library fan-out", "A candidate experience that sets the brand apart.", "One login across employers; status updates within a second (stated).", "Candidates.", "Apply → register → track.", "Sourcing.", "Opaque candidate experience.", "Visible differentiation.", "Slides 18, 35, 36 (slide 36 personal data: replace)"),
+ ("10. Reports & Analytics", "10A Candidate reports (8 presets, 2 scopes, saved templates); 10B Executive summary charts; 10C Attribute builder + enterprise XLSX; 10D Skill search; team/task/status/conversion reports", "Governed reporting.", "Role-aware filters; totals invariant between charts and table.", "Leaders and recruiter ops.", "Choose preset/build → filter → export.", "All data.", "Improvised metrics.", "Trusted numbers.", "Slides 19–24"),
+ ("11. Client Engagement Analytics (BETA)", "Engagement score; 7 segments; Top Movers; Tenant Engagement Index; leaderboard with sparklines; drill-down; compare up to 10 clients (radar); tunable weights; signed 7-day snapshots; append-only audit; WCAG 2.1 AA", "Know which clients to grow.", "Explainable 'why?' tooltips; cron or on-demand refresh.", "Tenant admins / account managers.", "Refresh → review segments → compare → share snapshot.", "Requisitions, pipeline.", "Gut-feel account management.", "Evidence-based client conversations.", "Slides 25–30"),
+ ("12. Settings & Admin", "Users/roles/permissions; notifications & email config; session management (forced logout); subscription & billing (Razorpay); branding & module toggles; 12A custom candidate schema (9 field types, 4 visibility toggles)", "Self-service administration.", "Configure without tickets.", "Admins.", "-", "All.", "Engineering dependency.", "Admin control.", "Slides 31–34"),
+ ("13. Vendor Management", "Agency invites; vendor users/roles; publish JDs to selected vendors with caps; vendor submissions with dedupe; review; contracts, invoices, payments; separate vendor login + JWT", "Govern the agency channel.", "Deny-by-default isolation.", "Vendors submit; admins review.", "Invite → publish JD → submit → review → pay.", "Requisitions, pipeline.", "Inbox of forwarded CVs.", "Accountable agencies.", "Slide 38 (diagram: capture screens)"),
+ ("14. Calendar & Video Interviews", "Per-recruiter calendar; progression gates; MavionMeet one-click video; guest links; invites, ICS, reminders; live status sync (started/ended/recorded/minutes); encrypted keys; hourly reconciliation", "Governed scheduling with video.", "-", "Recruiters, panel, candidates.", "Schedule → invite → meet → outcome.", "Interviews; MavionMeet.", "Manual meeting links.", "Trackable interviews.", "Slide 39 (diagram: capture screens)"),
+ ("15. Mobile Recruiter App", "Today dashboard; pipeline/JDs/interviews/search; advance/hold/reject; call/WhatsApp/share CV; record results; biometric lock; offline-aware; light/dark; push", "Hiring between meetings.", "-", "Recruiters.", "-", "All recruiter modules.", "Desk-bound approvals.", "Faster decisions.", "Slide 40 (diagram: capture device screens; platform TBC)"),
+]
+SCREEN_FLAGS = [
+ "Slide 8 shows company names that may be real clients. Replace with demo data or obtain consent.",
+ "Slide 36 shows a real person's name, email and phone. Replace with a demo identity.",
+ "Modules 13–15 are shown as diagrams. Capture real screens.",
+ "High-resolution originals exist only inside the PPTX. Extract them for reuse.",
+ "Remove implementation jargon (resume_upload_batches, PUBSUB, show_in_reports) from customer-facing copy.",
+]
+RESTRUCTURE = [
+ ("1 Cover", "Rewrite", "Standardise 'ProtonNxt'; replace mvtech.in with maviontech.com."),
+ ("2 Executive overview divider", "Delete", "Low information."),
+ ("3 Outcome pillars, 4 Ecosystem", "Merge", "One 'three experiences, three outcomes' slide."),
+ ("5 Feature landscape, 6 Modules", "Merge", "One product map with all 15 modules."),
+ ("7 + 8 Admin dashboard", "Merge", "One slide with a redacted screenshot."),
+ ("9–11 Modules 1–3", "Keep", "Combine 10+11 into 'Sourcing & intake'."),
+ ("12 Bulk upload", "Merge into 11", ""),
+ ("13–17", "Keep", "Pipeline, assignment, collaboration, interviews, offers."),
+ ("18 Public submission + 35 portal deep dive + 36 raw screen", "Merge", "One candidate-portal slide with a redacted screenshot."),
+ ("19–24 Reporting", "Merge 6 → 3", "Reporting overview; executive summary; skill search & builder."),
+ ("25–30 Client analytics", "Merge 6 → 2", "Overview + compare/tuning; keep the BETA label."),
+ ("31–34 Settings", "Merge 4 → 2", "Admin & governance; custom schema."),
+ ("37 'Latest additions' divider", "Delete", "Integrate modules 13–15 into the main flow."),
+ ("38–40", "Rewrite", "Use real screenshots."),
+ ("41 USPs", "Rewrite", "Soften 'beats every ATS'; link to proof."),
+ ("42 Close", "Rewrite", "Official contacts; remove 'proven at enterprise scale' unless evidenced."),
+ ("NEW", "Add", "Personas & roles."),
+ ("NEW", "Add", "End-to-end hiring workflow diagram (req → source → intake → interview → offer → join)."),
+ ("NEW", "Add", "Architecture & security (DB per tenant, Channels, JWT, HMAC, audit)."),
+ ("NEW", "Add", "Integrations (OpenAI, Gemini, Razorpay, MavionMeet, email, ICS; job boards/LinkedIn only if confirmed)."),
+ ("NEW", "Add", "Speaker notes on every slide."),
+]
+SLIDES = [
+ ("Cover — From requisition to hire", "Category", "Enterprise ATS for recruitment firms and talent teams.", "ProtonNxt lockup, MavionTech endorsement.", "Layered hero", "Admin dashboard, pipeline", "-", "-"),
+ ("Where hiring breaks down", "Problem", "Manual screening, unclear ownership, improvised metrics, ungoverned agencies.", "4–6 pains.", "Icon cards", "-", "-", "-"),
+ ("One platform, three experiences", "Solution", "Recruiter workspace, admin controls, candidate surfaces.", "3 columns + outcome pillars.", "3 columns", "-", "-", "All"),
+ ("Who uses ProtonNxt", "Personas", "Admin, team lead, recruiter, vendor, candidate.", "Role cards.", "Cards", "-", "-", "Collaboration"),
+ ("The hiring lifecycle, end to end", "Workflow", "Req → source → intake → interview → offer → join.", "Flow with module numbers.", "Diagram", "-", "Lifecycle diagram", "All"),
+ ("Fifteen modules, one platform", "Map", "Breadth, no add-ons.", "Grouped: Pipeline · Operations · Analytics · Governance · Extended.", "Module map", "-", "Pillar map", "All"),
+ ("Pipeline health in one glance", "Dashboard", "KPIs, customer JD stats, funnel, idle-JD alerts.", "-", "Hero + callouts", "Admin dashboard (redacted)", "-", "Dashboard"),
+ ("Requisitions that act as contracts", "Module 1", "SPOC, skills, CTC, lifecycle.", "-", "Hero + features", "JD list/detail", "-", "Requisitions"),
+ ("Every channel into one pipeline", "Modules 2–3", "Careers URL, invite links, AI auto-assign, bulk intake, AI parsing.", "-", "Main + 2 stacked", "Sourcing, bulk upload, intake", "-", "Sourcing, Intake"),
+ ("The pipeline always tells the truth", "Module 4", "Stage, owner, next action.", "-", "Hero + features", "Candidate pipeline", "-", "Tracking"),
+ ("Ownership made explicit", "Modules 5–6", "Assignment, load, teams, live notifications.", "-", "Two shots", "JD assignment, teams", "-", "Assignment, Collaboration"),
+ ("Structured interviews on a real calendar", "Modules 7 + 14", "L1–L3, calendar, MavionMeet, reminders, outcome sync.", "-", "Hero + 2", "Interview workflow, calendar, meeting (new)", "-", "Interviews, Calendar"),
+ ("Offers that convert to joiners", "Module 8", "CTC components, joining lifecycle.", "-", "Hero + features", "Offer screen", "-", "Offers"),
+ ("Bring agencies inside the process", "Module 13", "Vendor portal, caps, contracts, payments, isolation.", "-", "Hero + 2", "Vendor screens (new)", "Vendor flow", "Vendors"),
+ ("A candidate experience competitors can't match", "Module 9", "One login across employers, real-time status, resume fan-out.", "-", "Hero + 4 callouts", "Candidate portal (demo identity)", "-", "Portal"),
+ ("Reporting leaders rely on", "Module 10", "Presets, scopes, saved templates, XLSX packs.", "-", "Hero + features", "Candidate reports", "-", "Reports"),
+ ("One-screen executive answers", "Module 10B", "Charts that always match the table.", "-", "Full-width shot + callouts", "Executive summary", "-", "Reports"),
+ ("Turn the talent pool into a search engine", "Module 10C/D", "Skill search, attribute builder.", "-", "Two shots", "Skill search, builder", "-", "Reports"),
+ ("Know which clients to grow (BETA)", "Module 11", "Score, segments, Top Movers, explainability.", "-", "Hero + segment chips", "Client overview", "Score formula graphic", "Client Analytics"),
+ ("Compare clients and share evidence safely", "Module 11A/B", "Compare up to 10, tunable weights, signed snapshots.", "-", "Two shots", "Compare radar, scoring settings", "-", "Client Analytics"),
+ ("Hiring between meetings", "Module 15", "Mobile recruiter app.", "-", "Device frames", "Mobile screens (new)", "-", "Mobile"),
+ ("Administrators in control", "Module 12", "Users/roles, sessions, billing, branding, toggles.", "-", "Two shots", "Sessions, subscription", "-", "Settings"),
+ ("Your hiring model, without code", "Module 12A", "Custom candidate schema.", "-", "Hero + features", "Custom schema", "-", "Settings"),
+ ("Multi-tenant by design, secure by default", "Architecture", "DB per tenant, real-time layer, JWT, HMAC, audit, WCAG.", "-", "Diagram", "-", "Architecture diagram", "Platform"),
+ ("Connects to how you already work", "Integrations", "AI providers, Razorpay, MavionMeet, email/ICS; others if confirmed.", "-", "Tiles", "-", "-", "-"),
+ ("Why ProtonNxt", "USPs", "Eight differentiators with proof references.", "-", "8 cards", "-", "-", "-"),
+ ("Let's build your next hire, together", "Close", "Demo or pilot.", "Official contacts; protonnxt.com if confirmed.", "Branded close", "-", "-", "-"),
+]
+OPEN = [
+ "Confirm the canonical name casing (ProtonNxt) and domains (protonnxt.com, protonnxt.com/demo).",
+ "Consent or demo replacement for slides 8 and 36.",
+ "Confirm job-board and LinkedIn integration (official site) vs the deck (absent).",
+ "Mobile app platform(s).",
+ "Pricing.",
+ "When Client Engagement Analytics leaves BETA.",
+]
+UNDEREXPLAINED = []

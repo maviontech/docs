@@ -1,0 +1,209 @@
+DECK: MavionLearn_Sales_Deck.pptx
+Slide size: 13.33 x 7.50 in
+Slides: 16
+Fonts used: ['Calibri', 'Sora']  | total pictures: 65 | slides with notes: 0
+Core props: title='' author='' created=2013-01-27 09:14:16 modified=2013-01-27 09:15:58 last_mod_by='Steve Canny'
+
+--- SLIDE 1 (layout: Blank) pics=2
+  MavionLearn
+  Skills that | compound.
+  The enterprise LMS & skills cloud — training that turns | into provable, measurable capability.
+  Multi-tenant
+  White-labelled
+  SSO · SCIM
+  Reports in Excel & PDF
+  Product & Sales Overview    ·    maviontech.com
+
+--- SLIDE 2 (layout: Blank) pics=5
+  THE PROBLEM
+  Training spend is up. | Capability is still a guess.
+  Enterprises invest heavily in learning, yet can't answer the question that matters most: are our people actually capable and compliant? | Training lives in disconnected tools, compliance is tracked by hand, reports take days, and completion counts say nothing about real skill — while IT wrestles with provisioning, SSO and data isolation for every vendor.
+  Completions ≠ capability
+  Finishing a course doesn't prove the skill or close the gap.
+  Compliance is manual
+  Chasing, tracking and audits are a recurring fire drill.
+  Reporting is slow
+  Generic exports that are never board-ready.
+  Identity is hard
+  Provisioning, SSO and tenant isolation per vendor.
+
+--- SLIDE 3 (layout: Blank) pics=4
+  THE SOLUTION
+  One system that turns training into capability
+  Measure capability
+  A living skill matrix scores every employee against role targets — and shows the exact gaps.
+  Automate compliance
+  Rule-based campaigns assign, remind, track and certify — audit-ready by default.
+  Prove ROI
+  Cost per completion, training hours and spend — the numbers leadership asks for.
+
+--- SLIDE 4 (layout: Blank) pics=10
+  PLATFORM
+  Everything learning, in one platform
+  Catalog & courses
+  Modules, lessons, SCORM & quizzes
+  Live & on-demand
+  ILT / VILT sessions + recordings
+  Skill matrix
+  Role targets, match %, skill growth
+  Compliance campaigns
+  Rule-based, recurring, certified
+  Enterprise reports
+  8 reports · Excel + PDF exports
+  Cost & ROI
+  Spend, cost per completion
+  Certifications
+  Auto-issued, expiry tracked
+  People & onboarding
+  CRUD, CSV import, photos
+  Identity
+  SSO (OIDC/SAML) · SCIM · JIT
+  Platform console
+  Multi-tenant ops & metering
+
+--- SLIDE 5 (layout: Blank) pics=6
+  WHY MAVIONLEARN WINS
+  Ten platforms track completions. We prove capability.
+  Capability, not completions
+  Scored against role targets, not clicks.
+  Skills that compound
+  Each course raises real skill levels.
+  One isolated DB per tenant
+  Zero shared rows — verifiable isolation.
+  Compliance that runs itself
+  Assign, remind, certify automatically.
+  Reports in your brand
+  Premium Excel + PDF, your name on top.
+  Identity built in
+  OIDC, SAML & SCIM — no paid add-on.
+
+--- SLIDE 6 (layout: Blank) pics=4
+  SKILL MATRIX
+  See capability across the whole org
+  Role targets per skill
+  Define the level each role needs; everyone is scored against it.
+  Live match %
+  Per-person and org-wide capability at a glance.
+  Training that compounds
+  Completing a course raises the learner's real skill level.
+  73.6%   org capability match
+
+--- SLIDE 7 (layout: Blank) pics=4
+  COMPLIANCE
+  Compliance that runs itself
+  Rule-based campaigns
+  Target by department, role, team or whole org.
+  Auto certificates
+  Issued on completion, with expiry tracking.
+  Real-time status
+  Compliance by department, overdue flags, audit-ready.
+  86%   compliant · audit-ready
+
+--- SLIDE 8 (layout: Blank) pics=4
+  ENTERPRISE REPORTING
+  Board-ready reporting in one click
+  8 built-in reports
+  Enrollment, compliance, courses, learners, certs, ROI…
+  Filter & drill down
+  Date ranges, departments, record-level detail.
+  Premium exports
+  Light-themed Excel + boardroom PDF — in your brand.
+
+--- SLIDE 9 (layout: Blank) pics=2
+  LEARNER EXPERIENCE
+  Skills that compound for every learner
+  A personalised home with skill tracks, recommendations and progress — plus a Grow view that turns role gaps into the next best course.
+
+--- SLIDE 10 (layout: Blank) pics=2
+  LIVE & ON-DEMAND VIDEO
+  Learn live or on-demand — in one place
+  On-demand lessons with transcripts and a course playlist, plus live virtual classrooms with chat & Q&A — recordings auto-published so no one who misses a session falls behind.
+  Layout mockups illustrating the video experience
+
+--- SLIDE 11 (layout: Blank) pics=4
+  COST & ROI
+  Prove the return on every training rupee
+  Per-course cost model
+  Set cost per learner; spend rolls up against real completions.
+  One-screen ROI
+  Total spend, cost per completion, hours delivered.
+  Finance-ready
+  Export the numbers leadership asks for.
+  ₹1,800   effective cost / completion
+
+--- SLIDE 12 (layout: Blank) pics=4
+  IDENTITY & SECURITY
+  Enterprise identity, built in — not bolted on
+  SSO — OIDC & SAML 2.0
+  Per-tenant policy: off, optional or enforced + break-glass.
+  SCIM 2.0 + JIT
+  Automated provisioning and deprovisioning.
+  Secure by design
+  Signed-URL media, audit logging, rate limiting.
+
+--- SLIDE 13 (layout: Blank) pics=6
+  ARCHITECTURE
+  True multi-tenant isolation
+  A dedicated database per tenant
+  No shared rows, ever — isolation you can verify from the console.
+  Self-healing schema
+  Every tenant stays up to date with zero-downtime upgrades.
+  Signed-URL media (R2 / S3)
+  Per-tenant object storage with Cloudflare R2 or S3.
+  Operated with confidence
+  Live health, metering and audit across the whole fleet.
+
+--- SLIDE 14 (layout: Blank) pics=0
+  PRICING
+  Simple, per-user pricing that scales with you
+  Trial
+  ₹0
+  30-day all-features
+  Every feature, 30 days
+  50 GB storage
+  No card required
+  Starter
+  ₹49
+  user / month
+  Catalog, courses, lessons
+  Quizzes & certificates
+  Basic campaigns & reports
+  Mobile · 10 GB
+  Pro
+  ₹99
+  user / month
+  Everything in Starter +
+  Skills, dev plans, ILT/VILT
+  SCORM & manager views
+  Advanced analytics · 20 GB
+  POPULAR
+  Premium
+  ₹199
+  user / month
+  Everything in Pro +
+  Skill matrix · Cost & ROI
+  SSO · SCIM · LTI · API
+  Delegated admin · 50 GB
+  All plans include the full learner experience and mobile.  30-day all-features trial · annual billing · volume discounts on request.
+
+--- SLIDE 15 (layout: Blank) pics=6
+  WHY MAVIONTECH
+  Built for enterprises that can't afford to guess
+  Proven multi-tenant architecture
+  Running in production, isolated by design.
+  Security-first
+  Per-tenant isolation, signed URLs, audit logging, rate limiting.
+  Honest, tiered pricing
+  A 30-day full trial; core compliance never paywalled.
+  Deploys your way
+  Multi-tenant SaaS, private cloud or on-prem.
+  Guided onboarding
+  Responsive, human support from day one.
+  Customer-driven roadmap
+  Continuously shipped, shaped by real needs.
+
+--- SLIDE 16 (layout: Blank) pics=2
+  Start your 30-day free trial
+  Every feature. No card required. See capability compound in week one.
+  maviontech.com        sales@maviontech.com
+  MavionLearn — skills that compound.

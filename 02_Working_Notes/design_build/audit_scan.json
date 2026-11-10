@@ -1,0 +1,1533 @@
+{
+ "Agastya": {
+  "slides": 32,
+  "size_mb": 9.0,
+  "isolation_phrase": [
+   [
+    1,
+    "own database"
+   ],
+   [
+    1,
+    "Database per school"
+   ],
+   [
+    3,
+    "dedicated database per school"
+   ],
+   [
+    27,
+    "One database per school"
+   ],
+   [
+    28,
+    "one database per school"
+   ],
+   [
+    29,
+    "dedicated database per school"
+   ],
+   [
+    29,
+    "own database"
+   ]
+  ],
+  "titles": [
+   [
+    1,
+    "Agastya",
+    7
+   ],
+   [
+    2,
+    "School groups still run on registers, spreadsheets and WhatsApp",
+    63
+   ],
+   [
+    3,
+    "Meet Agastya: one platform for every school operation",
+    53
+   ],
+   [
+    4,
+    "Enterprise depth you can verify in the codebase",
+    47
+   ],
+   [
+    5,
+    "19 modules across six pillars, on one data model",
+    48
+   ],
+   [
+    6,
+    "Each role gets exactly the screens it needs",
+    43
+   ],
+   [
+    7,
+    "A live command centre for every school",
+    38
+   ],
+   [
+    8,
+    "One login, a different cockpit for every role",
+    45
+   ],
+   [
+    9,
+    "Leaders reconfigure the platform without developers",
+    51
+   ],
+   [
+    10,
+    "Every action traceable, every account protected",
+    47
+   ],
+   [
+    11,
+    "Admit a student in one screen, keep one record for life",
+    55
+   ],
+   [
+    12,
+    "Clash-free timetables, and every absence covered by 9 AM",
+    56
+   ],
+   [
+    13,
+    "Attendance in seconds per class, records that stand up to audit",
+    63
+   ],
+   [
+    14,
+    "Learning continues at home, with data teachers can act on",
+    57
+   ],
+   [
+    15,
+    "Results day in hours, not weeks",
+    31
+   ],
+   [
+    16,
+    "Branded report cards, published in one click",
+    44
+   ],
+   [
+    17,
+    "The school in every family's pocket",
+    35
+   ],
+   [
+    18,
+    "One school-owned channel to every parent",
+    40
+   ],
+   [
+    19,
+    "Faster collections and real-time visibility of every rupee",
+    58
+   ],
+   [
+    20,
+    "Attendance and leave discipline without paper registers",
+    55
+   ],
+   [
+    21,
+    "A safer, compliant fleet and fewer 'where is my bus' calls",
+    58
+   ],
+   [
+    22,
+    "A traceable library with fines enforced automatically",
+    53
+   ],
+   [
+    23,
+    "Duty-of-care records for boarding and day schools",
+    49
+   ],
+   [
+    24,
+    "Controlled spend and an asset trail across campuses",
+    51
+   ],
+   [
+    25,
+    "A professional front office: certificates, grievances, visitors",
+    63
+   ],
+   [
+    26,
+    "Onboard a new school in minutes, with isolated data from day one",
+    64
+   ],
+   [
+    27,
+    "Database-per-school isolation, enforced on every request",
+    56
+   ],
+   [
+    28,
+    "A modern, maintainable stack your IT team will recognise",
+    56
+   ],
+   [
+    29,
+    "What changes when a school group moves to Agastya",
+    49
+   ],
+   [
+    30,
+    "An indicative rollout: first campus live in about six weeks",
+    59
+   ],
+   [
+    31,
+    "What's next on the Agastya roadmap",
+    34
+   ],
+   [
+    32,
+    "Run every school in your group on one platform",
+    46
+   ]
+  ],
+  "demo_labels": [
+   [
+    3,
+    "demo data"
+   ],
+   [
+    7,
+    "demo data"
+   ],
+   [
+    12,
+    "demo data"
+   ],
+   [
+    18,
+    "demo data"
+   ],
+   [
+    21,
+    "demo data"
+   ],
+   [
+    24,
+    "demo data"
+   ]
+  ],
+  "us_spelling": [
+   [
+    32,
+    "Center"
+   ]
+  ],
+  "contact_slides": [
+   32
+  ],
+  "fonts": {
+   "Calibri": 66
+  },
+  "sizes": {
+   "9.0": 34,
+   "10.0": 6,
+   "10.5": 22,
+   "11.0": 95,
+   "11.5": 19,
+   "12.0": 73,
+   "12.5": 52,
+   "13.0": 34,
+   "14.0": 33,
+   "14.5": 8,
+   "15.0": 28,
+   "16.0": 19,
+   "26.0": 1,
+   "30.0": 30,
+   "34.0": 2,
+   "36.0": 1,
+   "44.0": 6,
+   "56.0": 1
+  },
+  "text_colors": {
+   "0F1B2D": 121,
+   "3A4A63": 108,
+   "5E6E86": 59,
+   "FFFFFF": 52,
+   "2563EB": 43,
+   "0B1A30": 37,
+   "A9B6C9": 29,
+   "F5A623": 14,
+   "87A9F4": 1
+  },
+  "min_font": 9.0,
+  "long_titles": [
+   [
+    2,
+    "School groups still run on registers, spreadsheets and WhatsApp",
+    63
+   ],
+   [
+    13,
+    "Attendance in seconds per class, records that stand up to audit",
+    63
+   ],
+   [
+    25,
+    "A professional front office: certificates, grievances, visitors",
+    63
+   ],
+   [
+    26,
+    "Onboard a new school in minutes, with isolated data from day one",
+    64
+   ]
+  ]
+ },
+ "MavionLearn": {
+  "slides": 23,
+  "size_mb": 3.6,
+  "isolation_phrase": [
+   [
+    1,
+    "database per tenant"
+   ],
+   [
+    5,
+    "database per customer"
+   ],
+   [
+    5,
+    "own database"
+   ],
+   [
+    6,
+    "database per tenant"
+   ],
+   [
+    19,
+    "dedicated database per customer"
+   ],
+   [
+    19,
+    "One database per customer"
+   ],
+   [
+    21,
+    "database per tenant"
+   ],
+   [
+    21,
+    "database per customer"
+   ]
+  ],
+  "titles": [
+   [
+    1,
+    "MavionLearn",
+    11
+   ],
+   [
+    2,
+    "Training spend is up, but capability is still a guess",
+    53
+   ],
+   [
+    3,
+    "One system that turns training into capability",
+    46
+   ],
+   [
+    4,
+    "Built for the people who own learning, compliance and identity",
+    62
+   ],
+   [
+    5,
+    "Twelve modules across five capabilities, in one platform",
+    56
+   ],
+   [
+    6,
+    "Others track completions; MavionLearn proves capability",
+    55
+   ],
+   [
+    7,
+    "Author once, deliver to every audience",
+    38
+   ],
+   [
+    8,
+    "Learn live or on-demand, in one place",
+    37
+   ],
+   [
+    9,
+    "See capability across the whole organisation",
+    44
+   ],
+   [
+    10,
+    "Every gap turns into the next best course",
+    41
+   ],
+   [
+    11,
+    "Compliance that runs itself",
+    27
+   ],
+   [
+    12,
+    "Audit-ready evidence in one click",
+    33
+   ],
+   [
+    13,
+    "Board-ready reporting in one click",
+    34
+   ],
+   [
+    14,
+    "Prove the return on every training rupee",
+    40
+   ],
+   [
+    15,
+    "A learner home that drives real progress",
+    40
+   ],
+   [
+    16,
+    "Run large organisations safely",
+    30
+   ],
+   [
+    17,
+    "Enterprise identity, built in rather than bolted on",
+    51
+   ],
+   [
+    18,
+    "Fits the identity and content standards you already use",
+    55
+   ],
+   [
+    19,
+    "True multi-tenant isolation: a dedicated database per customer",
+    62
+   ],
+   [
+    20,
+    "Isolation you can verify, health you can see",
+    44
+   ],
+   [
+    21,
+    "What changes compared with a generic LMS",
+    40
+   ],
+   [
+    22,
+    "Start with a 30-day, all-features trial",
+    39
+   ],
+   [
+    23,
+    "See capability compound from week one",
+    37
+   ]
+  ],
+  "demo_labels": [
+   [
+    3,
+    "demo data"
+   ],
+   [
+    7,
+    "demo data"
+   ],
+   [
+    8,
+    "demo data"
+   ],
+   [
+    9,
+    "demo data"
+   ],
+   [
+    9,
+    "demo data"
+   ],
+   [
+    10,
+    "demo data"
+   ],
+   [
+    11,
+    "demo data"
+   ],
+   [
+    12,
+    "demo data"
+   ],
+   [
+    13,
+    "demo data"
+   ],
+   [
+    14,
+    "demo data"
+   ],
+   [
+    15,
+    "demo data"
+   ],
+   [
+    17,
+    "demo data"
+   ],
+   [
+    20,
+    "demo data"
+   ]
+  ],
+  "us_spelling": [
+   [
+    5,
+    "Catalog"
+   ],
+   [
+    7,
+    "CATALOG"
+   ],
+   [
+    7,
+    "catalog"
+   ],
+   [
+    8,
+    "catalog"
+   ],
+   [
+    23,
+    "Center"
+   ]
+  ],
+  "trial": [
+   [
+    23,
+    "30-day trial"
+   ]
+  ],
+  "contact_slides": [
+   23
+  ],
+  "fonts": {
+   "Calibri": 48
+  },
+  "sizes": {
+   "9.0": 10,
+   "10.0": 6,
+   "10.5": 20,
+   "11.0": 51,
+   "11.5": 1,
+   "12.0": 82,
+   "12.5": 40,
+   "13.0": 25,
+   "14.0": 41,
+   "14.5": 21,
+   "16.0": 22,
+   "26.0": 1,
+   "30.0": 22,
+   "36.0": 1,
+   "56.0": 1
+  },
+  "text_colors": {
+   "0F1B2D": 123,
+   "3A4A63": 89,
+   "FFFFFF": 41,
+   "5E6E86": 40,
+   "6D4AFF": 29,
+   "A9B6C9": 15,
+   "F5A623": 5,
+   "AF9BFF": 1,
+   "0B1A30": 1
+  },
+  "min_font": 9.0,
+  "long_titles": []
+ },
+ "PragyanNxt": {
+  "slides": 22,
+  "size_mb": 3.2,
+  "titles": [
+   [
+    1,
+    "PragyanNxt",
+    10
+   ],
+   [
+    2,
+    "Online testing scaled, but trust didn't",
+    39
+   ],
+   [
+    3,
+    "Six real problems, each answered by a specific capability",
+    57
+   ],
+   [
+    4,
+    "One platform for the entire assessment lifecycle",
+    48
+   ],
+   [
+    5,
+    "Every role in the assessment chain, in one system",
+    49
+   ],
+   [
+    6,
+    "Five stages, one closed loop of trust",
+    37
+   ],
+   [
+    7,
+    "Eight modules, one integrated system",
+    36
+   ],
+   [
+    8,
+    "A question bank built for scale",
+    31
+   ],
+   [
+    9,
+    "AI that does the heavy lifting, with metered cost",
+    49
+   ],
+   [
+    10,
+    "Flexible delivery, locked-down experience",
+    41
+   ],
+   [
+    11,
+    "From invitation to verified credential",
+    38
+   ],
+   [
+    12,
+    "See every session, catch every anomaly",
+    38
+   ],
+   [
+    13,
+    "Integrity you can put a number on",
+    33
+   ],
+   [
+    14,
+    "From raw answers to decisions",
+    29
+   ],
+   [
+    15,
+    "Not just a PDF: a credential the world can verify",
+    49
+   ],
+   [
+    16,
+    "A trail of trust from result to verified credential",
+    51
+   ],
+   [
+    17,
+    "Built like enterprise software",
+    30
+   ],
+   [
+    18,
+    "Hire on evidence; run exams you can stand behind",
+    48
+   ],
+   [
+    19,
+    "One platform where others give you three",
+    40
+   ],
+   [
+    20,
+    "Pay for the platform, scale with usage",
+    38
+   ],
+   [
+    21,
+    "Runs where you need it; connects to what you already use",
+    56
+   ],
+   [
+    22,
+    "Let's build assessment you can trust",
+    36
+   ]
+  ],
+  "demo_labels": [
+   [
+    4,
+    "demo data"
+   ],
+   [
+    8,
+    "demo data"
+   ],
+   [
+    10,
+    "demo data"
+   ]
+  ],
+  "isolation_phrase": [
+   [
+    17,
+    "own database"
+   ],
+   [
+    17,
+    "own database"
+   ],
+   [
+    17,
+    "One database per organisation"
+   ],
+   [
+    19,
+    "database per organisation"
+   ],
+   [
+    21,
+    "database per organisation"
+   ]
+  ],
+  "trial": [
+   [
+    20,
+    "14-day trial"
+   ],
+   [
+    22,
+    "14-day trial"
+   ]
+  ],
+  "us_spelling": [
+   [
+    22,
+    "Center"
+   ]
+  ],
+  "contact_slides": [
+   22
+  ],
+  "fonts": {
+   "Calibri": 46
+  },
+  "sizes": {
+   "9.0": 6,
+   "10.0": 12,
+   "10.5": 11,
+   "11.0": 72,
+   "11.5": 4,
+   "12.0": 51,
+   "12.5": 31,
+   "13.0": 20,
+   "13.5": 12,
+   "14.0": 38,
+   "14.5": 20,
+   "15.0": 21,
+   "16.0": 15,
+   "18.0": 3,
+   "26.0": 6,
+   "30.0": 20,
+   "36.0": 4,
+   "56.0": 1,
+   "64.0": 1
+  },
+  "text_colors": {
+   "0F1B2D": 107,
+   "3A4A63": 94,
+   "FFFFFF": 48,
+   "A9B6C9": 32,
+   "5E6E86": 31,
+   "1C3F94": 23,
+   "F5A623": 11,
+   "B0C1EE": 1,
+   "0B1A30": 1
+  },
+  "min_font": 9.0,
+  "long_titles": []
+ },
+ "ProtonNxt": {
+  "slides": 27,
+  "size_mb": 4.5,
+  "titles": [
+   [
+    1,
+    "ProtonNxt",
+    9
+   ],
+   [
+    2,
+    "Where hiring breaks down",
+    24
+   ],
+   [
+    3,
+    "Recruiters, administrators and candidates on one system",
+    55
+   ],
+   [
+    4,
+    "Built for every role in a recruiting operation",
+    46
+   ],
+   [
+    5,
+    "Every step from requisition to joining, end to end",
+    50
+   ],
+   [
+    6,
+    "Fifteen modules, every one included in every tenant",
+    51
+   ],
+   [
+    7,
+    "Pipeline health in one glance",
+    29
+   ],
+   [
+    8,
+    "Requisitions that act as contracts, not spreadsheet rows",
+    56
+   ],
+   [
+    9,
+    "Every channel into one pipeline, parsed by AI",
+    45
+   ],
+   [
+    10,
+    "The pipeline always tells the truth",
+    35
+   ],
+   [
+    11,
+    "Ownership made explicit, teams working in one context",
+    53
+   ],
+   [
+    12,
+    "Structured interviews on a real calendar",
+    40
+   ],
+   [
+    13,
+    "Offers that convert to joiners",
+    30
+   ],
+   [
+    14,
+    "Bring staffing agencies inside the process",
+    42
+   ],
+   [
+    15,
+    "A candidate experience competitors can't match",
+    46
+   ],
+   [
+    16,
+    "Reporting leadership relies on",
+    30
+   ],
+   [
+    17,
+    "One-screen answers that always match the table",
+    46
+   ],
+   [
+    18,
+    "Turn the talent pool into a searchable asset",
+    44
+   ],
+   [
+    19,
+    "Know which clients to grow and which are slipping",
+    49
+   ],
+   [
+    20,
+    "Compare clients and share evidence safely",
+    41
+   ],
+   [
+    21,
+    "Hiring keeps moving between meetings",
+    36
+   ],
+   [
+    22,
+    "Administrators in control, without engineering tickets",
+    54
+   ],
+   [
+    23,
+    "Your hiring model, without code",
+    31
+   ],
+   [
+    24,
+    "Multi-tenant by design, secure by default",
+    41
+   ],
+   [
+    25,
+    "Connects to how your team already works",
+    39
+   ],
+   [
+    26,
+    "Eight reasons recruitment teams choose ProtonNxt",
+    48
+   ],
+   [
+    27,
+    "Let's build your next hire, together",
+    36
+   ]
+  ],
+  "banned": [
+   [
+    4,
+    "PROTONNXT"
+   ],
+   [
+    26,
+    "PROTONNXT"
+   ]
+  ],
+  "demo_labels": [
+   [
+    7,
+    "demo data"
+   ],
+   [
+    8,
+    "demo data"
+   ],
+   [
+    10,
+    "demo data"
+   ],
+   [
+    11,
+    "demo data"
+   ],
+   [
+    16,
+    "demo data"
+   ],
+   [
+    19,
+    "demo data"
+   ],
+   [
+    20,
+    "demo data"
+   ]
+  ],
+  "us_spelling": [
+   [
+    18,
+    "catalog"
+   ],
+   [
+    23,
+    "Customize"
+   ],
+   [
+    23,
+    "Customize"
+   ],
+   [
+    27,
+    "Center"
+   ]
+  ],
+  "isolation_phrase": [
+   [
+    24,
+    "One database per tenant"
+   ]
+  ],
+  "contact_slides": [
+   27
+  ],
+  "fonts": {
+   "Calibri": 56
+  },
+  "sizes": {
+   "9.0": 18,
+   "10.0": 5,
+   "10.5": 14,
+   "11.0": 58,
+   "11.5": 4,
+   "12.0": 124,
+   "12.5": 32,
+   "13.0": 16,
+   "14.0": 52,
+   "14.5": 20,
+   "15.0": 29,
+   "16.0": 13,
+   "26.0": 1,
+   "30.0": 25,
+   "36.0": 1,
+   "56.0": 1
+  },
+  "text_colors": {
+   "0F1B2D": 144,
+   "3A4A63": 113,
+   "FFFFFF": 46,
+   "5E6E86": 40,
+   "0B8282": 32,
+   "A9B6C9": 22,
+   "0B1A30": 9,
+   "F5A623": 6,
+   "79BABA": 1
+  },
+  "min_font": 9.0,
+  "long_titles": []
+ },
+ "SalesPulse CRM": {
+  "slides": 25,
+  "size_mb": 3.4,
+  "titles": [
+   [
+    1,
+    "SalesPulse CRM",
+    14
+   ],
+   [
+    2,
+    "Where CRMs let Indian sales teams down",
+    38
+   ],
+   [
+    3,
+    "One command center, built the way India sells",
+    45
+   ],
+   [
+    4,
+    "Four roles, each seeing exactly what it should",
+    46
+   ],
+   [
+    5,
+    "From the morning queue to the weekly report, with no re-typing",
+    62
+   ],
+   [
+    6,
+    "Fourteen modules in one sales command center",
+    44
+   ],
+   [
+    7,
+    "Every rep starts the day knowing exactly who to call",
+    52
+   ],
+   [
+    8,
+    "Capture and qualify leads at speed",
+    34
+   ],
+   [
+    9,
+    "A weighted pipeline you can actually steer",
+    42
+   ],
+   [
+    10,
+    "The whole relationship on one screen",
+    36
+   ],
+   [
+    11,
+    "Your reps make the call. They never see the number",
+    50
+   ],
+   [
+    12,
+    "One business line, both directions, no personal numbers",
+    55
+   ],
+   [
+    13,
+    "A dialer that protects the customer, and logs every call itself",
+    63
+   ],
+   [
+    14,
+    "Every channel from the lead, masked and logged",
+    46
+   ],
+   [
+    15,
+    "Every interaction, captured without the busywork",
+    48
+   ],
+   [
+    16,
+    "Real-time visibility into pipeline and people",
+    45
+   ],
+   [
+    17,
+    "No more re-typing numbers into spreadsheets",
+    43
+   ],
+   [
+    18,
+    "Your customer data can't walk out the door",
+    42
+   ],
+   [
+    19,
+    "The full command center in your rep's pocket",
+    44
+   ],
+   [
+    20,
+    "Automated, India-first billing with nothing to reconcile",
+    56
+   ],
+   [
+    21,
+    "Multi-tenant by design, isolated by default",
+    43
+   ],
+   [
+    22,
+    "What sets SalesPulse apart from generic CRMs",
+    44
+   ],
+   [
+    23,
+    "Software per seat; calling billed on actual usage",
+    49
+   ],
+   [
+    24,
+    "Live in days, not quarters",
+    26
+   ],
+   [
+    25,
+    "Give your team the command center they deserve",
+    46
+   ]
+  ],
+  "us_spelling": [
+   [
+    3,
+    "center"
+   ],
+   [
+    3,
+    "center"
+   ],
+   [
+    4,
+    "center"
+   ],
+   [
+    5,
+    "center"
+   ],
+   [
+    6,
+    "center"
+   ],
+   [
+    6,
+    "center"
+   ],
+   [
+    16,
+    "CENTER"
+   ],
+   [
+    16,
+    "center"
+   ],
+   [
+    19,
+    "center"
+   ],
+   [
+    21,
+    "center"
+   ],
+   [
+    21,
+    "center"
+   ],
+   [
+    22,
+    "center"
+   ],
+   [
+    25,
+    "center"
+   ],
+   [
+    25,
+    "Center"
+   ]
+  ],
+  "demo_labels": [
+   [
+    3,
+    "demo data"
+   ],
+   [
+    7,
+    "demo data"
+   ],
+   [
+    8,
+    "demo data"
+   ],
+   [
+    9,
+    "demo data"
+   ],
+   [
+    10,
+    "demo data"
+   ],
+   [
+    11,
+    "demo data"
+   ],
+   [
+    13,
+    "demo data"
+   ],
+   [
+    15,
+    "demo data"
+   ],
+   [
+    16,
+    "demo data"
+   ],
+   [
+    20,
+    "demo data"
+   ]
+  ],
+  "isolation_phrase": [
+   [
+    6,
+    "own database"
+   ],
+   [
+    18,
+    "Database per company"
+   ],
+   [
+    21,
+    "own database"
+   ],
+   [
+    21,
+    "own database"
+   ],
+   [
+    21,
+    "One database per company"
+   ],
+   [
+    22,
+    "database per company"
+   ]
+  ],
+  "trial": [
+   [
+    20,
+    "30-day trial"
+   ],
+   [
+    24,
+    "30-day free trial"
+   ],
+   [
+    25,
+    "30-day trial"
+   ]
+  ],
+  "contact_slides": [
+   25
+  ],
+  "fonts": {
+   "Calibri": 52
+  },
+  "sizes": {
+   "9.0": 11,
+   "10.0": 6,
+   "10.5": 8,
+   "11.0": 56,
+   "12.0": 68,
+   "12.5": 20,
+   "13.0": 42,
+   "14.0": 53,
+   "14.5": 12,
+   "15.0": 11,
+   "16.0": 22,
+   "20.0": 3,
+   "22.0": 5,
+   "26.0": 1,
+   "30.0": 23,
+   "36.0": 1,
+   "56.0": 1
+  },
+  "text_colors": {
+   "0F1B2D": 116,
+   "3A4A63": 87,
+   "FFFFFF": 37,
+   "5E6E86": 37,
+   "D63B42": 31,
+   "A9B6C9": 22,
+   "F5A623": 7,
+   "EB9DA1": 4,
+   "E89397": 1,
+   "0B1A30": 1
+  },
+  "min_font": 9.0,
+  "long_titles": [
+   [
+    13,
+    "A dialer that protects the customer, and logs every call itself",
+    63
+   ]
+  ]
+ },
+ "Vortex HRMS": {
+  "slides": 23,
+  "size_mb": 2.5,
+  "titles": [
+   [
+    1,
+    "Vortex HRMS",
+    11
+   ],
+   [
+    2,
+    "Why workforce platforms break at scale",
+    38
+   ],
+   [
+    3,
+    "Attendance flows into payroll; approvals flow into balances",
+    59
+   ],
+   [
+    4,
+    "Each role works from the same record",
+    36
+   ],
+   [
+    5,
+    "Start with core HR, then switch on exactly what you need",
+    56
+   ],
+   [
+    6,
+    "Hire to retire, in one record",
+    29
+   ],
+   [
+    7,
+    "Friction-free attendance, audit-grade accuracy",
+    46
+   ],
+   [
+    8,
+    "Attendance for the field, with privacy built in",
+    47
+   ],
+   [
+    9,
+    "Honour every leave policy, automatically",
+    40
+   ],
+   [
+    10,
+    "Payroll consumes attendance and leave directly",
+    46
+   ],
+   [
+    11,
+    "Run payroll on policy, not on spreadsheets",
+    42
+   ],
+   [
+    12,
+    "Decisions at the speed of policy, not the speed of inboxes",
+    58
+   ],
+   [
+    13,
+    "Self-service that ends routine HR tickets",
+    41
+   ],
+   [
+    14,
+    "Appraisal cycles that run themselves",
+    36
+   ],
+   [
+    15,
+    "Operational modules on one workflow chassis",
+    43
+   ],
+   [
+    16,
+    "Letters and training, built into the HR record",
+    46
+   ],
+   [
+    17,
+    "Built to govern a sensitive HR dataset",
+    38
+   ],
+   [
+    18,
+    "Built for scale, secured by design",
+    34
+   ],
+   [
+    19,
+    "How Vortex compares with the alternatives",
+    41
+   ],
+   [
+    20,
+    "One base price, then add exactly what you need",
+    46
+   ],
+   [
+    21,
+    "Build your plan, and pay only for what you switch on",
+    52
+   ],
+   [
+    22,
+    "Live today, and what comes next",
+    31
+   ],
+   [
+    23,
+    "See Vortex on your data",
+    23
+   ]
+  ],
+  "isolation_phrase": [
+   [
+    3,
+    "database per customer"
+   ],
+   [
+    5,
+    "database per customer"
+   ],
+   [
+    17,
+    "database per customer"
+   ],
+   [
+    18,
+    "database per customer"
+   ],
+   [
+    18,
+    "one database per customer"
+   ]
+  ],
+  "claims": [
+   [
+    15,
+    "lpdesk IT and HR ticket queues per team SLA timers and escalations Self-service kno"
+   ]
+  ],
+  "trial": [
+   [
+    20,
+    "30-day free trial"
+   ]
+  ],
+  "us_spelling": [
+   [
+    23,
+    "Center"
+   ]
+  ],
+  "contact_slides": [
+   23
+  ],
+  "fonts": {
+   "Calibri": 48
+  },
+  "sizes": {
+   "9.0": 1,
+   "9.5": 3,
+   "10.0": 10,
+   "10.5": 5,
+   "11.0": 70,
+   "11.5": 13,
+   "12.0": 72,
+   "12.5": 14,
+   "13.0": 90,
+   "13.5": 25,
+   "14.0": 18,
+   "14.5": 47,
+   "15.0": 4,
+   "16.0": 16,
+   "17.0": 3,
+   "19.0": 2,
+   "26.0": 1,
+   "30.0": 21,
+   "34.0": 3,
+   "36.0": 1,
+   "44.0": 1,
+   "56.0": 1
+  },
+  "text_colors": {
+   "0F1B2D": 150,
+   "3A4A63": 87,
+   "FFFFFF": 75,
+   "4F46E5": 41,
+   "5E6E86": 40,
+   "A9B6C9": 15,
+   "F5A623": 11,
+   "9E99F1": 1,
+   "0B1A30": 1
+  },
+  "min_font": 9.0,
+  "long_titles": []
+ }
+}

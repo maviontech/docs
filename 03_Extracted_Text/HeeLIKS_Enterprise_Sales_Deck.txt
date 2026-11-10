@@ -1,0 +1,1372 @@
+<!-- Slide number: 1 -->
+![D:/MavionTech_sales/branding/maviontech-logo.png](Image 0)
+MavionTech
+Enterprise Software Solutions
+medicare.heeliks.com
+![D01](Image 2)
+ENTERPRISE SALES OVERVIEW
+![D:\heeliks\deck_work\build\prep\heeliks_tile.png](Image 1)
+HeeLIKS
+Inventory & POS Platform
+Run your entire store on one intelligent platform
+![S12](Image 3)
+Inventory, purchasing, billing, B2B dispatch and insight for pharmacies, retail, grocery, bookstores and industrial distributors — each customer in its own isolated database, every user behind two-factor security.
+Real product screens · MediCare Pharmacy workspace · demo data
+Crafted by MavionTech Pvt. Ltd. · Enterprise Software Solutions · maviontech.com
+
+### Notes:
+Welcome. HeeLIKS is MavionTech's inventory, point-of-sale and B2B order-to-cash platform for stock-driven businesses — pharmacies, retail, grocery, bookstores and industrial distributors. Everything you will see today is the running product with realistic data from our MediCare Pharmacy workspace and four other industry workspaces.
+
+<!-- Slide number: 2 -->
+THE PROBLEM
+Stock, till and books that never agree
+![preencoded.png](Image 0)
+![preencoded.png](Image 1)
+![preencoded.png](Image 2)
+![preencoded.png](Image 3)
+Stock and sales drift apart
+Expiry found too late
+GST is a monthly scramble
+No control, no trail
+Inventory lives in a spreadsheet, billing on a separate till. On-hand is a guess by evening, and stock-outs are discovered by customers.
+Batches and expiry dates sit on cartons, not in the system. Write-offs show up at the quarterly audit instead of 30 days earlier.
+The accountant rebuilds tax summaries, credit notes and GSTR-1 from bill books — slow, error-prone and unauditable.
+Shared logins, unlimited discounts and no record of who changed a price. Distributors still run orders on paper challans.
+Typical pains of stock-driven outlets and distributors, drawn from the product specification (docs/SRS.md §2.2).
+2
+
+### Notes:
+Most outlets we meet run stock in a spreadsheet and billing on a separate till. The two drift apart every day, expiry losses surface at audit, GST is rebuilt from paper by the accountant, and everyone shares one login. These four pains are what HeeLIKS is built to remove.
+
+<!-- Slide number: 3 -->
+MEET HEELIKS
+One platform from purchase order to paid invoice
+medicare.heeliks.com
+Run the counter
+![Owner dashboard (dark mode) — live sales, stock alerts, expiry and top products · demo data](Image 3)
+![preencoded.png](Image 0)
+Keyboard-first POS with FEFO batches, split tender, role-capped discounts and GST-correct receipts.
+Control the stock
+![preencoded.png](Image 1)
+Purchase, receive, count, transfer and sell on one ledger — on-hand is always the truth.
+Grow with confidence
+![preencoded.png](Image 2)
+B2B order-to-cash, 21 exportable reports, GST packs, 2FA, RBAC and a full audit trail.
+Owner dashboard (dark mode) — live sales, stock alerts, expiry and top products · demo data
+3
+
+### Notes:
+HeeLIKS — the Holistic Enterprise Engine for Logistics and Inventory Keeping — puts the counter, the stockroom and the books on one append-only ledger. Three promises: a counter that never oversells, stock you can trust to the last strip, and growth with control — B2B, GST, security and audit built in.
+
+<!-- Slide number: 4 -->
+AT A GLANCE
+A complete platform, verified in the code
+16
+70
+169
+21
+domain modules
+data models
+routes & screens
+exportable reports
+5 · 10
+5
+348
+1 DB
+roles · permissions
+industry editions
+automated tests
+per customer, isolated
+Source: code review of maviontech/stocksage @ 3b66227 (Django app configs, models, URL resolver, rbac/seeding.py, test functions), 10 Nov 2026.
+4
+
+### Notes:
+Every number here was counted from the HeeLIKS source code on 10 November 2026 — not taken from marketing copy. Sixteen domain modules, seventy data models, 169 routes, twenty-one exportable reports, five seeded roles over ten permissions, five industry editions, 348 automated tests and one isolated database per customer.
+
+<!-- Slide number: 5 -->
+WHO IT SERVES
+Built for every role in the business
+Owner / Admin
+Manager
+Cashier
+![preencoded.png](Image 0)
+![preencoded.png](Image 1)
+![preencoded.png](Image 2)
+Economic buyer. Full access — dashboard, reports, users, subscription and billing.
+Catalog, stock, purchasing with approval, returns, reports. Discount cap 20%.
+POS and returns only — a focused menu. Discount cap 5%, register Z-report.
+Store staff
+Auditor / CA
+HeeLIKS operator
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+Receives goods, adjusts and counts stock. No pricing or sales access.
+Read-only reports, catalog and stock. Every attempt beyond that is denied and logged.
+Platform console: provisioning, plans, payments — tenant metadata only, never tenant data.
+Roles and caps from apps/rbac/seeding.py · role-by-role screens ? slide 44
+5
+
+### Notes:
+Five roles ship out of the box and admins can create custom ones. Each role sees only its own menu: the cashier sees the POS, the auditor sees read-only reports. Discount caps are enforced per role — five percent for cashiers, twenty for managers. The sixth persona is the HeeLIKS operator who runs the fleet from a separate console.
+
+<!-- Slide number: 6 -->
+PRODUCT MAP
+Five pillars, one ledger behind every module
+![preencoded.png](Image 0)
+![preencoded.png](Image 1)
+![preencoded.png](Image 2)
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+Sell
+Stock & Buy
+Distribute (B2B)
+Insight & Comply
+Govern & Scale
+? slide 8
+? slide 13
+? slide 21
+? slide 26
+? slide 33
+Point of Sale
+Catalog & barcodes
+Sales orders
+Owner dashboard
+Onboarding & import
+Registers & Z-report
+Inventory ledger
+Challans & POD
+21 reports
+Security & 2FA
+Sales invoices
+Batches & expiry
+Receipts & ledger
+GST & GSTR-1
+Roles & audit
+Returns & notes
+Purchasing & GRN
+Credit & AR aging
+Excel / PDF exports
+Settings & billing
+Partners
+Platform console
+REST API
+6
+
+### Notes:
+Here is the whole product on one page, grouped into five pillars. Every module on this map has its own slide with real screenshots later in the deck — the slide number is shown on each pillar.
+
+<!-- Slide number: 7 -->
+WHY HEELIKS
+Sixteen differentiators, each proven on a slide
+Own isolated database per customer
+Ledger-true stock, no oversell
+FEFO batches & expiry alerts
+Atomic, GST-correct POS
+![preencoded.png](Image 0)
+![preencoded.png](Image 1)
+![preencoded.png](Image 2)
+![preencoded.png](Image 3)
+? slide 43
+? slide 15
+? slide 16
+? slide 9
+GST pack: GSTR-1, notes, series
+Enforced 2FA, one session per user
+Roles with discount caps
+Before/after audit trail
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+![preencoded.png](Image 7)
+? slide 29
+? slide 36
+? slide 37
+? slide 38
+Full B2B order-to-cash
+Tally & Excel go-live with undo
+Every report to Excel / PDF
+Self-serve plans & billing
+![preencoded.png](Image 8)
+![preencoded.png](Image 9)
+![preencoded.png](Image 10)
+![preencoded.png](Image 11)
+? slide 22
+? slide 34
+? slide 30
+? slide 41
+Operator console for the fleet
+Multi-outlet & multi-location
+REST API & integrations
+Five industry editions
+![preencoded.png](Image 12)
+![preencoded.png](Image 13)
+![preencoded.png](Image 14)
+![preencoded.png](Image 15)
+? slide 42
+? slide 17
+? slide 49
+? slide 45
+7
+
+### Notes:
+These are the sixteen differentiators the code actually proves. Each card points to the slide where you can see it working in the product. The four amber cards are the ones we lead with: isolation, ledger-true stock, GST compliance and enforced security.
+
+<!-- Slide number: 8 -->
+![S12](Image 0)
+PILLAR 1 · SELL
+Checkout that never oversells
+![S01](Image 1)
+Point of sale, registers, invoices and returns — every sale posts stock, tax and cash in one transaction.
+POS with split tender · the invoice register
+8
+
+### Notes:
+Pillar one is the counter. Everything that happens at the till — the sale, the stock movement, the tax and the cash — is written in a single database transaction, so they can never disagree.
+
+<!-- Slide number: 9 -->
+POINT OF SALE
+Checkout in seconds, GST-correct every time
+medicare.heeliks.com/pos
+Scan or type-ahead
+![preencoded.png](Image 0)
+![Live cart with bill discount and UPI + cash split; inset: type-ahead search across name, SKU and barcode](Image 4)
+HID barcode scanners, SKU or 3-letter search; exact matches add straight to the cart.
+Split tender
+![preencoded.png](Image 1)
+Cash, card, UPI and store credit on one bill; change computed live.
+Role-capped discounts
+![S11](Image 5)
+![preencoded.png](Image 2)
+Line or bill discount, capped per role — overrides are blocked and logged.
+Atomic & gapless
+![preencoded.png](Image 3)
+Sale, stock-out, COGS and fiscal-year invoice number in one transaction.
+Live cart with bill discount and UPI + cash split; inset: type-ahead search across name, SKU and barcode
+9
+
+### Notes:
+This is the live POS. Scan a barcode or type three letters; the earliest-expiring batch is picked automatically. Discounts are capped by role, payment can be split across cash, card, UPI and store credit, and the sale, stock decrement and gapless invoice number are committed together.
+
+<!-- Slide number: 10 -->
+POINT OF SALE
+Built for the busiest counter in town
+![Park a sale and resume it later (F7)](Image 0)
+![Receipt: 80/58 mm thermal, A4 PDF or email](Image 1)
+![Invoice register with tender and customer](Image 2)
+Park a sale and resume it later (F7)
+Receipt: 80/58 mm thermal, A4 PDF or email
+Invoice register with tender and customer
+Park & resume
+Print or email
+Keyboard-first
+Customer on the bill
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+Hold a cart while the customer fetches one more item; resume in one click.
+Thermal 80/58 mm, A4 landscape PDF, or email the receipt to the customer.
+F2 focus, F4 charge, F7 park — trained cashiers never touch the mouse.
+Attach a walk-in or registered customer for history and credit sales.
+10
+
+### Notes:
+The details that keep a queue moving: park a sale and serve the next customer, print an eighty-millimetre thermal receipt or an A4 tax invoice, or email it. Every invoice is searchable afterwards with its payment mode.
+
+<!-- Slide number: 11 -->
+REGISTERS & CASH
+Every rupee in the drawer, accounted for
+![Z-report per session](Image 1)
+![Register sessions: opened, closed and cash variance per cashier](Image 0)
+Z-report per session
+![Close register: count the drawer](Image 2)
+Register sessions: opened, closed and cash variance per cashier
+Close register: count the drawer
+Opening float
+Session per cashier
+Computed variance
+Z-report
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+Every shift starts counted.
+One open session each.
+Float + net cash vs count.
+Printable end-of-day.
+11
+
+### Notes:
+Cashiers open the register with a float and close it by counting the drawer. HeeLIKS computes expected cash from the sales and change given, and the Z-report shows the variance per session, so shortages are visible the same day.
+
+<!-- Slide number: 12 -->
+RETURNS & CREDIT NOTES
+Refunds in a minute, with a compliant credit note
+medicare.heeliks.com/sales/returns/new
+Find the sale
+![preencoded.png](Image 0)
+![Returns start from the real sale: invoice lookup by number or customer; inset: the credit note issued](Image 4)
+Invoice number or customer search, any outlet.
+Restock or write off
+![preencoded.png](Image 1)
+Per line: back to shelf, or damaged stock out.
+Numbered credit note
+![R03](Image 5)
+![preencoded.png](Image 2)
+CN- series, refunded by the original tender.
+Return window
+![preencoded.png](Image 3)
+Configurable days; older invoices are refused.
+Returns start from the real sale: invoice lookup by number or customer; inset: the credit note issued
+12
+
+### Notes:
+Returns start from the original invoice: type a few characters of the number or the customer's name. Each line can be restocked or written off, and HeeLIKS issues a numbered credit note. A configurable return window stops late returns.
+
+<!-- Slide number: 13 -->
+![I01](Image 0)
+PILLAR 2 · STOCK & BUY
+Stock you can trust to the last strip
+![I02](Image 1)
+Catalog, inventory ledger, batches and expiry, purchasing and partners — one append-only ledger behind every number.
+Stock overview · batches & expiry
+13
+
+### Notes:
+Pillar two is the stockroom. On-hand is never typed in — it is the sum of an append-only ledger of signed movements, protected by row-level locks.
+
+<!-- Slide number: 14 -->
+CATALOG
+Over 1,000 SKUs, perfectly organised
+medicare.heeliks.com/products
+![Product editor: pricing, tax, batches, barcodes](Image 1)
+![Product list: SKU, barcode, cost, MRP, margin and status (demo data)](Image 0)
+Product editor: pricing, tax, batches, barcodes
+![Code128 barcode label, print-ready](Image 2)
+Product list: SKU, barcode, cost, MRP, margin and status (demo data)
+Code128 barcode label, print-ready
+Masters
+Units & conversions
+Tax classes & HSN
+Bulk import
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+Categories, brands and manufacturers.
+Strip, box, bottle — explicit factors.
+GST slabs 0–28% mapped per product.
+CSV/Excel template with validation.
+14
+
+### Notes:
+The MediCare workspace carries over a thousand products. Each has SKU, HSN, MRP, cost, reorder level, batch tracking and any number of barcodes. Categories, brands, manufacturers, units with conversions and GST tax classes are all masters, and the whole catalog can be bulk-imported.
+
+<!-- Slide number: 15 -->
+INVENTORY LEDGER
+On-hand is a ledger, not a guess
+medicare.heeliks.com/inventory
+Append-only ledger
+![preencoded.png](Image 0)
+![Stock overview: SKUs in stock, stock value, low stock and expiring, by product, batch and location; inset: transfers (demo data)](Image 4)
+Every receipt, sale, return and count is a signed entry.
+No oversell
+![preencoded.png](Image 1)
+Row locks re-check availability before every sale.
+Moving-average cost
+![I04](Image 5)
+![preencoded.png](Image 2)
+Valuation and COGS update on each receipt.
+Reserved vs available
+![preencoded.png](Image 3)
+B2B orders reserve stock; ATP is computed.
+Stock overview: SKUs in stock, stock value, low stock and expiring, by product, batch and location; inset: transfers (demo data)
+15
+
+### Notes:
+The stock overview shows on-hand, reserved, available and value per product, batch and location. Every number is the reconciled sum of an append-only ledger. Each movement takes a row lock and re-checks availability, so two registers can never sell the same last unit.
+
+<!-- Slide number: 16 -->
+BATCHES, EXPIRY & ALERTS
+Catch expiry before it becomes a write-off
+![Expiry & batch report](Image 1)
+![Batches & expiry: days left with expired / expiring flags (demo data)](Image 0)
+Expiry & batch report
+![Open alerts with email channel](Image 2)
+Batches & expiry: days left with expired / expiring flags (demo data)
+Open alerts with email channel
+FEFO allocation
+Expired blocked
+Stock alerts
+Email delivery
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+Earliest expiry sold first.
+Can't be sold at the counter.
+Hourly, de-duplicated.
+Digests to chosen people.
+16
+
+### Notes:
+Batches carry expiry dates from the goods receipt. The POS sells First-Expiry-First-Out automatically and blocks expired stock. An hourly scan raises low-stock and expiry alerts, de-duplicated and auto-resolved, with email delivery to the people who need them.
+
+<!-- Slide number: 17 -->
+STOCK MOVEMENTS & LOCATIONS
+Counts, transfers and adjustments, all on the ledger
+![Physical count: system vs counted](Image 0)
+![Inter-location transfer](Image 1)
+![Adjustment with reason code](Image 2)
+![Locations & warehouses](Image 3)
+Physical count: system vs counted
+Inter-location transfer
+Adjustment with reason code
+Locations & warehouses
+Variance-only posting
+Two-sided transfers
+Reasoned adjustments
+Multi-outlet
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+![preencoded.png](Image 7)
+Counts post just the difference.
+Out of one location, into another.
+Damage, shrinkage, correction codes.
+Outlet switcher and user binding.
+17
+
+### Notes:
+Every way stock changes outside a sale is covered: adjustments with reason codes, transfers between the main store and back warehouse, physical counts that post only the variance, and as many locations as the business needs. The outlet switcher filters everything by outlet.
+
+<!-- Slide number: 18 -->
+PURCHASING
+Purchase with control, receive with proof
+medicare.heeliks.com/purchases/orders
+Draft ? approve ? receive
+![preencoded.png](Image 0)
+![Purchase order with ordered vs received quantities and its goods receipts; inset: PO pipeline by status](Image 4)
+Statuses: draft, approved, partial, received, cancelled.
+Separate approval right
+![preencoded.png](Image 1)
+purchase.approve is its own permission; staff can't self-approve.
+GRN posts stock
+![U01](Image 5)
+![preencoded.png](Image 2)
+Batch, expiry and cost captured per line, against the supplier invoice.
+PO as A4 PDF
+![preencoded.png](Image 3)
+Send a branded purchase order to the vendor.
+Purchase order with ordered vs received quantities and its goods receipts; inset: PO pipeline by status
+18
+
+### Notes:
+Staff raise purchase orders, but only a role with the approve permission can approve them — separation of duties. Goods receipts are the only event that adds stock and cost, capturing batch and expiry per line against the supplier's invoice. POs print as A4 PDFs.
+
+<!-- Slide number: 19 -->
+RECEIVING, REORDER & SUPPLIER RETURNS
+Never run out, never overpay
+![Reorder report ? create PO from this list](Image 1)
+![Goods receipt: supplier invoice, batch, expiry, quantity and cost](Image 0)
+Reorder report ? create PO from this list
+![Supplier returns with debit notes](Image 2)
+Goods receipt: supplier invoice, batch, expiry, quantity and cost
+Supplier returns with debit notes
+Suggested reorder
+One-click PO
+Supplier returns
+Invoice matched
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+Below-level items with order quantity.
+Turn the reorder list into a PO.
+Return-out posts stock and a debit note.
+GRN records the supplier invoice no.
+19
+
+### Notes:
+The reorder report lists everything below its reorder level with a suggested quantity and turns it into a purchase order in one click. Goods receipts carry the full batch detail. Damaged or short-dated goods go back with a supplier return that issues a debit note.
+
+<!-- Slide number: 20 -->
+PARTNERS
+One party master for everyone you buy from and sell to
+medicare.heeliks.com/customers
+One party, many roles
+![preencoded.png](Image 0)
+![Customers with GSTIN, contact, credit terms and limits, including B2B accounts; inset: vendors](Image 4)
+Vendor, supplier, manufacturer and customer flags.
+GSTIN & state
+![preencoded.png](Image 1)
+Drives CGST/SGST vs IGST place of supply.
+Credit terms
+![P01](Image 5)
+![preencoded.png](Image 2)
+Credit days and limit, checked on orders.
+Opening balances
+![preencoded.png](Image 3)
+Carry receivables over at go-live.
+Customers with GSTIN, contact, credit terms and limits, including B2B accounts; inset: vendors
+20
+
+### Notes:
+Vendors, suppliers, manufacturers and customers share one party model, so a business that both buys and sells is one record. GSTIN and state code drive the place of supply for tax; credit days, credit limits and opening balances drive B2B terms.
+
+<!-- Slide number: 21 -->
+![B06](Image 0)
+PILLAR 3 · DISTRIBUTE
+From purchase order to paid, on one timeline
+![B12](Image 1)
+Sales orders, invoices, delivery challans, proof of delivery and receipts — distributor-grade order-to-cash on the same stock truth.
+Order with timeline · delivery challan with POD
+21
+
+### Notes:
+Pillar three is for distributors and B2B sellers — available on the Business plan. It runs the full order-to-cash cycle on the same ledger as the counter.
+
+<!-- Slide number: 22 -->
+SALES ORDERS
+Every order's story on one timeline
+medicare.heeliks.com/orders
+Draft ? confirmed
+![preencoded.png](Image 0)
+![Order detail: lines, invoices, challans, money position and timeline; inset: orders in every state (demo data)](Image 4)
+Confirmation reserves stock; advance terms recorded.
+Invoice from order
+![preencoded.png](Image 1)
+The tax event — part or full, against the order.
+Full timeline
+![B01](Image 5)
+![preencoded.png](Image 2)
+Every action, user and time; audit pack export.
+Credit checks
+![preencoded.png](Image 3)
+Customer credit position checked on confirmation.
+Order detail: lines, invoices, challans, money position and timeline; inset: orders in every state (demo data)
+22
+
+### Notes:
+A confirmed order reserves stock without moving it; available-to-promise is computed, so it can never drift. The order page shows money position, invoices, challans and a time-stamped timeline of every step — and exports an audit pack.
+
+<!-- Slide number: 23 -->
+DISPATCH & DELIVERY
+Ship in parts, invoice once, prove delivery
+![Challans by status](Image 0)
+![Pending dispatch list](Image 1)
+![Challan: transport, POD](Image 2)
+![Challan PDF (no prices)](Image 3)
+Challans by status
+Pending dispatch list
+Challan: transport, POD
+Challan PDF (no prices)
+Dispatch moves stock
+Many challans
+Transport details
+Proof of delivery
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+![preencoded.png](Image 7)
+Reservation consumed on dispatch.
+Part-shipments, one invoice.
+Vehicle, LR, e-way bill no.
+Receiver and time recorded.
+23
+
+### Notes:
+Stock leaves only when a delivery challan is dispatched. One invoice can ship as several consignments; each challan carries transporter, vehicle, LR and the e-way bill number from the GST portal. The pending-dispatch list is the warehouse's picking list, and proof of delivery closes the physical loop.
+
+<!-- Slide number: 24 -->
+RECEIPTS & CUSTOMER LEDGER
+Know who owes what, and since when
+medicare.heeliks.com/customers/19/ledger
+Receipts & allocation
+![preencoded.png](Image 0)
+![Customer ledger for Sunrise Multispeciality Hospital: invoices, receipts, running balance; inset: receipt allocation](Image 4)
+Bank, UPI or cheque, allocated to invoices.
+Bounced instruments
+![preencoded.png](Image 1)
+Mark bounced; the ledger reverses it.
+Append-only ledger
+![B14](Image 5)
+![preencoded.png](Image 2)
+Statements that always tie out; PDF and Excel.
+AR aging
+![preencoded.png](Image 3)
+Overdue by bucket, per customer.
+Customer ledger for Sunrise Multispeciality Hospital: invoices, receipts, running balance; inset: receipt allocation
+24
+
+### Notes:
+Customer receipts are allocated against invoices and posted to an append-only customer ledger, so the statement always ties out. Here is Sunrise Multispeciality Hospital with an open balance; aging buckets every open invoice by days past due.
+
+<!-- Slide number: 25 -->
+ORDER BOOK & COLLECTIONS
+The whole pipeline, from booked to banked
+![Order book: ordered, delivered, invoiced](Image 0)
+![Collections: receivables, bounces, limits](Image 1)
+![AR aging at Titan Equipment (industrial)](Image 2)
+Order book: ordered, delivered, invoiced
+Collections: receivables, bounces, limits
+AR aging at Titan Equipment (industrial)
+Order book
+Collections
+Exportable
+Plan-gated module
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+Open value, advance received, balance due.
+Receivables, bounces, limit breaches.
+Every B2B report to Excel or PDF.
+On for Business; fails closed when off.
+25
+
+### Notes:
+The order book shows every open order with ordered, delivered and invoiced quantities and the advance and balance. The collections report shows receivables, bounced instruments and credit-limit breaches. The same module runs in the industrial workspace for Titan Equipment.
+
+<!-- Slide number: 26 -->
+![D01](Image 0)
+PILLAR 4 · INSIGHT & COMPLY
+Answers in one click, filings without the scramble
+![Q05](Image 1)
+Owner dashboard, 21 reports, GST packs and branded Excel and PDF exports.
+Owner dashboard · GSTR-1 export
+26
+
+### Notes:
+Pillar four turns the ledger into answers — for the owner every morning, and for the accountant every month.
+
+<!-- Slide number: 27 -->
+OWNER DASHBOARD
+Your whole business before the first coffee
+medicare.heeliks.com
+Live KPIs
+![preencoded.png](Image 0)
+![MediCare Pharmacy dashboard (demo data); inset: the same view at Titan Equipment, an industrial distributor](Image 4)
+Today's sales, bills, low stock and expiry at a glance.
+Trend & top sellers
+![preencoded.png](Image 1)
+7- or 14-day trend; top products by revenue.
+Actionable alerts
+![Z41](Image 5)
+![preencoded.png](Image 2)
+Low-stock and expiry items, one click away.
+Outlet switcher
+![preencoded.png](Image 3)
+All outlets, or one store at a time.
+MediCare Pharmacy dashboard (demo data); inset: the same view at Titan Equipment, an industrial distributor
+27
+
+### Notes:
+This is the owner's morning screen: today's sales and transactions, low-stock and expiring counts, the sales trend, top products by revenue, live stock alerts and the latest invoices. No report to run, and the outlet switcher narrows it to one store.
+
+<!-- Slide number: 28 -->
+REPORTS
+Twenty-one reports, one click to Excel
+![Sales: net, tax, profit and margin](Image 1)
+![Report hub — daily, sales, inventory, purchases, compliance, B2B](Image 0)
+Sales: net, tax, profit and margin
+![Inventory valuation by batch](Image 2)
+Report hub — daily, sales, inventory, purchases, compliance, B2B
+Inventory valuation by batch
+21 reports
+Filter & group by
+Excel / PDF / CSV
+Fast read-model
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+Sales to shrinkage to AR aging.
+Period, outlet, product, tender.
+Branded, frozen headers, totals.
+Pre-aggregated daily summaries.
+28
+
+### Notes:
+The report hub groups twenty-one reports into daily, sales, inventory, purchases, compliance and B2B. Every report filters by period and outlet, groups by product, category or tender, and exports. Daily figures come from a pre-aggregated read-model, so they open fast.
+
+<!-- Slide number: 29 -->
+GST COMPLIANCE
+GST-ready from the very first bill
+![Tax / GST report: output tax by rate](Image 0)
+![GSTR-1 export: B2B, B2CS, HSN summary](Image 1)
+![Document-series register: gap check](Image 2)
+Tax / GST report: output tax by rate
+GSTR-1 export: B2B, B2CS, HSN summary
+Document-series register: gap check
+CGST / SGST / IGST
+GSTR-1 ready
+s.34 credit / debit notes
+Gapless series
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+Split by place of supply on every line.
+B2B, B2C and HSN sections, Excel export.
+Standalone notes without fake goods moves.
+Fiscal-year numbering, audited for gaps.
+29
+
+### Notes:
+Tax is split into CGST and SGST or IGST by place of supply and summarised by rate and HSN. GSTR-1 exports B2B and B2C sections for filing. Credit and debit notes cover the section 34 reasons, and the document-series register proves there are no gaps in invoice numbering.
+
+<!-- Slide number: 30 -->
+DOCUMENTS & EXPORTS
+Documents your accountant will actually love
+![Sales report ? Excel](Image 0)
+![Inventory valuation ? PDF](Image 1)
+![Purchase order ? PDF](Image 2)
+![Tax invoice ? A4 PDF](Image 3)
+Sales report ? Excel
+Inventory valuation ? PDF
+Purchase order ? PDF
+Tax invoice ? A4 PDF
+Branded Excel
+PDF documents
+CSV for anything
+Print-ready
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+![preencoded.png](Image 7)
+Frozen headers, totals, filters.
+POs, invoices, challans, receipts.
+Feed BI tools and accountants.
+A4 and thermal layouts built in.
+30
+
+### Notes:
+These are real files exported by HeeLIKS from the demo workspace, rendered page one: a branded Excel sales report, the inventory valuation PDF, a purchase order PDF and an A4 tax invoice. No copy-paste into spreadsheets.
+
+<!-- Slide number: 31 -->
+ANALYTICS
+Find the leaks: slow stock, price creep, shrinkage
+![Slow-moving stock: capital locked by item (demo data)](Image 0)
+![Purchase price variance: rate history per product](Image 1)
+Slow-moving stock: capital locked by item (demo data)
+Purchase price variance: rate history per product
+Shrinkage & discounts
+Vendor scorecard & spend
+Customer analytics
+Day book & movement
+![preencoded.png](Image 2)
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+Write-offs by reason; discounts by cashier.
+Value, returns and share by vendor.
+Top customers, last purchase, credit.
+Every document of the day; stock moves.
+31
+
+### Notes:
+Beyond sales, HeeLIKS reports where money leaks: capital locked in slow-moving stock, purchase price variance by product, shrinkage by reason, discounts by cashier, vendor scorecards, spend, committed spend, customer analytics and the daily day book.
+
+<!-- Slide number: 32 -->
+MORE REPORTS
+Every question your accountant asks, answered
+![Purchases by product](Image 0)
+![Stock movement ledger](Image 1)
+![Discounts by cashier](Image 2)
+![Shrinkage by reason](Image 3)
+Purchases by product
+Stock movement ledger
+Discounts by cashier
+Shrinkage by reason
+![Customer analytics](Image 4)
+![Vendor scorecard](Image 5)
+![Day book: every document of the day](Image 6)
+![Committed spend (open POs)](Image 7)
+Customer analytics
+Vendor scorecard
+Day book: every document of the day
+Committed spend (open POs)
+32
+
+### Notes:
+A quick tour of eight more of the twenty-one reports, all from the same demo workspace: purchases, stock movement, discounts by cashier, shrinkage by reason, customer analytics, vendor scorecard, spend analysis and committed spend on open purchase orders. Each one filters, groups and exports to Excel or PDF.
+
+<!-- Slide number: 33 -->
+![O01](Image 0)
+PILLAR 5 · GOVERN & SCALE
+Secure by construction, live in days
+![T07](Image 1)
+Onboarding and import, two-factor security, roles and audit, settings, subscriptions and the operator console.
+Guided go-live · audit log with before ? after
+33
+
+### Notes:
+Pillar five is what makes HeeLIKS enterprise-ready: how you get onto it, how it is secured, and how it is governed and run.
+
+<!-- Slide number: 34 -->
+ONBOARDING & GO-LIVE
+Live in days, not months
+medicare.heeliks.com/settings/onboarding
+Guided go-live
+![preencoded.png](Image 0)
+![Go-live checklist with completed steps; inset: Tally Masters XML upload](Image 4)
+Fresh start or bring-your-data, step by step.
+One-workbook import
+![preencoded.png](Image 1)
+All masters, stock and balances in one Excel file.
+Tally XML converter
+![O04](Image 5)
+![preencoded.png](Image 2)
+Units, groups, godowns, items, debtors, creditors.
+Reconciliation
+![preencoded.png](Image 3)
+Declared vs imported totals must hit zero variance.
+Go-live checklist with completed steps; inset: Tally Masters XML upload
+34
+
+### Notes:
+A guided go-live journey walks the customer through foundation, catalog and stock, and people and money. Data comes in from one Excel workbook or straight from Tally masters XML. Reconciliation of control totals proves zero variance before go-live, after which opening-data undo is locked.
+
+<!-- Slide number: 35 -->
+DATA IMPORT & HISTORY
+Import safely: stage, dry-run, commit, undo
+![Read-only history archive (Tally docs)](Image 1)
+![Per-entity import with template, mapping and dry-run validation](Image 0)
+Read-only history archive (Tally docs)
+![Workbook upload: stage all sheets](Image 2)
+Per-entity import with template, mapping and dry-run validation
+Workbook upload: stage all sheets
+Dry-run first
+Exact undo
+Templates
+History archive
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+Validate every row with zero writes.
+Roll back a committed batch cleanly.
+Generated from the parser's own spec.
+Old invoices searchable, never posted.
+35
+
+### Notes:
+Every import is staged and validated with zero writes first; only then is it committed atomically, and any batch can be undone exactly. Pre-cutover history from the old system lives in a read-only archive with scanned attachments, so it never pollutes live reports.
+
+<!-- Slide number: 36 -->
+SECURITY & SIGN-IN
+Two-factor for every user, no exceptions
+![Workspace sign-in](Image 0)
+![Forced 2FA enrolment (QR)](Image 1)
+![6-digit TOTP verify](Image 2)
+![One session per user](Image 3)
+Workspace sign-in
+Forced 2FA enrolment (QR)
+6-digit TOTP verify
+One session per user
+Argon2 + TOTP
+Lockout & limits
+Idle sign-out
+Encrypted secrets
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+![preencoded.png](Image 7)
+Backup codes, email OTP fallback.
+5 strikes; rate-limited endpoints.
+8-hour sliding inactivity expiry.
+TOTP secrets Fernet-encrypted.
+36
+
+### Notes:
+Two-factor authentication is enforced, not optional: first sign-in forces enrolment with a QR code and backup codes. Only one active session is allowed per user — signing in elsewhere prompts to end the other session. Five failed attempts lock the account, endpoints are rate-limited and secrets are encrypted at rest.
+
+<!-- Slide number: 37 -->
+ROLES & PERMISSIONS
+Everyone gets exactly the access they need
+![Cashier's 40% discount blocked by 5% cap](Image 1)
+![Users & roles: online status, outlets, force sign-out, custom roles](Image 0)
+Cashier's 40% discount blocked by 5% cap
+![Cashier opening settings: not permitted](Image 2)
+Users & roles: online status, outlets, force sign-out, custom roles
+Cashier opening settings: not permitted
+10 permissions
+5 roles + custom
+Discount caps
+Outlet binding
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+Granular codes behind every view.
+Admin, Manager, Cashier, Staff, Auditor.
+Cashier 5%, Manager 20%.
+Restrict users to their stores.
+37
+
+### Notes:
+Users and roles are managed here — online status, force sign-out, outlet binding and custom roles. Ten permission codes underpin five default roles. Guard-rails are enforced in the product: a cashier trying a forty-percent discount is blocked, and opening a settings page they are not allowed to see returns 'Not permitted' and writes an audit entry.
+
+<!-- Slide number: 38 -->
+AUDIT TRAIL
+Every change: who, when, before and after
+medicare.heeliks.com/settings/audit
+Append-only
+![preencoded.png](Image 0)
+![Workspace audit log with field-level before ? after diffs and denied-access events; inset: platform operator audit](Image 4)
+Entries can't be edited or deleted, not even by admins.
+Field-level diffs
+![preencoded.png](Image 1)
+Before ? after for every changed setting.
+Security events
+![M12](Image 5)
+![preencoded.png](Image 2)
+Denied access logged with user, path and IP.
+Operator audit too
+![preencoded.png](Image 3)
+Suspend, extend, module and payment actions.
+Workspace audit log with field-level before ? after diffs and denied-access events; inset: platform operator audit
+38
+
+### Notes:
+The audit log is append-only. Settings changes show exactly which fields changed from what to what, and security events such as denied access are recorded with the user and IP. The operator console keeps its own audit trail of every lifecycle action, so nobody can quietly rewrite history.
+
+<!-- Slide number: 39 -->
+SETTINGS
+Configure the business without calling IT
+![Outlet profile: legal name, GSTIN, address, logo](Image 0)
+![Invoice & receipt: prefix, header, live preview](Image 1)
+![Built-in, role-aware user manual](Image 2)
+Outlet profile: legal name, GSTIN, address, logo
+Invoice & receipt: prefix, header, live preview
+Built-in, role-aware user manual
+Outlet profile
+Tax & currency
+Invoice & receipt
+Help built in
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+Legal and display name, GSTIN, branding logo.
+Default tax rate, INR with Indian grouping.
+Prefix, header text, return window.
+Searchable manual for each role.
+39
+
+### Notes:
+Administrators configure the outlet profile with GSTIN and logo, tax and currency, invoice numbering and receipt text, and alert thresholds — all self-service and all audited. A role-aware user manual is built into the app.
+
+<!-- Slide number: 40 -->
+CONTROLS BEHIND EVERY SCREEN
+Masters, notes and controls, all self-service
+![Units & conversions](Image 0)
+![GST tax classes](Image 1)
+![Bulk product import](Image 2)
+![Tax & currency](Image 3)
+Units & conversions
+GST tax classes
+Bulk product import
+Tax & currency
+![Credit & debit notes (s.34)](Image 4)
+![Cutover reconciliation](Image 5)
+![Self-service password reset](Image 6)
+![Payments ledger (operator)](Image 7)
+Credit & debit notes (s.34)
+Cutover reconciliation
+Self-service password reset
+Payments ledger (operator)
+40
+
+### Notes:
+The building blocks administrators manage themselves: units with conversions, GST tax classes, bulk product import, tax and currency, standalone credit and debit notes, cutover reconciliation, self-service password reset, and — for the HeeLIKS operator — the payments ledger.
+
+<!-- Slide number: 41 -->
+SUBSCRIPTION & BILLING
+Self-serve from sign-up to go-live
+![Public pricing: monthly, quarterly, yearly](Image 1)
+![Subscription: plan, renewal, usage meters, add-ons, upgrade path](Image 0)
+Public pricing: monthly, quarterly, yearly
+![Self-serve signup with free trial](Image 2)
+Subscription: plan, renewal, usage meters, add-ons, upgrade path
+Self-serve signup with free trial
+Razorpay checkout
+Usage meters
+Trial & grace
+Add-ons
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+HMAC-verified payment activates.
+Seats, products, outlets per plan.
+14-day trial, 15-day grace period.
+Extra seats and outlets on demand.
+41
+
+### Notes:
+A prospect picks a plan on the website, signs up and gets a workspace provisioned on its own database — with a fourteen-day trial or Razorpay checkout. Inside, the subscription page shows plan, renewal, usage meters for seats, products and outlets, and add-ons. Unpaid workspaces get a fifteen-day grace period before suspension.
+
+<!-- Slide number: 42 -->
+PLATFORM CONSOLE
+Run every customer workspace from one console
+heeliks.com/platform
+Fleet at a glance
+![preencoded.png](Image 0)
+![Platform dashboard: tenants, subscriptions, collected and expiring; inset: a trial tenant's lifecycle actions](Image 4)
+Tenants, subscriptions, renewals, payments.
+Lifecycle actions
+![preencoded.png](Image 1)
+Extend, suspend, reactivate, cancel, pay links.
+Module overrides
+![M06](Image 5)
+![preencoded.png](Image 2)
+Enable B2B for one tenant without a plan change.
+Operator audit
+![preencoded.png](Image 3)
+Every console action logged; 2FA mandatory.
+Platform dashboard: tenants, subscriptions, collected and expiring; inset: a trial tenant's lifecycle actions
+42
+
+### Notes:
+The operator console is a separate, 2FA-protected application. It shows fleet health, renewals and payments, and gives lifecycle actions per tenant — extend, suspend, reactivate, payment links, module overrides and admin password reset. It sees tenant metadata and usage counts only, never business data.
+
+<!-- Slide number: 43 -->
+ISOLATION · USP DEEP-DIVE
+Every customer gets its own database
+![Five live tenants, each on its own stocksage_<slug> database](Image 0)
+![Suspended workspace: the 402 gate blocks every login](Image 1)
+Five live tenants, each on its own stocksage_<slug> database
+Suspended workspace: the 402 gate blocks every login
+Database per tenant
+Fail-closed routing
+Lifecycle gate
+Gated tenant files
+![preencoded.png](Image 2)
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+Created and migrated at provisioning.
+Subdomain ? tenant before auth.
+Suspended or unpaid: no access.
+Per-tenant storage, RBAC-checked.
+43
+
+### Notes:
+This is our strongest architectural differentiator. Each workspace — five live tenants in this demo — runs on its own MySQL database, resolved from the subdomain before any session or login is touched. An unknown subdomain gets a 404; a suspended one gets the upgrade gate you see here. There are no shared business tables to leak across customers.
+
+<!-- Slide number: 44 -->
+PERSONA JOURNEYS
+Same platform, a different view for every role
+![Cashier: POS-first menu](Image 0)
+![Manager: stock & buying](Image 1)
+![Auditor: read-only menu](Image 2)
+![Owner: everything](Image 3)
+Cashier: POS-first menu
+Manager: stock & buying
+Auditor: read-only menu
+Owner: everything
+Cashier
+Manager
+Auditor
+Owner
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+![preencoded.png](Image 7)
+POS, sales, returns.
+Stock, buying, reports.
+Read-only, logged.
+Full control, billing.
+44
+
+### Notes:
+Here is the same MediCare workspace signed in as four different people. The cashier gets a POS-first menu, the manager sees purchasing and stock, the auditor has read-only reports — note that the auditor's attempt to open the POS is refused — and the owner sees everything.
+
+<!-- Slide number: 45 -->
+INDUSTRY EDITIONS
+One platform, shaped for five industries
+Pharmacy & medical
+![preencoded.png](Image 0)
+![Urban Threads Boutique — retail](Image 5)
+![FreshMart Grocery — grocery](Image 6)
+Batch, expiry, FEFO, Schedule-ready GST.
+Retail & boutiques
+![preencoded.png](Image 1)
+Size and colour variants, fast checkout.
+Grocery & kirana
+![preencoded.png](Image 2)
+Urban Threads Boutique — retail
+FreshMart Grocery — grocery
+Perishables, loose and packed units.
+![Page Palace Books — books](Image 7)
+![Titan Equipment & Spares — industrial](Image 8)
+Bookstores
+![preencoded.png](Image 3)
+Large catalogs by title and edition.
+Industrial spares
+![preencoded.png](Image 4)
+High-value parts, B2B orders, credit.
+Page Palace Books — books
+Titan Equipment & Spares — industrial
+45
+
+### Notes:
+HeeLIKS ships with five industry editions. These are four live workspaces besides MediCare: Urban Threads boutique with size and colour variants, FreshMart grocery with perishable batches, Page Palace books, and Titan Equipment for industrial spares with B2B on the Business plan.
+
+<!-- Slide number: 46 -->
+POINT OF SALE BY INDUSTRY
+The same counter, tuned to every shelf
+![Urban Threads: fashion bill](Image 0)
+![FreshMart: grocery bill](Image 1)
+![Titan Equipment: spares bill](Image 2)
+Urban Threads: fashion bill
+FreshMart: grocery bill
+Titan Equipment: spares bill
+Variants
+Perishables
+High-value B2B
+One engine
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+Size and colour as separate SKUs with shared masters.
+Batch and expiry for dairy, frozen and packaged food.
+Credit limits, challans and AR aging for distributors.
+Same ledger, GST, RBAC and audit in every edition.
+46
+
+### Notes:
+The same POS in three other industries: a boutique bill with kurtas, jeans and dresses; a grocery bill with staples; and an industrial bill with bearings, pumps and valves running into tens of thousands of rupees. Same engine, same ledger, same security.
+
+<!-- Slide number: 47 -->
+EVERYDAY EXPERIENCE
+Designed for long shifts and busy counters
+![Dark-mode POS](Image 1)
+![Dark mode across the app — inventory shown (demo data)](Image 0)
+Dark-mode POS
+![Outlet switcher on every page](Image 2)
+Dark mode across the app — inventory shown (demo data)
+Outlet switcher on every page
+Dark mode
+Fast by design
+Responsive web
+Help in context
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+Every screen, one toggle.
+Server-rendered, light JavaScript.
+Works in any modern browser.
+Role-aware manual built in.
+47
+
+### Notes:
+Small things matter on a twelve-hour shift: a full dark mode that is easy on the eyes, a fast keyboard-driven POS, and the outlet switcher on every page. The REST API exposes the same data to other systems, with the same permissions.
+
+<!-- Slide number: 48 -->
+ARCHITECTURE
+Isolation-first, multi-tenant by design
+Django 5 app tier (Gunicorn)
+Browsers & counters
+POS, back office, console
+Control DB
+tenants · subscriptions · payments · platform audit
+1 · Tenant resolver
+subdomain ? tenant DB, fail-closed
+Nginx
+*.heeliks.com wildcard DNS + TLS, gated file serving
+Scanners & printers
+HID barcode, thermal, A4
+stocksage_medicare
+2 · Single session + idle expiry
+one active session per user
+stocksage_freshmart
+3 · Auth: Argon2 + TOTP
+lockout, rate limits
+stocksage_<slug> · one per tenant
+Integrations
+REST API clients, Tally XML
+Redis
+cache, limits
+Celery beat
+alerts, billing, imports
+4 · RBAC on every view & API
+10 permission codes
+Payments & email
+Razorpay, O365 SMTP
+5 · Services + audit log
+ledger, POS, orders, imports
+Tenant file store
+per-tenant dir, RBAC-gated
+Each tenant's data lives only in its own database; the control DB holds metadata. Source: config/settings/routers.py, apps/common/middleware.py, apps/control/provisioning.py.
+48
+
+### Notes:
+Requests arrive on a wildcard subdomain behind Nginx with wildcard TLS. Django resolves the tenant from the subdomain before session and auth, binds that tenant's own database, then applies single-session, RBAC and audit. The control database holds only the tenant registry, subscriptions and payments. Redis backs cache and rate limits; Celery beat runs hourly alert scans, daily subscription enforcement and the import queue.
+
+<!-- Slide number: 49 -->
+INTEGRATIONS
+Connects to the tools you already run
+Razorpay
+medicare.heeliks.com/api/products/
+![preencoded.png](Image 0)
+![REST API: GET /api/products/ — tenant-scoped, RBAC-checked JSON](Image 6)
+Checkout, HMAC-verified webhooks.
+Office 365 / SMTP
+![preencoded.png](Image 1)
+Receipts, alerts, resets, OTP.
+Tally ERP
+![preencoded.png](Image 2)
+Masters XML import with opening stock.
+REST API: GET /api/products/ — tenant-scoped, RBAC-checked JSON
+Excel & CSV
+![preencoded.png](Image 3)
+Import templates and every export.
+![GET /api/whoami/ — token or session authentication](Image 7)
+Scanners & printers
+![preencoded.png](Image 4)
+HID barcode, thermal and A4 output.
+Cloudflare Turnstile
+![preencoded.png](Image 5)
+Bot protection on public forms.
+GET /api/whoami/ — token or session authentication
+49
+
+### Notes:
+HeeLIKS integrates where it matters: Razorpay for subscription payments with HMAC-verified webhooks, Office 365 or any SMTP for email, Cloudflare Turnstile on public forms, Tally masters import, Excel and CSV everywhere, and a token-authenticated REST API that enforces the same RBAC as the app — shown here returning live products.
+
+<!-- Slide number: 50 -->
+TECHNOLOGY
+A proven, boring-in-the-best-way stack
+![preencoded.png](Image 0)
+![preencoded.png](Image 1)
+![preencoded.png](Image 2)
+![preencoded.png](Image 3)
+Python 3.12 · Django 5
+MySQL 8
+Redis · Celery beat
+Tailwind UI
+Django REST Framework API layer.
+One control DB + one DB per tenant.
+Cache, rate limits, scheduled jobs.
+Server-rendered, dark mode, responsive.
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+![preencoded.png](Image 6)
+![preencoded.png](Image 7)
+ReportLab · openpyxl
+Argon2 · pyotp · Fernet
+Gunicorn · Nginx · Docker
+CI quality gates
+PDF documents and Excel exports.
+Hashing, TOTP, encryption at rest.
+Wildcard TLS, systemd, compose.
+black, isort, flake8, 348 tests.
+Source: requirements/base.txt, docker-compose.yml, Dockerfile, .github/workflows/ci.yml, docs/Deployment.html.
+50
+
+### Notes:
+HeeLIKS is built on a mainstream, maintainable stack: Python 3.12 and Django 5 with Django REST Framework, MySQL 8, Redis and Celery, Tailwind CSS, ReportLab and openpyxl for documents. It deploys with Gunicorn and Nginx on Ubuntu or in Docker, with CI running lint, 348 tests on MySQL and a migrations check.
+
+<!-- Slide number: 51 -->
+WHY SWITCH
+Today versus with HeeLIKS
+
+|  | Today | With HeeLIKS |
+| --- | --- | --- |
+| Stock position | Spreadsheet, updated at day end | Append-only ledger, updated with every sale |
+| Expiry | Found at audit, written off | FEFO selling plus 30-day expiry alerts |
+| GST filing | Rebuilt from bill books | Tax report and GSTR-1 export in one click |
+| Access | Shared logins, any discount | Personal 2FA logins, roles, discount caps |
+| B2B dispatch | Paper challans and khata | Order ? challan ? POD ? receipt ? ledger |
+| Reporting | Hand-built Excel | 21 reports, branded Excel and PDF |
+| Data | Desktop or shared server | Own isolated database per business |
+| Go-live | Weeks of manual entry | Tally / Excel import with undo and reconciliation |
+
+51
+
+### Notes:
+Here is the before-and-after in one table. Every right-hand cell is a capability you have seen working in the product today.
+
+<!-- Slide number: 52 -->
+INDICATIVE ROLLOUT
+From kick-off to every outlet live in about a month
+![preencoded.png](Image 0)
+![preencoded.png](Image 1)
+![preencoded.png](Image 2)
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+Week 0
+Week 1
+Week 1–2
+Week 2–3
+Week 3–4
+Discover
+Provision
+Import
+Pilot
+Go live
+Outlets, roles, plan and data sources agreed.
+Workspace on its own DB; profile, tax, users.
+Workbook or Tally import, dry-run, reconcile.
+Train by role; run one outlet live.
+Go-Live lock; roll out remaining outlets.
+Indicative only — confirm timing per engagement (number of outlets, data quality, training availability).
+52
+
+### Notes:
+This is an indicative plan for a single-outlet pilot followed by rollout — actual timing depends on data quality and the number of outlets. The steps map to real product capabilities: self-serve provisioning, the guided go-live, workbook and Tally import with reconciliation, and role-based training.
+
+<!-- Slide number: 53 -->
+ROADMAP
+What's next on the HeeLIKS roadmap
+e-Invoice (IRN)
+e-Way bill generation
+Tally export
+![preencoded.png](Image 0)
+![preencoded.png](Image 1)
+![preencoded.png](Image 2)
+Generate IRN and signed QR via the GST portal.
+Today the number is recorded; next, generate it.
+Push vouchers back to Tally for accounting.
+Quotations
+Customer portal
+Payables workflow
+![preencoded.png](Image 3)
+![preencoded.png](Image 4)
+![preencoded.png](Image 5)
+Quote ? order conversion for B2B sales.
+B2B customers view orders, invoices, statements.
+Vendor invoices and supplier payments.
+Roadmap items from docs/Roadmap.md (Phase D) — not in the current release; timelines to be confirmed.
+53
+
+### Notes:
+To be transparent: these items are in the product roadmap documents but are not in the shipping product today. E-way bill numbers are recorded today, but generation through the GST portal is a roadmap item, as are e-invoicing, Tally export, quotations and a customer portal.
+
+<!-- Slide number: 54 -->
+![D:/MavionTech_sales/branding/maviontech-logo.png](Image 0)
+MavionTech
+Enterprise Software Solutions
+NEXT STEP
+![D:/MavionTech_sales/branding/maviontech-logo.png](Image 1)
+MavionTech Pvt. Ltd.
+Put one outlet on HeeLIKS — with your own data
+Enterprise Software Solutions
+maviontech.com
+We provision your workspace, import your product list and opening stock, reconcile it with you and train your team by role.
+![D:\heeliks\deck_work\build\prep\heeliks_tile.png](Image 2)
+HeeLIKS
+Inventory & POS Platform
+Book a demo
+Plan a pilot
+Holistic Enterprise Engine for Logistics & Inventory Keeping System
+Crafted by MavionTech Pvt. Ltd. · Enterprise Software Solutions · maviontech.com
+
+### Notes:
+Our ask is simple: pick one outlet and let us run a pilot on your own product list and opening stock. We provision the workspace, import your data, reconcile it with you and train your team by role. Book a demo with your data, or plan the pilot with us today.

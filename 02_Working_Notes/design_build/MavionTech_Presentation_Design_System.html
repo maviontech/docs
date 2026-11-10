@@ -1,0 +1,101 @@
+<!doctype html><html><head><meta charset='utf-8'><style>
+@page { size: 297mm 167mm; margin: 0; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Calibri, 'Segoe UI', Arial, sans-serif; color: #0F1B2D; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.page { width: 297mm; height: 167mm; padding: 13mm 16mm 12mm; position: relative; page-break-after: always; overflow: hidden; background: #fff; }
+.page.dark { background: #0B1A30 url('file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/bg_cover_corporate.png') center/cover; color: #fff; }
+.page.tint { background: #F6F8FB; }
+.kicker { font-size: 9pt; font-weight: 700; letter-spacing: .22em; text-transform: uppercase; color: #A0680A; margin: 0 0 2.5mm; }
+.dark .kicker { color: #F5A623; }
+h1 { font-size: 24pt; margin: 0 0 6mm; line-height: 1.1; }
+h2 { font-size: 13pt; margin: 0 0 2mm; }
+p, li, td { font-size: 10.5pt; line-height: 1.45; color: #3A4A63; }
+.dark p, .dark li { color: #A9B6C9; }
+.foot { position: absolute; left: 16mm; right: 16mm; bottom: 6mm; display: flex; justify-content: space-between; font-size: 7.5pt; color: #5E6E86; }
+.dark .foot { color: #A9B6C9; }
+.foot img { height: 3.6mm; vertical-align: -0.8mm; margin-right: 1.5mm; }
+.grid { display: grid; gap: 5mm; }
+.g2 { grid-template-columns: 1fr 1fr; } .g3 { grid-template-columns: repeat(3, 1fr); } .g4 { grid-template-columns: repeat(4, 1fr); } .g6 { grid-template-columns: repeat(6, 1fr); }
+.card { background: #F6F8FB; border: .3mm solid #DCE3EC; border-radius: 3mm; padding: 4.5mm 5mm; }
+.tint .card { background: #fff; }
+.card p { margin: 0; font-size: 9.5pt; }
+.sw { border-radius: 2.5mm; height: 16mm; padding: 2.5mm 3mm; font-size: 8pt; font-weight: 700; display: flex; flex-direction: column; justify-content: flex-end; border: .3mm solid #DCE3EC; }
+.swl { font-size: 8.5pt; margin-top: 1.5mm; color: #3A4A63; line-height: 1.35; }
+table { border-collapse: collapse; width: 100%; }
+th { text-align: left; font-size: 8.5pt; letter-spacing: .12em; text-transform: uppercase; color: #5E6E86; border-bottom: .4mm solid #0F1B2D; padding: 1.6mm 2mm; }
+td { border-bottom: .3mm solid #DCE3EC; padding: 1.8mm 2mm; vertical-align: top; font-size: 9.5pt; }
+.shot { width: 100%; border-radius: 2mm; border: .3mm solid #DCE3EC; display: block; box-shadow: 0 1.5mm 4mm rgba(11,26,48,.12); }
+.cap { font-size: 8.5pt; color: #5E6E86; margin-top: 1.5mm; }
+.do { color: #12A150; font-weight: 700; } .dont { color: #D64545; font-weight: 700; }
+.big { font-size: 46pt; font-weight: 700; line-height: 1; margin: 0; }
+ul { margin: 0; padding-left: 4.5mm; } li { margin-bottom: 1mm; }
+.chip { display: inline-block; border-radius: 2.2mm; padding: 2mm; width: 11mm; height: 11mm; }
+.spec { font-family: Consolas, monospace; font-size: 8.5pt; color: #0F1B2D; background: #EEF2F7; padding: .3mm 1.2mm; border-radius: 1mm; }
+</style></head><body><section class="page dark">
+      <div style="display:flex;align-items:center;gap:3mm"><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/maviontech-logo.png" style="height:11mm">
+        <div><div style="font-weight:700;font-size:12pt">MavionTech</div><div style="font-size:8.5pt;color:#A9B6C9">Momentum with Vision</div></div></div>
+      <div style="position:absolute;top:52mm;left:16mm;width:170mm">
+        <p class="kicker">MavionTech brand system · v1.0</p>
+        <div style="font-size:38pt;font-weight:700;line-height:1.05;color:#fff">Presentation Design System</div>
+        <p style="font-size:14pt;margin-top:5mm">Canvas, grid, type scale, components and 16 reusable layouts for all six product decks and the corporate catalogue.</p></div>
+      <div class="foot"><span>MavionTech Pvt. Ltd. · Pune, India · maviontech.com</span><span>Draft for approval · 10 Nov 2026</span></div></section><section class="page "><p class="kicker">1 · Canvas &amp; grid</p><h1>13.333 × 7.5 in widescreen, 0.6 in margins</h1>
+<div class="grid" style="grid-template-columns:1.25fr 1fr"><div style="position:relative">
+<img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Desi_02.png" class="shot">
+<div style="position:absolute;inset:0;border-radius:2mm;background:repeating-linear-gradient(90deg,transparent 0,transparent 4.5%,rgba(37,99,235,.06) 4.5%,rgba(37,99,235,.06) 8.3%)"></div></div>
+<table><tr><th>Token</th><th>Value</th></tr>
+<tr><td>Canvas</td><td><span class="spec">LAYOUT_WIDE</span> 13.333 × 7.5 in</td></tr>
+<tr><td>Side margins</td><td>0.6 in (content width 12.13 in)</td></tr>
+<tr><td>Kicker</td><td>y 0.50 in</td></tr><tr><td>Title</td><td>y 0.78 in, one line, max width 11.5 in</td></tr>
+<tr><td>Content zone</td><td>y 1.72 – 6.75 in</td></tr><tr><td>Footer baseline</td><td>y 7.02 in</td></tr>
+<tr><td>Grid</td><td>12 columns, 0.3 in gutter; 2-, 3-, 4- and 5-up splits</td></tr>
+<tr><td>Spacing scale</td><td>0.1 · 0.2 · 0.3 (default gap) · 0.5 · 0.75 in</td></tr></table></div><div class="foot"><span><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/maviontech-logo.png">MavionTech · Presentation Design System</span><span>02</span></div></section><section class="page "><p class="kicker">2 · Type scale</p><h1>Nine styles, one family</h1>
+<table><tr><th>Style</th><th>Size / weight</th><th>Colour</th><th>Use</th></tr>
+<tr><td>Display</td><td>56 pt Bold</td><td>White</td><td>Product name on cover</td></tr>
+<tr><td>Promise</td><td>26 pt Regular</td><td>White</td><td>Cover promise (≤ 2 lines)</td></tr>
+<tr><td>Divider title</td><td>40 pt Bold + 72 pt amber number</td><td>White / Amber</td><td>Section dividers</td></tr>
+<tr><td>Title</td><td>30 pt Bold</td><td>Ink / White</td><td>Every content slide, one line, outcome-led</td></tr>
+<tr><td>Kicker</td><td>11 pt Bold caps, +3 spacing</td><td>Accent / Amber on dark</td><td>Above every title</td></tr>
+<tr><td>H3</td><td>16 pt Bold</td><td>Ink</td><td>Card and feature headings</td></tr>
+<tr><td>Body</td><td>14 pt (12.5 pt min in cards)</td><td>Slate 700</td><td>Descriptions, lists</td></tr>
+<tr><td>Stat</td><td>44 pt Bold (28 pt inline)</td><td>Accent / Amber</td><td>Numbers with a source line</td></tr>
+<tr><td>Caption / footer</td><td>11 pt / 9 pt</td><td>Slate 500</td><td>Screenshot captions, sources, footer</td></tr></table><div class="foot"><span><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/maviontech-logo.png">MavionTech · Presentation Design System</span><span>03</span></div></section><section class="page tint"><p class="kicker">3 · Components</p><h1>Twelve components cover every slide</h1>
+<div class="grid g4" style="gap:4mm"><div class="card" style="padding:3.5mm 4mm"><h2 style="font-size:11.5pt">Kicker + title</h2><p style="font-size:8.8pt">Kicker 0.3 in tall at y 0.50; title at y 0.78. No underline or accent bar beneath titles.</p></div><div class="card" style="padding:3.5mm 4mm"><h2 style="font-size:11.5pt">Card</h2><p style="font-size:8.8pt">Rounded rectangle r 0.10 in, Paper fill (White on tinted slides), 0.75 pt Line border, 0.25 in inner padding. No edge stripes.</p></div><div class="card" style="padding:3.5mm 4mm"><h2 style="font-size:11.5pt">Icon chip</h2><p style="font-size:8.8pt">0.50–0.56 in rounded square, accent at 12% tint, Lucide icon at 52% of the chip in the full accent.</p></div><div class="card" style="padding:3.5mm 4mm"><h2 style="font-size:11.5pt">Screenshot frame</h2><p style="font-size:8.8pt">See Brand Guidelines §6. Chrome 0.26 in, inset 0.04 in, one soft shadow (blur 14, offset 4, 12% opacity).</p></div><div class="card" style="padding:3.5mm 4mm"><h2 style="font-size:11.5pt">Numbered callout</h2><p style="font-size:8.8pt">0.34 in amber circle, Midnight numeral 11 pt bold; repeated on the screenshot and in the caption row.</p></div><div class="card" style="padding:3.5mm 4mm"><h2 style="font-size:11.5pt">Pill chip</h2><p style="font-size:8.8pt">0.38 in tall full-radius pill; on dark: Midnight Raised fill with #2E4468 border.</p></div><div class="card" style="padding:3.5mm 4mm"><h2 style="font-size:11.5pt">Stat tile</h2><p style="font-size:8.8pt">Number 44 pt + label 14 pt; one dark tile per row for rhythm; source line required.</p></div><div class="card" style="padding:3.5mm 4mm"><h2 style="font-size:11.5pt">Comparison row</h2><p style="font-size:8.8pt">Label / Today (muted) / With product (white or Ink, with amber check); 0.75 pt divider lines only.</p></div><div class="card" style="padding:3.5mm 4mm"><h2 style="font-size:11.5pt">Buttons (close)</h2><p style="font-size:8.8pt">Primary: Amber fill, Midnight text. Secondary: Midnight Raised, white text. 0.5 in tall, full radius.</p></div><div class="card" style="padding:3.5mm 4mm"><h2 style="font-size:11.5pt">Tables</h2><p style="font-size:8.8pt">Header caps 10 pt Slate 500 with Ink rule; rows 0.75 pt Line dividers; no vertical rules or zebra fills.</p></div><div class="card" style="padding:3.5mm 4mm"><h2 style="font-size:11.5pt">Charts</h2><p style="font-size:8.8pt">Native PowerPoint charts. Series: accent, then Slate 500, Slate 300. Signal colours for status only. Calibri, no 3D, no chart borders.</p></div><div class="card" style="padding:3.5mm 4mm"><h2 style="font-size:11.5pt">Diagrams</h2><p style="font-size:8.8pt">Native shapes, r 0.08 in boxes, 1.25 pt Slate 300 connectors with triangle heads; one Midnight block marks the core; amber outline marks the control element.</p></div></div><div class="foot"><span><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/maviontech-logo.png">MavionTech · Presentation Design System</span><span>04</span></div></section><section class="page "><p class="kicker">4 · Header, footer &amp; numbering</p><h1>Quiet chrome, consistent position</h1>
+<div class="grid" style="grid-template-columns:1.3fr 1fr"><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Desi_03.png" class="shot"><div><ul>
+<li><b>No header bar.</b> The kicker and title are the header.</li>
+<li><b>Footer left:</b> "Product · Category", 9 pt Slate 500 (on dark: #A9B6C9).</li>
+<li><b>Footer right:</b> MavionTech roundel (0.21 in) + "MavionTech" 9 pt bold, then the slide number.</li>
+<li><b>Slide number:</b> plain arabic numeral at the right margin, 9 pt. Not shown on covers and close.</li>
+<li><b>Sources:</b> 11 pt caption directly above the footer zone, never inside it.</li>
+<li>Footer, logo and number live on the slide layout, never typed on slides.</li></ul></div></div><div class="foot"><span><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/maviontech-logo.png">MavionTech · Presentation Design System</span><span>05</span></div></section><section class="page "><p class="kicker">5 · Covers &amp; dividers</p><h1>Midnight, one glow, the Orbit, and real product</h1>
+<div class="grid g2"><div><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Desi_01.png" class="shot"><p class="cap">Cover · MT_COVER: lockup top-left, kicker, 56 pt product name, category, 26 pt promise, supporting line, three proof pills, two overlapping framed screenshots.</p></div>
+<div><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Reus_02.png" class="shot"><p class="cap">Divider · MT_DIVIDER: 72 pt amber section number, 40 pt title, one sentence. Use only in decks over 20 slides, at most one per act.</p></div></div><div class="foot"><span><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/maviontech-logo.png">MavionTech · Presentation Design System</span><span>06</span></div></section><section class="page "><p class="kicker">6 · Layout library</p><h1>16 reusable layouts (MavionTech_Reusable_Layouts.pptx)</h1>
+<div class="grid g4" style="gap:3.5mm"><div><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Reus_01.png" class="shot"><div class="cap">L01 · Cover</div></div><div><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Reus_02.png" class="shot"><div class="cap">L02 · Section divider</div></div><div><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Reus_03.png" class="shot"><div class="cap">L03 · Problem cards</div></div><div><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Reus_04.png" class="shot"><div class="cap">L04 · Hero + feature column</div></div><div><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Reus_05.png" class="shot"><div class="cap">L05 · Main + two stacked</div></div><div><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Reus_06.png" class="shot"><div class="cap">L06 · Persona columns</div></div><div><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Reus_07.png" class="shot"><div class="cap">L07 · Module map</div></div><div><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Reus_08.png" class="shot"><div class="cap">L08 · Stat tiles</div></div></div><div class="foot"><span><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/maviontech-logo.png">MavionTech · Presentation Design System</span><span>07</span></div></section><section class="page "><p class="kicker">6 · Layout library</p><h1>Layouts 9–16</h1>
+<div class="grid g4" style="gap:3.5mm"><div><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Reus_09.png" class="shot"><div class="cap">L09 · Process</div></div><div><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Reus_10.png" class="shot"><div class="cap">L10 · Architecture layers</div></div><div><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Reus_11.png" class="shot"><div class="cap">L11 · Comparison (dark)</div></div><div><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Reus_12.png" class="shot"><div class="cap">L12 · Pricing</div></div><div><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Reus_13.png" class="shot"><div class="cap">L13 · Timeline</div></div><div><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Reus_14.png" class="shot"><div class="cap">L14 · Roadmap (dark)</div></div><div><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Reus_15.png" class="shot"><div class="cap">L15 · Close</div></div><div><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/renders/Reus_16.png" class="shot"><div class="cap">L16 · Product accents</div></div></div><div class="foot"><span><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/maviontech-logo.png">MavionTech · Presentation Design System</span><span>08</span></div></section><section class="page tint"><p class="kicker">7 · Composition rules</p><h1>How a deck is assembled</h1>
+<div class="grid g2"><div><h2>Rhythm</h2><ul>
+<li>Sandwich: dark cover → light content → one dark value or roadmap slide per act → dark close.</li>
+<li>No two neighbouring slides use the same layout; mirror hero layouts left/right.</li>
+<li>Every content slide has a visual: screenshot, diagram, icon cards or stat tiles. No text-only slides.</li>
+<li>One message per slide; at most 4 features, 6 cards, 5 process stages.</li></ul>
+<h2 style="margin-top:4mm">Text discipline</h2><ul><li>Titles fit on one line at 30 pt (≈ 60 characters).</li><li>Body ≥ 12.5 pt; no text below 9 pt except legal.</li><li>Speaker notes (talk track) on every slide.</li></ul></div>
+<div><h2>Slide masters</h2><table><tr><th>Layout</th><th>Use</th></tr>
+<tr><td>MT_COVER</td><td>Cover and close</td></tr><tr><td>MT_DIVIDER</td><td>Section dividers</td></tr>
+<tr><td>MT_CONTENT</td><td>Default white content</td></tr><tr><td>MT_CONTENT_TINT</td><td>Paper background for card grids</td></tr>
+<tr><td>MT_DARK</td><td>Value, comparison, roadmap</td></tr></table>
+<p class="cap">Each layout carries editable kicker and title placeholders, the footer, logo and slide number.</p></div></div><div class="foot"><span><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/maviontech-logo.png">MavionTech · Presentation Design System</span><span>09</span></div></section><section class="page "><p class="kicker">8 · Product application</p><h1>Applying the system to each product deck</h1>
+<table><tr><th>Product</th><th>Accent</th><th>Cover glow</th><th>Hero screens</th><th>Slides</th><th>Visual gaps before design</th></tr>
+<tr><td>Agastya</td><td>#2563EB</td><td>Cobalt</td><td>a01, s01, r01</td><td>32</td><td>Recapture ~15 weak/empty shots; fix a18</td></tr>
+<tr><td>MavionLearn</td><td>#6D4AFF</td><td>Violet</td><td>Admin dashboard, skill matrix</td><td>21</td><td>All screens at full resolution; logo</td></tr>
+<tr><td>PragyanNxt</td><td>#1C3F94</td><td>Sapphire (lifted)</td><td>Dashboard, proctoring, certificate</td><td>22</td><td>Populated proctoring, reports, certificate, verify page</td></tr>
+<tr><td>ProtonNxt</td><td>#0B8282</td><td>Teal</td><td>Admin dashboard, pipeline</td><td>27</td><td>Redact slides 8/36; capture vendor, calendar, mobile</td></tr>
+<tr><td>SalesPulse CRM</td><td>#D63B42 (proposed)</td><td>Coral</td><td>My Day, masked dialer</td><td>25</td><td>Full-resolution screens; email, WhatsApp, Android</td></tr>
+<tr><td>Vortex HRMS</td><td>#4F46E5</td><td>Indigo</td><td>Employee dashboard, attendance</td><td>23</td><td>Complete capture incl. VortexGo and SnapLens</td></tr></table>
+<p style="margin-top:4mm">The corporate catalogue uses the same tokens with Amber Deep as its accent on light pages and Amber on dark.</p><div class="foot"><span><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/maviontech-logo.png">MavionTech · Presentation Design System</span><span>10</span></div></section><section class="page "><p class="kicker">9 · Production &amp; QA</p><h1>Built as code, checked before it ships</h1>
+<div class="grid g2"><div><h2>Build</h2><ul>
+<li>Decks are generated with pptxgenjs from shared tokens (<span class="spec">mt.js</span>), so a colour or font change applies everywhere.</li>
+<li>Screenshots are cropped by script (top-anchored, sidebar crop for close-ups).</li>
+<li>Icons render from Lucide to 256 px PNG in each accent.</li></ul></div>
+<div><h2>QA checklist</h2><ul>
+<li>Schema validation passes; no folder entries in the zip.</li>
+<li>Opens in PowerPoint without a repair prompt (verified by COM automation).</li>
+<li>Rendered and inspected slide by slide: overflow, overlaps, one-line titles, contrast, alignment.</li>
+<li>Every number has a source; demo data labelled; no unverified claims.</li></ul></div></div><div class="foot"><span><img src="file:///D:/MavionTech_sales_MavionTech_Transformation/02_Working_Notes/design_build/assets/maviontech-logo.png">MavionTech · Presentation Design System</span><span>11</span></div></section></body></html>

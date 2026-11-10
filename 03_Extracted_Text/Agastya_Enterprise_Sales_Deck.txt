@@ -1,0 +1,436 @@
+DECK: Agastya_Enterprise_Sales_Deck.pptx
+Slide size: 13.33 x 7.50 in
+Slides: 32
+Fonts used: []  | total pictures: 168 | slides with notes: 32
+Core props: title='Agastya — Enterprise Sales Deck' author='MavionTech Pvt. Ltd.' created=2026-11-09 19:55:10 modified=2026-11-09 19:55:10 last_mod_by='MavionTech Pvt. Ltd.'
+
+--- SLIDE 1 (layout: BRAND_DARK) pics=5
+  MavionTech | Enterprise Software Solutions
+  ENTERPRISE SALES OVERVIEW
+  Agastya | CLOUD SCHOOL ERP
+  One operating system for every school in your group
+  From admission to report card, fee to fleet — every department, every persona and every campus on one governed platform, with each school's data in its own isolated database.
+  Crafted by MavionTech Pvt. Ltd.   ·   Enterprise Software Solutions   ·   maviontech.com
+  NOTES: Opening. Agastya is MavionTech's multi-tenant school operating system for K-12 groups and chains. Everything shown in this deck is a live screenshot from the running product, populated with a demo school (Greenwood International School: 500 students, 45 staff).
+
+--- SLIDE 2 (layout: CONTENT_TITLED) pics=4
+  THE CHALLENGE
+  School groups still run on registers, spreadsheets and WhatsApp
+  Fragmented tools
+  Admissions in one tool, fees in another, attendance on paper. Nothing reconciles, and every report is a manual export.
+  Leadership flies blind
+  Principals and group heads wait days for numbers that should be live: attendance, collections, marks, leave.
+  Data risk across campuses
+  Student records sit in shared spreadsheets and personal phones, with no access control and no audit trail.
+  Parents out of the loop
+  Updates are scattered across personal WhatsApp groups, paper circulars and phone calls to the front office.
+  2
+  NOTES: The status quo in most school groups: disconnected tools, delayed visibility for leadership, uncontrolled student data, and parent communication over personal channels. Agastya addresses all four on one platform.
+
+--- SLIDE 3 (layout: CONTENT_DARK) pics=4
+  THE PLATFORM
+  Meet Agastya
+  A multi-tenant school operating system: 18 integrated modules, a tailored cockpit for every role, and enterprise governance built in.
+  Run every operation | Admissions, academics, attendance, exams, fees, HR, transport, library, hostel, inventory and front office.
+  See every school | Live, role-specific dashboards for principals, accountants, teachers, parents and students.
+  Govern every record | Database-per-school isolation, 96 granular permissions and a before/after audit trail.
+  School Administrator dashboard — live KPIs, approvals and homework summary
+  3
+  NOTES: Agastya in one sentence: run every operation, see every school, govern every record.
+
+--- SLIDE 4 (layout: CONTENT_TITLED) pics=0
+  AT A GLANCE
+  Enterprise depth you can verify in the codebase
+  19
+  integrated Django modules
+  128
+  data models
+  456
+  web routes and screens
+  96
+  granular permission codes
+  36
+  pluggable dashboard widgets
+  8 + ∞
+  system roles plus custom roles
+  257
+  automated tests incl. E2E and accessibility
+  ~115K
+  lines of product code
+  Source: review of the Agastya source tree, November 2026.
+  4
+  NOTES: These numbers come from the code, not a brochure: 19 apps, 128 models, 456 routes, 96 permission codes, 36 dashboard widgets, 257 automated tests including Playwright end-to-end journeys with axe-core accessibility checks.
+
+--- SLIDE 5 (layout: CONTENT_TITLED) pics=8
+  BUILT FOR EVERY PERSONA
+  Each role gets exactly the screens it needs
+  Group / Platform Admin
+  Provision schools, plans and subscriptions
+  School Admin
+  Configure roles, modules, branding and data
+  Principal
+  School-wide KPIs, approvals and results
+  Teacher
+  Timetable, attendance, marks and homework
+  Accountant
+  Invoicing, collections, dues and receipts
+  Operations Staff
+  Front office, library, hostel, transport, store
+  Parent
+  Children, homework, results and notices
+  Student
+  Portal and mobile app for the school day
+  5
+  NOTES: Eight system roles ship out of the box, and schools can define unlimited custom roles with scoped assignments.
+
+--- SLIDE 6 (layout: CONTENT_DARK) pics=6
+  PRODUCT MAP
+  18 modules across five pillars, on one data model
+  Command Center
+  Role dashboards | Dashboard builder | Users, roles and RBAC | Audit log and exports
+  Academics
+  Admissions and students | Academics and syllabus | Timetable and substitution | Attendance | Homework and classwork | Exams and report cards
+  Ops & Finance
+  Fees and billing | Staff and HR | Transport | Inventory and procurement | Service desk and front office
+  Campus Life
+  Library | Hostel and bed allocation | Health register | Discipline register
+  Engagement
+  Announcements | Real-time notifications | WhatsApp, SMS and email | Student and parent portals | Student mobile app
+  Enterprise platform:  multi-tenant SaaS control plane · subscription plans and billing · a dedicated database for every school
+  6
+  NOTES: The product map. Every module shares one student, staff and academic-year data model, so attendance feeds report cards, fee plans feed invoices, routes feed manifests.
+
+--- SLIDE 7 (layout: CONTENT_TITLED) pics=5
+  COMMAND CENTER
+  A live command center for every school
+  Live KPIs | Active students, attendance today, overdue invoices and student-teacher ratio.
+  Action queues | Pending leave approvals, open invoices and homework status in one view.
+  Scope and search | Switch campus and academic year; search students, users and invoices globally.
+  Always current | Widgets load asynchronously and refresh without reloading the page.
+  Live dashboard: 500 students, 45 staff, 91% attendance today, 70 overdue invoices (demo school)
+  7
+  NOTES: The school admin's landing page. Every number is computed live from the operational data — no exports, no spreadsheets.
+
+--- SLIDE 8 (layout: CONTENT_TITLED) pics=4
+  ROLE-BASED EXPERIENCE
+  One login, a different cockpit for every role
+  Principal — school-wide KPIs, pass rate and approvals
+  Accountant — today's collections and overdue invoices
+  Teacher — today's periods across classes and rooms
+  Parent — children, homework feed and notices
+  8
+  NOTES: The same /dashboard URL renders a different set of widgets for each role, configured per school.
+
+--- SLIDE 9 (layout: CONTENT_TITLED) pics=6
+  CONFIGURABLE BY DESIGN
+  Leaders reconfigure the platform without developers
+  Drag-and-drop dashboard builder with draft, publish and revert
+  Permission matrix — 96 granular codes across 15 module groups
+  36 widgets | KPIs, charts, queues and lists per role.
+  Versioned layouts | Save drafts, publish, roll back anytime.
+  Granular RBAC | System and custom roles, scoped assignments.
+  Feature toggles | Switch modules on per school as you grow.
+  9
+  NOTES: Configuration first: dashboards, roles, permissions, feature toggles, custom fields, numbering sequences and branding are all managed in the UI.
+
+--- SLIDE 10 (layout: CONTENT_TITLED) pics=6
+  STUDENT LIFECYCLE
+  Admit a student in one screen, keep one record for life
+  Single-screen admission: student, enrollment, guardians and emergency contact in one atomic step
+  One-step admission | Profile, class and guardians together.
+  Document links | Expiring SMS / WhatsApp upload links.
+  Full lifecycle | Promotion, transfer and exit tracked.
+  Admission inquiry pipeline
+  Student 360 with lifecycle transitions
+  10
+  NOTES: From inquiry to alumni. Parents can upload documents through a tokenised link without logging in; staff verify them in the student's document vault.
+
+--- SLIDE 11 (layout: CONTENT_TITLED) pics=6
+  TIMETABLE & SUBSTITUTION
+  Clash-free timetables, and every absence covered by 9 AM
+  Timetable dashboard: 700 weekly lectures, 40 teachers, 23 rooms, zero conflicts
+  Conflict detection | No teacher or room double-booking.
+  Substitutions | Free teachers suggested and notified.
+  Copy timetables | Reuse a section's plan across classes.
+  Class and section timetable viewer
+  Teacher workload with overload warnings
+  11
+  NOTES: Timetable entries are validated for teacher and room conflicts. The substitution dashboard lists absent teachers for a date and suggests available ones.
+
+--- SLIDE 12 (layout: CONTENT_TITLED) pics=5
+  ATTENDANCE
+  Attendance in seconds per class, records that stand up to audit
+  Quick capture | Card or list mode; everyone starts present, tap to mark absent or late.
+  Synced to timetable | Sessions follow the timetable; teachers see only their sections.
+  Lock and correct | Sessions lock; corrections go through an audited workflow.
+  Leave and reports | Student leave approvals, section summaries and Excel export.
+  Attendance intelligence — 90.8% today, 7-day trend and status mix
+  12
+  NOTES: Attendance dashboard: today's rate, 7-day trend, status mix and the leave queue.
+
+--- SLIDE 13 (layout: CONTENT_TITLED) pics=6
+  HOMEWORK & CLASSWORK
+  Learning continues at home, with data teachers can act on
+  Homework registry by class, subject and teacher
+  Per-assignment analytics: submission rate, grading and late work
+  Targeted audiences | Whole section or selected students.
+  Read receipts | See who opened each assignment.
+  Bulk grading | Grade a whole class in one grid.
+  Parent feed | Parents follow every assignment.
+  13
+  NOTES: Teachers publish homework and classwork with attachments; students submit and resubmit; parents get their own feed.
+
+--- SLIDE 14 (layout: CONTENT_TITLED) pics=6
+  EXAMS & ASSESSMENT
+  Results day in hours, not weeks
+  Spreadsheet-style marks entry with automatic grading
+  Fast marks entry | Grid entry, restricted to own sections.
+  Progress tracking | See who hasn't entered marks.
+  Result analytics | Subject analysis and top performers.
+  Marks completion tracker by section and subject
+  Subject-wise analysis: average, highest, pass %
+  14
+  NOTES: Grade schemes, exam groups and definitions are configurable. Every exam action is written to the audit log.
+
+--- SLIDE 15 (layout: CONTENT_TITLED) pics=6
+  REPORT CARDS
+  Branded report cards and admit cards, published in one click
+  Printable report card with school identity, student details and signatures
+  Student and parent results view with performance radar and PDF download
+  Rank and remarks | Class rank, attendance % and performance remark.
+  Publish control | Draft, publish individually, or publish all.
+  PDF admit cards | Generated and downloadable by students.
+  Official signatures | Principal and class-teacher signature settings.
+  15
+  NOTES: 500 report cards generated and published for the demo term. Students and parents see results in the portal and on mobile.
+
+--- SLIDE 16 (layout: CONTENT_TITLED) pics=6
+  FEES & BILLING
+  Faster collections and real-time visibility of every rupee
+  Daily collection summary with payment method breakdown
+  Bulk invoicing | By fee plan for a student or a section.
+  Instant receipts | Cash, card, UPI, wallet, net banking.
+  Audit-proof ledger | Every financial event with before/after.
+  Outstanding dues and overdue invoices
+  Branded invoice with balance and payment history
+  16
+  NOTES: Fee heads, plans and concessions apply automatically at invoicing; invoice numbers come from race-safe sequence rules.
+
+--- SLIDE 17 (layout: CONTENT_TITLED) pics=6
+  STAFF & HR
+  Attendance and leave discipline without paper registers
+  Staff directory with departments, designations and categories
+  Leave approval queue with pending, approved and rejected counts
+  Guided onboarding | Profile, user account and role in one flow.
+  Punch in / out | Monthly ledger with day-level approval.
+  Leave workflow | Leave types, requests and approvals.
+  Staff documents | Contracts and records in one repository.
+  17
+  NOTES: Staff onboarding creates the profile, login and role together. Staff attendance supports self punch-in with bulk review and Excel export.
+
+--- SLIDE 18 (layout: CONTENT_TITLED) pics=5
+  TRANSPORT
+  A safer, compliant fleet and fewer "where is my bus" calls
+  Fleet and compliance | Vehicles and documents with 7-day expiry alerts.
+  Routes, stops, crew | Route-vehicle and driver/attendant assignments.
+  Daily manifests | Stop-by-stop rider list for any route and date.
+  Automatic alerts | Parents notified when a route or stop changes.
+  Transport operations dashboard — coverage, crew and compliance
+  18
+  NOTES: Transport dashboard: 10 vehicles, 10 routes, 500 students assigned, crew coverage and compliance watch.
+
+--- SLIDE 19 (layout: CONTENT_TITLED) pics=6
+  LIBRARY
+  A traceable library with fines enforced automatically
+  Library dashboard: titles, copies, active loans, overdue and fines
+  Overdue items with days late and estimated fine
+  Catalogue | Categories, authors and copies.
+  Issue and return | Loan rules per school.
+  Automatic fines | Calculated daily on overdue loans.
+  Reservations | Student self-borrow and requests.
+  19
+  NOTES: Library settings define loan period and fine per day; overdue fines are calculated automatically.
+
+--- SLIDE 20 (layout: CONTENT_TITLED) pics=6
+  HOSTEL, HEALTH & DISCIPLINE
+  Duty-of-care records for boarding and day schools
+  Hostel
+  Hostels, rooms and bed allocations with start and end dates.
+  Health register
+  Medical incidents with severity and treatment notes.
+  Discipline register
+  Incidents, category and action taken, with guardian follow-up.
+  20
+  NOTES: Residential schools get hostel, health and discipline records in the same student record.
+
+--- SLIDE 21 (layout: CONTENT_TITLED) pics=5
+  INVENTORY & PROCUREMENT
+  Controlled spend and an asset trail across campuses
+  Items and stock | Inventory items, locations and stock ledger.
+  Purchase flow | Purchase requests become purchase orders.
+  Vendors | Vendor master with contacts and order history.
+  Asset register | Tagged assets with serials and assignees.
+  Fixed asset register with tags, serial numbers and assignment
+  21
+  NOTES: Store and procurement staff track stock, vendors, purchase orders and fixed assets.
+
+--- SLIDE 22 (layout: CONTENT_TITLED) pics=6
+  SERVICE DESK & FRONT OFFICE
+  A professional front office: certificates, grievances and gate security
+  Visitor log with check-in and check-out
+  Certificates | Bonafide, TC and more, numbered.
+  Grievances | Complaints tracked to closure.
+  Visitor security | Every visitor logged in and out.
+  Certificate requests and issuance
+  Complaints and service requests
+  22
+  NOTES: The front office runs from one desk: certificates with issued numbers, complaints and service requests with detail pages, and a visitor log.
+
+--- SLIDE 23 (layout: CONTENT_TITLED) pics=5
+  COMMUNICATIONS
+  One school-owned channel to every parent
+  Two-way WhatsApp inbox | Inbound parent messages via Meta Cloud API; staff reply from the web.
+  Targeted announcements | School-wide, by role, class or section.
+  Real-time notifications | Live unread counts pushed over WebSockets.
+  SMS, OTP and email | Twilio SMS and Verify, SMTP email, per-school config.
+  WhatsApp Business inbox — parent messages with in-line replies
+  23
+  NOTES: Communications are configurable per school or at platform level, with a test-send screen for each channel.
+
+--- SLIDE 24 (layout: CONTENT_TITLED) pics=6
+  STUDENT & PARENT PORTALS
+  The school in every family's pocket
+  Student portal: attendance, homework due, alerts, performance snapshot
+  Fee ledger, balances and payment history
+  Syllabus by subject and chapter
+  Student mobile app | iOS and Android app built with Expo.
+  Digital ID and more | ID card, transport, library, admit cards.
+  Leave tracking | Apply for leave, track attendance.
+  24
+  NOTES: Students get a web portal and a mobile app on the same APIs, with the same lockout and single-session rules. Parents see their children, homework feed and results.
+
+--- SLIDE 25 (layout: CONTENT_TITLED) pics=9
+  GOVERNANCE & SECURITY
+  Every action traceable, every account protected
+  Audit trail with before/after values
+  Lockout after 3 failed logins
+  One active session per user
+  4-hour sliding, HttpOnly sessions
+  96 permission codes, scoped roles
+  Login events with IP and device
+  Signed webhooks, expiring links
+  Audit log — filter by module, action, date; CSV export
+  Login events — success and failure with IP and user agent
+  25
+  NOTES: Security is part of the core, not an add-on. Finance and exam events record before/after JSON in the audit log.
+
+--- SLIDE 26 (layout: CONTENT_TITLED) pics=6
+  MULTI-TENANT SAAS
+  Onboard a new school in minutes, with isolated data from day one
+  Platform console: schools, plans, status and dedicated databases
+  Own database | Created, migrated and seeded on provisioning.
+  Built-in billing | Razorpay payment links and webhooks.
+  Automatic gating | Access follows subscription status.
+  Subscription plans with student and staff caps
+  School-side plan, renewal and billing view
+  26
+  NOTES: Provisioning a school creates its database, migrates it, syncs roles and permissions, and creates a bootstrap admin and default campus.
+
+--- SLIDE 27 (layout: CONTENT_TITLED) pics=5
+  ARCHITECTURE
+  Database-per-school isolation, enforced on every request
+  Web app | Staff, parents, students
+  Student mobile app | Expo · iOS / Android
+  Webhooks | Razorpay · WhatsApp
+  Daphne ASGI | HTTP + WebSockets (Channels)
+  Request pipeline
+  1  Tenant DB context
+  2  Auth + single session
+  3  Tenant + subscription gate
+  4  RBAC permission check
+  5  Tenant DB router
+  Control DB | Tenants · plans · billing
+  tenant_greenwood | Isolated MySQL database
+  tenant_riverdale … | One database per school
+  INTEGRATIONS
+  Razorpay | Subscription billing
+  Meta WhatsApp | Inbox and templates
+  Twilio | SMS and OTP
+  SMTP email | Resets, welcomes
+  ReportLab / Excel | PDF and XLSX exports
+  27
+  NOTES: Isolation works in two layers: a dedicated database per school, selected per request by middleware and a database router, plus tenant foreign keys on every business model.
+
+--- SLIDE 28 (layout: CONTENT_DARK) pics=6
+  TECHNOLOGY
+  A modern, maintainable stack your IT team will recognise
+  Backend
+  Django 5.1 on Python, 19 modular apps, 86 migrations
+  Data
+  MySQL (utf8mb4), one database per school plus a control DB
+  Real-time
+  Daphne ASGI and Django Channels; Redis-ready channel layer
+  Design system
+  Tailwind CSS with design tokens, light and dark themes
+  Mobile
+  Expo SDK, React Native and expo-router for iOS, Android and web
+  Quality
+  242 unit and integration tests, 15 Playwright E2E journeys with axe-core
+  28
+  NOTES: Open, mainstream technology. No proprietary runtime; deployable on any cloud or on-premise MySQL.
+
+--- SLIDE 29 (layout: CONTENT_TITLED) pics=0
+  WHY AGASTYA
+  What changes when a school group moves to Agastya
+  TABLE:  || Today || With Agastya
+  TABLE: Data || Spread across spreadsheets, registers and phones || One data model; a dedicated database per school
+  TABLE: Visibility || Reports compiled by hand, days late || Live role dashboards for every leader
+  TABLE: Control || Shared logins, no record of who changed what || 96 permissions, single sessions, full audit trail
+  TABLE: Parents || Personal WhatsApp groups and paper circulars || Portal, mobile app and a school-owned WhatsApp inbox
+  TABLE: Growth || Every new campus repeats the setup || New school provisioned in minutes from the console
+  29
+  NOTES: The before/after story in five lines. Every 'With Agastya' cell maps to a capability shown earlier in this deck.
+
+--- SLIDE 30 (layout: CONTENT_TITLED) pics=4
+  GETTING STARTED
+  An indicative rollout: first campus live in about six weeks
+  WEEK 1
+  Provision
+  Create the school workspace, branding, roles, academic year and fee heads.
+  WEEKS 2–3
+  Migrate
+  Import students, guardians, staff, classes, subjects and fee plans; build the timetable.
+  WEEKS 4–6
+  Pilot go-live
+  Attendance, homework, fees and announcements live at the pilot campus; staff trained.
+  WEEK 7+
+  Scale out
+  Exams and report cards, transport and library; next campuses provisioned from the console.
+  Timelines are indicative and depend on data readiness and the modules in scope.
+  30
+  NOTES: A phased adoption: schools start with core modules and expand. Confirm timelines with delivery before committing.
+
+--- SLIDE 31 (layout: CONTENT_DARK) pics=6
+  ROADMAP
+  What's next on the Agastya roadmap
+  Online fee payment | Parents pay fees through a gateway, with refunds and late-fee rules.
+  Payroll | Salary structures and payroll processing on top of staff records.
+  Multi-channel broadcast | Send announcements over SMS, WhatsApp and email at once.
+  Saved and scheduled reports | Self-service report builder with scheduled delivery.
+  Live bus tracking | GPS tracking and boarding logs for every trip.
+  Teacher and parent apps | Dedicated mobile experiences with push notifications.
+  31
+  NOTES: Roadmap items are specified in the product specs but not yet built. Position them as upcoming, not available today.
+
+--- SLIDE 32 (layout: BRAND_DARK) pics=4
+  MavionTech | Enterprise Software Solutions
+  LET'S GET STARTED
+  Run every school in your group on one platform
+  See Agastya with your own data: a guided walkthrough, then a pilot at one campus.
+  Book a demo
+  Plan a pilot
+  MavionTech Pvt. Ltd.
+  Enterprise Software Solutions
+  Agastya Cloud School ERP
+  Crafted by MavionTech Pvt. Ltd.   ·   Enterprise Software Solutions   ·   maviontech.com
+  NOTES: The close. One ask: a walkthrough with the prospect's data, then a single-campus pilot. Confirm contact details before sending.

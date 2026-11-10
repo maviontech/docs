@@ -1,0 +1,108 @@
+# -*- coding: utf-8 -*-
+NAME = "PragyanNxt"
+FILE = "PragyanNxt_Content_Architecture.docx"
+ACCENT = "1E4FD8"
+TAGLINE = "Assess · Learn · Progress — secure assessment and verifiable certification (formerly Evalynx)"
+SOURCES = [
+ "PragyanNxt_Enterprise_Sales_Deck.pptx (20 slides, notes)",
+ "README_PragyanNxt_Deck.md; deck-source/ (deck.json + 20 HTML slides, 'Evalynx' naming)",
+ "screenshots/ (11 JPG, 800x450); branding/pragyannxt-logo.png, pragyannxt-mark.png",
+ "Company PDF p31–32 and maviontech.com/products/evalynx/ (still listed as Evalynx). Confirmed by MavionTech: PragyanNxt is the new name for Evalynx.",
+]
+POSITIONING = [
+ ("What exactly is the product?", "A multi-tenant assessment platform covering the whole lifecycle: author (question bank, bulk import, AI generation), deliver (public, assigned or invite-link exams with randomisation and server timers), proctor (live monitoring, screen and webcam recording, AI visual analysis), score (auto/manual grading, integrity score, reports, AI summaries) and certify (Ed25519-signed, publicly verifiable credentials, Open Badges, LTI 1.3 write-back, appeals). Each organisation gets its own database."),
+ ("What business problem does it solve?", "Remote testing scaled but trust didn't. Impersonation, collaboration and leaked content undermine scores. Results get disputed, certificates are easy to forge, authoring takes days, and point tools don't connect."),
+ ("Who needs it?", "Corporate hiring teams and L&D; schools, universities, training providers, certification bodies, recruitment firms (official site). Users: platform manager, tenant admin, author, proctor, candidate, verifier/employer."),
+ ("What industries can use it?", "Education (K-12 to higher ed), corporate hiring and L&D, HR assessment, certification and compliance."),
+ ("Primary value proposition", "Assessment results you can defend and credentials anyone can verify, from one platform."),
+ ("Core capabilities", "8 modules: Authoring; Delivery; Proctoring; Integrity; Results & Analytics; Certification; Multi-tenancy & Admin; Commerce & AI."),
+ ("What makes it different?", "(1) Certification authority, not a PDF generator: signed, verifiable, portable credentials with due-process appeals. (2) An integrity score on every attempt, even without a camera (focus, tab and clipboard telemetry plus answer-similarity). (3) Author → proctor → certify in one system. (4) Database-per-tenant isolation. (5) AI generation and summaries with metered cost."),
+ ("Why should a customer evaluate it?", "It replaces three tools (assessment, proctoring, credentialing) with one evidence trail. A 14-day trial is offered (deck)."),
+ ("Business value", "Fewer bad hires from gamed tests; defensible academic results and fewer disputes; faster authoring; employers can verify credentials before interviewing. No quantified outcomes exist and none will be invented."),
+]
+MODULES = [
+ ("1. Authoring", "Question bank (subject/topic); difficulty & Bloom's tagging; bulk CSV/Excel import; AI generation from prompt, JD or documents", "Build large, balanced item banks fast.",
+  "Search thousands of items; tag by difficulty and Bloom's level; import in bulk; AI drafts questions for review.", "Authors create, import or generate, then review.", "Subject → topics → items → tags → review.",
+  "Feeds Delivery; AI credits from Commerce.", "Authoring takes days.", "Faster, balanced papers.", "05-question-bank, 06-subjects"),
+ ("2. Delivery", "Public campaigns; assigned candidates; single-use invite links; randomisation by section/difficulty; server timers; auto-submit; reconnect/resume; retakes", "Deliver locked-down exams flexibly.",
+  "A unique paper per candidate; draft-answer protection; resume after a dropped connection.", "Admin schedules; candidates take the exam.", "Build exam → choose mode → invite → attempt → submit.",
+  "Authoring, Proctoring, Integrity.", "Leaked papers; lost answers.", "Fair, resilient delivery.", "07-assessments"),
+ ("3. Proctoring", "Live monitoring dashboard; screen & webcam recording; AI visual analysis (no face, multiple faces, second person, phone); media library; full-live to recorded-only modes", "Supervise remote exams at scale.",
+  "Real-time session tiles and alerts; resilient recording; AI flags; evidence library.", "Proctors monitor and review.", "Session starts → monitor → flags → review evidence.",
+  "Delivery; Integrity; durable background processing.", "Costly, unscalable invigilation.", "Scalable integrity.", "10-proctoring-dashboard (EMPTY: recapture live)"),
+ ("4. Integrity Engine", "Weighted behavioural signals; integrity score 0–100 with risk level; non-proctored scoring; answer-similarity (collusion / AI-written)", "Turn suspicion into a defensible number.",
+  "Every attempt starts at 100. Signals subtract points (tab switch −4.2, paste −3.5, blur −3.2, copy −2.5, fullscreen exit −2.5). Risk levels: low, medium, high, critical.",
+  "Automatic; reviewers read the report.", "Telemetry → score → risk → report.", "Delivery, Proctoring, Results.", "Disputed outcomes.", "Evidence on every result.", "Needs an integrity report screenshot"),
+ ("5. Results & Analytics", "Auto & manual grading; completion funnel; pass rates; per-candidate report PDFs; CSV; AI performance summaries", "Turn answers into decisions.",
+  "Assigned → started → completed → passed funnel; downloadable reports; integrity attached.", "Admins and graders.", "Grade → analyse → export.", "Integrity, Certification.", "Slow evaluation.", "Faster decisions.", "09-reports (EMPTY: recapture)"),
+ ("6. Certification", "Ed25519-signed certificates; public verification; Open Badges / verifiable credentials; LTI 1.3 (Canvas, Moodle); employer verification; 14-day appeals with independent review", "Issue credentials the world can trust.",
+  "Tamper-proof credentials; anyone verifies instantly; portable exports; LMS grade write-back; due process. Enabled per deployment (notes).",
+  "Candidates receive and share; employers verify; admins handle appeals.", "Pass → sign → issue → verify → appeal.", "Results.", "Forgeable certificates.", "Trusted credentials.", "11-certificates (EMPTY: capture issued cert + verify page)"),
+ ("7. Multi-tenancy & Admin", "Tenant Manager control plane; create organisation; roles & RBAC; user directory (candidates separate from staff); activity logging; signed expiring media URLs", "Isolate and govern organisations.",
+  "Provision each organisation into its own database; plan versions, access type and expiry set at creation.", "Platform manager; tenant admin.", "Create org → admin invite → configure.", "All modules.", "Data mixing risk.", "Hard isolation boundary.", "02, 03, 08"),
+ ("8. Commerce & AI", "Subscriptions & billing; entitlements; AI credits; recorded-proctoring capacity; email invites", "Package platform plus usage.",
+  "Plan allowances (500 / 5,000 / 25,000 assessments per month); metered AI.", "Admin.", "Subscribe → consume → top up.", "Authoring (AI), Proctoring.", "Runaway costs.", "Predictable spend.", "-"),
+]
+SCREEN_FLAGS = [
+ "All 11 screenshots are 800x450. Recapture at ≥1600px.",
+ "Empty states: tenant manager (0 organisations), reports, proctoring, certificates. Recapture with live data.",
+ "QA-style names in the user list ('Subscription QA Staff') and a 'Subscription QA' subject. Replace with realistic demo data.",
+ "Missing screens: live proctoring session with AI flags; integrity report; issued certificate; public verification page; appeal case; AI generation dialog; exam builder; candidate exam view.",
+ "Retire every 'Evalynx' reference (deck-source, company PDF, website listing).",
+]
+RESTRUCTURE = [
+ ("1 Cover", "Keep / restyle", "Add 'formerly Evalynx' only in speaker notes if needed for continuity."),
+ ("2 Problem, 3 Cost", "Merge", "Combine into one problem slide with hiring and academic columns plus three failure modes."),
+ ("4 Problems we solve", "Keep", "Strong problem→solution map."),
+ ("5 Solution", "Keep + recapture", "Dashboard at full resolution."),
+ ("6 Lifecycle", "Keep", "Becomes the structural spine."),
+ ("7 Eight modules", "Keep", "Module map."),
+ ("8 Author", "Keep + recapture", ""),
+ ("9 AI-native", "Rewrite", "Add an AI generation screenshot."),
+ ("10 Deliver", "Keep + add", "Add exam-builder and candidate-view shots."),
+ ("11 Proctor", "Rewrite", "Replace the idle dashboard with a live session."),
+ ("12 Integrity", "Keep", "Add an integrity-report screenshot; keep 'illustrative'."),
+ ("13 Score", "Rewrite", "Use a populated funnel."),
+ ("14 Certify", "Expand to 2 slides", "Add issued certificate + public verification proof."),
+ ("15 Enterprise-grade", "Keep + recapture", "Tenant manager with organisations."),
+ ("16 Corporates, 17 Academic", "Keep", "Swap the screenshots to relevant ones."),
+ ("18 USPs", "Keep", "Link each USP to its proof slide."),
+ ("19 Packaging", "Keep", "Allowances only."),
+ ("20 Close", "Rewrite", "Official contacts."),
+ ("NEW", "Add", "Personas & roles slide."),
+ ("NEW", "Add", "Candidate journey slide (invite → identity → exam → result → certificate)."),
+ ("NEW", "Add", "Architecture & deployment slide (Cloud / Private / On-prem per official site)."),
+ ("NEW", "Add", "Integrations slide (LTI 1.3, Open Badges; site lists Jitsi, Razorpay, SMTP, webhooks; confirm)."),
+]
+SLIDES = [
+ ("Cover — Secure assessment & verifiable certification", "Category", "One platform from question to credential.", "PragyanNxt lockup + MavionTech.", "Hero", "04-admin-dashboard (recaptured)", "-", "-"),
+ ("Online testing scaled. Trust didn't.", "Problem", "Unverifiable results cost hires and reputations.", "Hiring vs academic columns; 3 failure modes.", "Two-column + 3 cards", "-", "-", "-"),
+ ("Real problems, directly solved", "Mapping", "Six pains, six capabilities.", "Table.", "Two-column map", "-", "-", "All"),
+ ("One platform for the entire assessment lifecycle", "Solution", "Unified, defensible, verifiable.", "3 proof points.", "Hero", "Admin dashboard", "-", "All"),
+ ("Who uses PragyanNxt", "Personas", "Platform manager, admin, author, proctor, candidate, verifier.", "Role cards.", "Cards", "-", "-", "Admin"),
+ ("Five stages, one closed loop of trust", "Spine", "Author → Deliver → Proctor → Score → Certify.", "Stage strip.", "Lifecycle diagram", "-", "Lifecycle diagram", "All"),
+ ("Eight modules, one system", "Map", "Breadth at a glance.", "Module grid.", "Module map", "-", "-", "All"),
+ ("A question bank built for scale", "Authoring", "Tag, import, search.", "Bloom's, difficulty, bulk import.", "Hero + features", "05, 06", "-", "Authoring"),
+ ("AI that does the heavy lifting, with metered cost", "AI", "Generate, build, summarise.", "Human review; AI credits.", "Hero + 3 cards", "AI generation dialog (new)", "-", "Authoring, Commerce"),
+ ("Flexible delivery, locked-down experience", "Delivery", "Three modes, unique papers, resume.", "Modes; randomisation; timers.", "Two shots", "07, exam builder, candidate view", "-", "Delivery"),
+ ("The candidate journey", "Experience", "From invite to credential.", "Invite → identity → exam → result → certificate.", "Journey strip", "Candidate screens", "Journey diagram", "Delivery, Certification"),
+ ("See every session, catch every anomaly", "Proctoring", "Live monitoring + AI flags.", "No face, multiple faces, second person, phone; modes.", "Hero + flag chips", "Live proctoring (recapture)", "-", "Proctoring"),
+ ("Integrity you can put a number on", "Integrity", "Score on every attempt, camera or not.", "Weights; risk levels; similarity (illustrative score).", "Score visual + report shot", "Integrity report (new)", "Signal-weight graphic", "Integrity"),
+ ("From raw answers to decisions", "Results", "Funnels, PDFs, AI summaries.", "Grading; funnel; exports.", "Hero + features", "09 (recaptured)", "-", "Results"),
+ ("Not just a PDF — a credential the world can verify", "Differentiator", "Certification authority.", "Signed; verifiable; portable; LTI; employer verification; appeals.", "6 cards", "-", "-", "Certification"),
+ ("Verification in one click", "Proof", "Issued certificate + public verify page.", "Two screenshots.", "Two shots", "Certificate, verify page (new)", "Verify flow", "Certification"),
+ ("Built like enterprise software", "Architecture", "Database per tenant, durable processing.", "Isolation; RBAC; signed URLs; deployment options.", "Hero + diagram", "02 (recaptured)", "Architecture diagram", "Multi-tenancy"),
+ ("Hire on evidence, not guesswork", "Corporate buyer", "Speed, defensibility, verified skills.", "3 outcomes.", "Hero + outcomes", "Candidate funnel", "-", "Delivery, Results"),
+ ("Exams you can stand behind", "Academic buyer", "Cohort scale, documented integrity, LMS fit.", "3 outcomes.", "Hero + outcomes", "Cohort exam", "-", "Proctoring, Certification"),
+ ("One platform where others give you three", "USPs", "Four USPs with proof references.", "USP cards.", "Cards", "-", "-", "-"),
+ ("Pay for the platform, scale with usage", "Packaging", "Allowances + credits.", "Basic / Plus / Pro; 14-day trial.", "Plan cards", "-", "-", "Commerce"),
+ ("Let's build assessment you can trust", "Close", "Trial or walkthrough.", "Official contacts.", "Branded close", "-", "-", "-"),
+]
+OPEN = [
+ "Pricing per tier.",
+ "Confirm integrations listed under Evalynx (Jitsi, Razorpay, SMTP, webhooks) and the deployment options.",
+ "Tech stack for the architecture slide.",
+ "Live environment for recapture.",
+ "Confirm whether the 'identity verification' feature (site) is live.",
+]
+UNDEREXPLAINED = []

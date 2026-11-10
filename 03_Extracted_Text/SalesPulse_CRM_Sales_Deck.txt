@@ -1,0 +1,407 @@
+DECK: SalesPulse_CRM_Sales_Deck.pptx
+Slide size: 13.33 x 7.50 in
+Slides: 26
+Fonts used: ['Calibri', 'Segoe UI Emoji']  | total pictures: 107 | slides with notes: 22
+Core props: title='SalesPulse CRM' author='Mavion Technologies Pvt. Ltd.' created=2026-10-10 07:22:07 modified=2026-10-10 07:22:08 last_mod_by='Mavion Technologies Pvt. Ltd.'
+
+--- SLIDE 1 (layout: DARK) pics=1
+  SalesPulse CRM
+  INDIA-FIRST SALES CRM
+  The command center for | high-performing sales teams
+  Masked calling, live pipeline, and automated reporting — purpose-built for Indian sales teams.
+  A product by Mavion Technologies Pvt. Ltd.
+  salespulse.maviontech.com
+  NOTES: SalesPulse CRM — the command center for high-performing sales teams. A product by Mavion Technologies Pvt. Ltd. India-first: INR, GST, Razorpay. salespulse.maviontech.com
+
+--- SLIDE 2 (layout: LIGHT) pics=3
+  THE SALES REALITY
+  Your reps are selling. Your CRM is slowing them down
+  5+ hrs
+  lost per rep each week re-typing numbers into spreadsheets
+  Blind
+  leadership can't see the real pipeline or who's performing until it's too late
+  At risk
+  raw customer numbers in every rep's hands mean data walks out the door
+  The cost: slower follow-ups, leaking customer relationships, and decisions made on stale data.
+  2
+  NOTES: Sales teams are productive, but legacy/global CRMs add admin drag, hide performance, and expose customer data.
+
+--- SLIDE 3 (layout: LIGHT) pics=6
+  THE PROBLEM
+  Where CRMs let sales teams down
+  Customer data leaks
+  Reps hold raw phone numbers — contacts get poached and walk out with them.
+  Spreadsheet busywork
+  Hours lost re-typing weekly numbers; the data ends up inconsistent.
+  No real-time visibility
+  Leaders can't see pipeline or rep performance when it matters.
+  Fragmented customer view
+  Accounts, calls and history scattered across disconnected tools.
+  Billing & GST chaos
+  Manual invoicing and compliance that global tools weren't built for.
+  Not built for India
+  Global CRMs are heavy, costly and a poor fit for Indian sales teams.
+  3
+  NOTES: The six recurring failures of generic CRMs — each one SalesPulse was built to solve.
+
+--- SLIDE 4 (layout: LIGHT) pics=5
+  INTRODUCING SALESPULSE CRM
+  One command center, built the way India sells
+  A multi-tenant sales CRM that captures leads, protects customers, runs your pipeline, and reports itself — so reps sell and leaders lead.
+  Privacy by design
+  Automated reporting
+  India-first (INR · GST)
+  Isolated & secure
+  4
+  NOTES: SalesPulse unifies capture, masked calling, pipeline, Customer 360, command center, reporting and billing in one India-first platform.
+
+--- SLIDE 5 (layout: LIGHT) pics=10
+  PRODUCT AT A GLANCE
+  Everything your sales org needs, in one place
+  My Day
+  Prioritized work queue
+  Leads
+  Capture & qualify fast
+  Pipeline
+  Weighted Kanban
+  Customers & 360
+  Accounts, contacts, LTV
+  USP
+  Masked Calling
+  Numbers never exposed
+  Activity Log
+  Every call journaled
+  Command Center
+  KPIs & leaderboard
+  Reports & Weekly
+  Auto-fed, Excel export
+  Subscriptions & Billing
+  GST, Razorpay, automated
+  Platform / Multi-tenant
+  Isolated per company
+  5
+  NOTES: Ten integrated modules. Role-based access gives each person exactly what they need: BDE, Manager, Director, Admin.
+
+--- SLIDE 6 (layout: LIGHT) pics=4
+  MY DAY
+  Every rep starts the day knowing exactly who to call
+  A ranked, personalized work queue replaces guesswork and sticky notes.
+  Prioritized work queue
+  The highest-value, most-overdue actions surface first — no deciding where to start.
+  Follow-ups due today
+  Nothing slips: every promised callback and next action is front and centre.
+  More selling, less admin
+  Reps act on the queue instead of digging through lists and spreadsheets.
+  6
+  NOTES: My Day turns the activity log into a daily action plan for each rep.
+
+--- SLIDE 7 (layout: LIGHT) pics=4
+  FLAGSHIP USP · PRIVACY-MASKED CALLING
+  Your reps make the call. They never see the number
+  Customer numbers stay masked end to end — both ways. Reps click to call and the customer sees only your business caller ID; when customers call back, they reach their own rep on that same line.
+  Numbers never exposed
+  Masked in the UI and on screen — nothing to copy, screenshot or take to a competitor.
+  Masked both ways — inbound too
+  Customers who call your business number are routed straight to their owning rep, still masked — no personal number is exposed in either direction.
+  Protection against poaching & leakage
+  Reps can sell to customers without ever owning their contact details.
+  7
+  NOTES: The differentiator. Customer data leakage is the #1 CRM risk; SalesPulse removes it structurally.
+
+--- SLIDE 8 (layout: LIGHT) pics=4
+  PRIVACY-MASKED CALLING · LIVE
+  A dialer that protects your customer by default
+  “Number protected — connected through a secure business line. You never see the customer's number.”
+  Masked, in-call
+  The number shows as dots the entire time — there's simply nothing to capture.
+  One-click to connect
+  Reps dial straight from the lead; the customer sees only the business caller ID.
+  Data never leaves the company
+  The customer relationship is owned by the business, not the individual rep.
+  8
+  NOTES: Live masked-call dialer — the flagship experience. Reps call confidently; customer numbers are never revealed.
+
+--- SLIDE 9 (layout: LIGHT) pics=4
+  PRIVACY-MASKED CALLING · AFTER THE CALL
+  Every call logs itself — reps just add the outcome
+  On hang-up, the call auto-logs with the details that actually drive the next step.
+  Outcome & sentiment captured
+  Disposition and customer sentiment recorded in seconds, right in the dialer.
+  Feedback notes & next action
+  What the customer said and the single next step — saved to the timeline instantly.
+  Auto-logs on save
+  No separate data entry; talk-time and history build themselves for every rep.
+  9
+  NOTES: After-call summary: outcome, sentiment, feedback, next action — auto-logged, feeding reports and the activity journal.
+
+--- SLIDE 10 (layout: LIGHT) pics=0
+  MULTI-CHANNEL OUTREACH
+  Email and WhatsApp — right from the lead
+  Reps reach customers on every channel without leaving the CRM — and every message logs itself to the timeline.
+  ✉
+  Rich email, built in
+  Compose and send branded emails on your company's own mail — templates, formatting, colours and attachments included.
+  💬
+  WhatsApp Business
+  Send approved WhatsApp templates with product images, PDFs and brochures, straight from the lead screen.
+  🔒
+  Masked, like calling
+  Reps message the customer without ever seeing the raw email or number — the real address is used server-side only.
+  🗂
+  Logged automatically
+  Every email and WhatsApp lands on the customer timeline, so history, activity and reports build themselves.
+
+--- SLIDE 11 (layout: LIGHT) pics=0
+  RICH EMAIL — BUILT IN
+  Email that lands in the inbox, not the spam folder
+  Branded, personal email from inside the CRM — sent from each rep’s own address, and logged automatically to the customer timeline.
+  ✉
+  Send as yourself
+  Each rep sends from their own verified address, so mail lands in the inbox — not the spam folder. Falls back to the company sender automatically.
+  💬
+  Cc your team
+  Search and Cc a teammate in a click. Reps can Cc colleagues only — never a way to expose the masked customer address.
+  🔒
+  Masked, never exposed
+  Reps compose to a masked address; the real one is resolved server-side only, for sending. The same rule applies on web and mobile.
+  🗂
+  Designed signatures, auto-logged
+  Paste a full HTML signature — logos, tables, brand colours — preserved exactly. Every send lands on the customer timeline and feeds reports.
+
+--- SLIDE 12 (layout: LIGHT) pics=4
+  LEAD MANAGEMENT
+  Capture and qualify leads at speed
+  Clean, de-duplicated leads with owners, stages and value — ready to work.
+  Fast capture & qualification
+  Add and qualify leads in moments, with owner, stage and status at a glance.
+  CSV import with de-duplication
+  Bulk-import existing lists; duplicates are caught so your data stays clean.
+  Pipeline value in view
+  See total pipeline and per-stage value the moment a lead lands.
+  10
+  NOTES: Leads: fast capture, qualification, CSV import with de-dup. 40 leads / ₹16.47M pipeline shown.
+
+--- SLIDE 13 (layout: LIGHT) pics=4
+  PIPELINE MANAGEMENT
+  A weighted pipeline you can actually steer
+  Drag-and-drop Kanban across five weighted stages, with aging built in.
+  Drag-and-drop stages
+  Move deals across stages visually; weighting reflects real close probability.
+  Stage aging
+  Spot deals going cold before they stall — aging is visible on every card.
+  Forecast with confidence
+  Weighted values roll up into a pipeline number leadership can trust.
+  11
+  NOTES: Drag-and-drop weighted Kanban, 5 stages, stage aging.
+
+--- SLIDE 14 (layout: LIGHT) pics=4
+  CUSTOMER 360
+  The whole relationship on one screen
+  Accounts, contacts, linked opportunities and lifetime value — unified.
+  Accounts & contacts
+  Every person and opportunity tied to the account, with nothing scattered across tools.
+  Full interaction timeline
+  Calls, emails, demos and follow-ups in one chronological view.
+  Lifetime value
+  Understand what each customer is worth and where to invest time.
+  12
+  NOTES: Customer 360: accounts, contacts, linked opportunities, interaction timeline, lifetime value.
+
+--- SLIDE 15 (layout: LIGHT) pics=4
+  ACTIVITY LOG & CALL JOURNAL
+  Every interaction, captured without the busywork
+  A complete journal of calls, outcomes, sentiment and talk-time — fed automatically.
+  Calls, emails, demos, follow-ups
+  One running record of everything that happened with a customer.
+  Outcomes, sentiment & next actions
+  Structured fields make the log useful, not just a list of events.
+  Talk-time totals
+  Effort is measurable — the foundation for fair, data-driven coaching.
+  13
+  NOTES: Activity log / call journal powers reports and weekly reports automatically.
+
+--- SLIDE 16 (layout: LIGHT) pics=4
+  LEADERSHIP COMMAND CENTER
+  Real-time visibility into pipeline and people
+  Org KPIs, an 8-week closed-business trend, and a live performance leaderboard.
+  Org KPIs & 8-week trend
+  Closed business and pipeline health at a glance, refreshed in real time.
+  Live BDE leaderboard
+  Composite performance scoring ranks the team on what actually matters.
+  RAG performance ratings
+  Red / amber / green flags make coaching conversations obvious and fair.
+  14
+  NOTES: Command Center: org KPIs, 8-week closed trend, live leaderboard with composite scoring and RAG ratings.
+
+--- SLIDE 17 (layout: LIGHT) pics=4
+  REPORT BUILDER
+  Any scope, any period — exported exactly how you need it
+  Build by all execs, specific execs or territory, for any period — exported as a premium, multi-sheet workbook.
+  Flexible scope & period
+  All execs, chosen execs or by territory — for whatever window you report on.
+  Premium multi-sheet workbook
+  A Summary sheet plus automatic Monthly, Weekly and Daily breakdowns — a polished, print-ready landscape sheet for every view.
+  Scores & ratings built in
+  KPIs colour-coded by threshold — green, amber, red — with per-executive scoring and ratings built in.
+  15
+  NOTES: Report Builder with exact-format Excel export that mirrors the client's own workbook.
+
+--- SLIDE 18 (layout: LIGHT) pics=4
+  WEEKLY REPORTS
+  No more re-typing numbers into spreadsheets
+  Weekly reports generate themselves from the activity log — scored and rated.
+  Auto-generated from activity
+  Reps stop re-typing totals; the week assembles itself from logged work.
+  KPI scoring with RAG ratings
+  Red / amber / green ratings make performance instantly legible.
+  Submit to leadership
+  One click sends a consistent, trustworthy report up the chain.
+  16
+  NOTES: Weekly reports auto-fed from the activity log, KPI-scored with RAG ratings, submitted to leadership.
+
+--- SLIDE 19 (layout: LIGHT) pics=0
+  NATIVE MOBILE APP
+  The full command center, in your rep's pocket
+  A native Android app puts My Day, the pipeline and masked calling on the phone — so field reps stay in flow.
+  📱
+  My Day on mobile
+  The same ranked work queue, follow-ups and pipeline — rebuilt for the phone, not a shrunken web page.
+  📞
+  Masked calling on the go
+  Place protected calls and log outcomes from the field; the customer's number stays masked, both ways.
+  🔔
+  Real-time notifications
+  Push alerts for follow-ups due and call outcomes keep every rep on top of the day.
+  🔐
+  Same privacy everywhere
+  Phone and email are masked in the app exactly as on the web — one rule, enforced server-side.
+
+--- SLIDE 20 (layout: LIGHT) pics=6
+  SUBSCRIPTIONS & BILLING
+  Automated, India-first billing — zero manual audit
+  Razorpay payment links
+  Auto GST tax invoices
+  Trials, renewals & grace
+  Auto quota & seat limits
+  17
+  NOTES: Billing: Razorpay payment links, GST invoices, trials, renewals, 10-day grace, automatic quota/seat enforcement. Fully multi-tenant and automated.
+
+--- SLIDE 21 (layout: LIGHT) pics=6
+  WHY SALESPULSE
+  What sets us apart from generic CRMs
+  Privacy built in
+  Masked calling protects customer data — not an add-on, the default.
+  India-first
+  INR pricing, GST invoicing, Razorpay and Asia/Kolkata — out of the box.
+  Automation that removes work
+  Reports and weekly submissions feed themselves from real activity.
+  Affordable & focused
+  Sales-team pricing without the bloat of heavyweight global suites.
+  True tenant isolation
+  Each company's data lives in its own database — not a shared table.
+  Purpose-built for selling
+  Every screen earns its place in a rep's or leader's day.
+  18
+  NOTES: Differentiators: privacy, India-first, automation, affordability, isolation, focus.
+
+--- SLIDE 22 (layout: LIGHT) pics=20
+  PRICING & PACKAGES
+  Software per seat — calling is pay-as-you-go, billed on usage
+  Trial
+  Free  for 30 days
+  Up to 5 seats
+  2,000 leads & contacts
+  All features
+  No card needed
+  Starter
+  ₹559  /user / month
+  5 seats
+  2,000 leads
+  Sales essentials
+  Masked calling
+  MOST POPULAR
+  Growth
+  ₹1,049  /user / month
+  25 seats
+  25,000 leads
+  All features
+  Command Center
+  Enterprise
+  ₹2,099  /user / month
+  Large scale
+  100,000 seats / leads
+  All features + scale
+  Priority support
+  Card prices are software, per user / month (INR, GST 18% extra). Calling is pay-as-you-go — ₹0.50/leg-min outbound · ₹0.50/leg-min inbound, 30-sec pulse, billed on actual usage (or bring your own telephony). 30-day free trial, no card required.
+  19
+  Basic
+  ₹980  /user / month
+  2 seats
+  2,000 leads
+  Sales essentials
+  Masked calling
+  NOTES: Four tiers. Growth is most popular. Prices per user/month, GST extra 18%. Trial free 30 days, no card.
+
+--- SLIDE 23 (layout: LIGHT) pics=0
+  DATA PROTECTION & INTEGRITY
+  Your customer data can't walk out the door
+  Defense-in-depth keeps the customer relationship with the business — not the individual rep — and every record honest.
+  🔒
+  Phone & email masked
+  Reps never see raw numbers or addresses — on web, mobile and exports. Real values are used server-side only, for calling and sending.
+  ⛔
+  No bulk export for reps
+  Lead-list and report downloads are leadership-only — a rep can't one-click the whole book out the door.
+  🧭
+  Row-level access
+  Every rep sees only their own leads and customers — enforced on the server, not just hidden in the screen.
+  👁
+  Access log + anomaly alerts
+  Every record view and export is audited; abnormal volume is flagged to admins in real time, with a full audit trail.
+  🖋
+  Traceability watermark
+  Every screen is stamped with the viewer and time, so any leaked screenshot is attributable to one person.
+  🏢
+  Isolation & rate limits
+  Database-per-tenant isolation and API rate-limiting stop bulk extraction and any cross-company access.
+
+--- SLIDE 24 (layout: LIGHT) pics=5
+  SECURITY & ARCHITECTURE
+  Multi-tenant by design, isolated by default
+  Database-per-tenant isolation
+  One company's data can never touch another's — isolation is physical, not a filter.
+  Company-code login & RBAC
+  Single-host sign-in, with BDE / Manager / Director / Admin roles.
+  Platform control center
+  MRR, ARR, active & trial tenants, and per-tenant provisioning.
+  20
+  NOTES: Database-per-tenant isolation, company-code login, RBAC, platform control center for provisioning and billing.
+
+--- SLIDE 25 (layout: LIGHT) pics=1
+  GETTING STARTED
+  Live in days, not quarters
+  1
+  Sign up
+  We provision your isolated tenant and company code.
+  2
+  Import leads
+  Bring your lists via CSV — duplicates removed on the way in.
+  3
+  Invite your team
+  Add reps and managers with role-based access.
+  4
+  Start selling
+  Place masked calls and watch reports build themselves.
+  30-day free trial — no card required.  All features, up to 5 seats and 2,000 leads to prove the value first.
+  21
+  NOTES: Fast onboarding: provision, import, invite, sell. Start on a 30-day free trial, no card.
+
+--- SLIDE 26 (layout: DARK) pics=0
+  LET'S GET STARTED
+  Give your team the | command center they deserve
+  Start a free 30-day trial, or talk to us about rolling SalesPulse out across your sales org.
+  Start free trial
+  Book a demo
+  salespulse.maviontech.com
+  A product by Mavion Technologies Pvt. Ltd.
+  NOTES: CTA: start a 30-day free trial or book a demo. salespulse.maviontech.com · Mavion Technologies Pvt. Ltd.

@@ -1,0 +1,363 @@
+DECK: MavionLearn_Sales_Investor_Deck.pptx
+Slide size: 13.33 x 7.50 in
+Slides: 21
+Fonts used: ['Segoe UI']  | total pictures: 124 | slides with notes: 21
+Core props: title='PptxGenJS Presentation' author='PptxGenJS' created=2026-11-09 15:22:55 modified=2026-11-09 15:22:55 last_mod_by='PptxGenJS'
+
+--- SLIDE 1 (layout: DEFAULT) pics=3
+  Investor overview · 2026
+  ENTERPRISE LMS · SKILLS & COMPLIANCE CLOUD
+  Skills that | compound.
+  A multi-tenant enterprise LMS that turns training into provable capability — built, and ready to launch into a market growing ~20% a year.
+  Built & launch-ready
+  Multi-tenant SaaS
+  SSO & SCIM built-in
+  See the product
+  Book a demo
+  Maviontech Pvt Ltd  ·  mavionlearn.com
+  NOTES: Investor overview opener. MavionLearn: a multi-tenant enterprise LMS, already built through its full feature set, entering a ~20% CAGR market. Tagline: Skills that compound.
+
+--- SLIDE 2 (layout: DEFAULT) pics=5
+  THE OPPORTUNITY
+  Enterprises spend heavily on training — and can’t prove it works
+  Every enterprise invests in learning, yet still can’t answer the question that matters most: are our people actually capable and compliant? Completions get tracked; capability and compliance don’t. That gap is the opening.
+  “Who completed the course?”
+  is the wrong question. The one that matters —
+  “Can our people do the job, and can we prove it at audit time?” — goes unanswered today.
+  Completions ≠ capability
+  You see who clicked “complete” — never which skill gaps closed.
+  Compliance is a fire drill
+  Tracked by hand; risky and stressful at audit time.
+  Learning is fragmented
+  Video, LMS and live sessions live in disconnected tools.
+  ROI is invisible
+  Leadership can’t see what training actually returns.
+  MavionLearn
+  © Maviontech Pvt Ltd · Investor overview · Confidential
+  02
+  NOTES: The pain that creates the market: training spend is up, but capability and compliance are unprovable across four concrete failure modes.
+
+--- SLIDE 3 (layout: DEFAULT) pics=4
+  MARKET OPPORTUNITY
+  A large market, growing around 20% a year
+  Global corporate LMS market, by 2030
+  $27.4B
+  Up from ~$9.6B in 2024 — a ~19.4% CAGR as cloud replaces legacy systems.
+  Source: Grand View Research
+  India LMS market, by 2030
+  $1.9B
+  From ~$1.1B in 2025 at ~20.5% CAGR — the fastest-growing major market.
+  Source: MarketsandMarkets
+  The shift: enterprises are moving from completion-tracking LMSs to skills-based platforms — exactly where MavionLearn is built to win.
+  MavionLearn
+  © Maviontech Pvt Ltd · Investor overview · Confidential
+  03
+  NOTES: A big, fast-growing market. Global corporate LMS ~$27B by 2030 (GVR); India ~$1.9B by 2030 and fastest-growing (MarketsandMarkets). The structural shift toward skills-based platforms is the wave MavionLearn rides.
+
+--- SLIDE 4 (layout: DEFAULT) pics=5
+  WHY NOW
+  Four tailwinds converging right now
+  Legacy replacement cycle
+  Cloud LMSs are actively displacing on-prem and legacy systems.
+  Skills-based organisations
+  Enterprises are reorganising around skills, not just job titles.
+  Compliance & audit pressure
+  Regulated industries need provable, exportable training records.
+  AI-era upskilling
+  Reskilling demand is surging — and India’s adoption outpaces global.
+  MavionLearn
+  © Maviontech Pvt Ltd · Investor overview · Confidential
+  04
+  NOTES: Timing is the investor question. Four tailwinds — legacy replacement, skills-based orgs, compliance pressure, AI-era upskilling — all favor a modern, skills-first, compliance-native LMS now.
+
+--- SLIDE 5 (layout: DEFAULT) pics=5
+  THE PRODUCT
+  Meet MavionLearn
+  Learning Management System (LMS)
+  The enterprise LMS that measures capability — not just completions — scoring every employee against the skills their role demands, automating compliance end to end, and shipping board-ready reporting and enterprise identity built in.
+  Measure capability
+  A living skill matrix scores every employee against role targets.
+  Automate compliance
+  Campaigns assign, remind, track and certify — hands-off.
+  Unify learning
+  Live + on-demand: video, SCORM and graded quizzes in one place.
+  Prove ROI
+  Per-course cost analytics turn training spend into defensible numbers.
+  Built for
+  IT & Software
+  BFSI
+  Healthcare
+  Manufacturing
+  Retail
+  Professional Services
+  MavionLearn
+  © Maviontech Pvt Ltd · Investor overview · Confidential
+  05
+  NOTES: Product in one breath plus the four pillars that structure the demo: Measure, Automate, Unify, Prove. Cross-industry from day one.
+
+--- SLIDE 6 (layout: DEFAULT) pics=1
+  PRODUCT TOUR
+  Inside MavionLearn
+  A built, data-filled product — seven capability areas in one coherent, white-labelled workspace. Everything on the next slides is real product, not mockups.
+  NOTES: Transition into the product proof. Emphasise: this is a finished, real product.
+
+--- SLIDE 7 (layout: DEFAULT) pics=6
+  FOR ADMINS
+  Your learning command center
+  Live dashboards
+  Compliance %, completions and expiring certs at a glance.
+  Author once
+  Courses → modules → lessons, drafts, deactivate / reactivate.
+  Run campaigns
+  Rule-based assignment by department, role, team or whole org.
+  Delegate safely
+  Department-scoped admins for large, distributed organisations.
+  MavionLearn
+  © Maviontech Pvt Ltd · Investor overview · Confidential
+  06
+  NOTES: Admin value: one console to author, assign, monitor and delegate.
+
+--- SLIDE 8 (layout: DEFAULT) pics=5
+  Flagship · the moat
+  A living skill matrix — capability you can see
+  Set role targets
+  Define the skill level each role should reach.
+  Grow on completion
+  Every completed course raises the learner’s real skill level.
+  Score the match
+  A live match % per person, department and whole org.
+  73.6%
+  organisation capability match — tracked live, not surveyed once a year.
+  MavionLearn
+  © Maviontech Pvt Ltd · Investor overview · Confidential
+  07
+  NOTES: The differentiator and a core moat. Competitors measure completions; MavionLearn measures capability against role targets and updates it automatically.
+
+--- SLIDE 9 (layout: DEFAULT) pics=3
+  COMPLIANCE
+  Compliance that runs itself
+  Assign by audience, remind automatically, track every mandatory course per employee, and auto-issue certificates with expiry — then export the evidence to Excel and PDF in your own brand.
+  Assign & schedule campaigns
+  Track status & export evidence
+  MavionLearn
+  © Maviontech Pvt Ltd · Investor overview · Confidential
+  08
+  NOTES: Compliance is the fastest ROI and the easiest land. Left: rule-based assignment. Right: per-employee report with one-click Excel/PDF for auditors.
+
+--- SLIDE 10 (layout: DEFAULT) pics=6
+  UNIFIED LEARNING
+  Live and on-demand — in one place
+  On-demand
+  Video, documents, SCORM/xAPI and graded quizzes.
+  Live & virtual
+  ILT and VILT sessions with rosters and .ics invites.
+  Never fall behind
+  Recordings auto-published the moment a session ends.
+  MavionLearn
+  © Maviontech Pvt Ltd · Investor overview · Confidential
+  09
+  NOTES: One place for live and self-paced learning; auto-published recordings mean a missed session never becomes a compliance gap.
+
+--- SLIDE 11 (layout: DEFAULT) pics=6
+  ANALYTICS
+  Board-ready reporting and defensible ROI
+  8 enterprise reports
+  Filters, date ranges and record-level drill-downs.
+  Excel + PDF export
+  Premium workbooks and boardroom PDFs, your brand.
+  Cost & ROI
+  Spend, cost per completion and hours delivered.
+  MavionLearn
+  © Maviontech Pvt Ltd · Investor overview · Confidential
+  10
+  NOTES: Reporting leadership trusts: eight enterprise reports, branded Excel/PDF, and a cost model that converts spend into cost-per-completion.
+
+--- SLIDE 12 (layout: DEFAULT) pics=5
+  Included — no paid add-on
+  Enterprise identity built in, not bolted on
+  Single sign-on
+  OIDC & SAML 2.0 with per-tenant policy: off / optional / enforced, plus break-glass access.
+  SCIM 2.0 provisioning
+  Just-in-time account creation and automatic deprovisioning.
+  Delegated admins
+  Department-scoped administration for large organisations.
+  MavionLearn
+  © Maviontech Pvt Ltd · Investor overview · Confidential
+  11
+  NOTES: IT objections pre-answered. SSO, SCIM and delegated admin included, configured per tenant — a selling point most LMSs charge extra for.
+
+--- SLIDE 13 (layout: DEFAULT) pics=6
+  ARCHITECTURE · SECURITY
+  Enterprise-grade by architecture
+  One database per customer
+  Each tenant gets its own isolated MySQL database — zero shared rows, verifiable in the console.
+  Secured by design
+  Signed-URL media, audit logging, rate limiting and an auth gate on every page.
+  Zero-downtime upgrades
+  A self-healing schema keeps every tenant current, automatically.
+  Fully white-labelled
+  Your brand across the app, exports and certificates.
+  MavionLearn
+  © Maviontech Pvt Ltd · Investor overview · Confidential
+  12
+  NOTES: Per-tenant database isolation is a hard architectural differentiator vs shared-schema SaaS LMSs — and a security story enterprises buy.
+
+--- SLIDE 14 (layout: DEFAULT) pics=6
+  FOR LEARNERS
+  A learner home that drives real progress
+  Personalised home
+  Skill tracks, recommendations and “continue learning.”
+  Certificates
+  Auto-issued, with expiry tracking and reminders.
+  Anywhere access
+  Server-rendered web plus a versioned API for mobile.
+  MavionLearn
+  © Maviontech Pvt Ltd · Investor overview · Confidential
+  13
+  NOTES: The employee side: a personalised, skills-first home that keeps certifications current and engagement high.
+
+--- SLIDE 15 (layout: DEFAULT) pics=13
+  THE COMPLETE PLATFORM
+  Everything in one platform
+  Catalog & courses
+  Assessments & quizzes
+  Certificates
+  Skills & skill matrix
+  Development plans
+  ILT & VILT sessions
+  SCORM / xAPI
+  Compliance campaigns
+  Enterprise reports
+  Cost & ROI
+  SSO & SCIM
+  LTI 1.3 registry
+  MavionLearn
+  © Maviontech Pvt Ltd · Investor overview · Confidential
+  14
+  NOTES: Breadth in one view — the full feature set. One platform replacing several point tools.
+
+--- SLIDE 16 (layout: DEFAULT) pics=13
+  DEFENSIBILITY
+  Why MavionLearn is hard to displace
+  GENERIC LMS
+  MAVIONLEARN
+  Proves capability
+  Measures completions
+  Living skill matrix vs role targets
+  Compliance
+  Manual tracking
+  Self-running: assign, remind, certify
+  Reporting
+  Generic CSV dumps
+  Board-ready Excel + PDF, your brand
+  Enterprise identity
+  Paid add-on
+  OIDC, SAML & SCIM included
+  Data isolation
+  Shared schema
+  One isolated database per tenant
+  Live + on-demand
+  Separate tools
+  Unified, with auto-published recordings
+  MavionLearn
+  © Maviontech Pvt Ltd · Investor overview · Confidential
+  15
+  NOTES: The moat: capability data that compounds, compliance automation, included identity, and per-tenant isolation together create switching costs a generic LMS can’t match.
+
+--- SLIDE 17 (layout: DEFAULT) pics=5
+  REVENUE MODEL
+  Simple, expanding SaaS economics
+  Per active user · billed monthly
+  Trial
+  Free
+  30-day full-feature
+  All features, 30 days
+  Starter
+  ₹49
+  / user · mo
+  Core LMS + compliance
+  POPULAR
+  Pro
+  ₹99
+  / user · mo
+  Skills, SSO-ready tier
+  Premium
+  ₹199
+  / user · mo
+  Skill matrix, SSO, API
+  Expands with the customer
+  Per-active-user pricing grows as adoption and headcount grow.
+  High gross margin
+  Multi-tenant architecture serves many customers on shared infrastructure.
+  Land and expand
+  Land on compliance; expand into skills, SSO and ROI tiers.
+  Core compliance is never paywalled. Private cloud / on-prem and annual billing available on request. Prices in INR.
+  MavionLearn
+  © Maviontech Pvt Ltd · Investor overview · Confidential
+  16
+  NOTES: The business model: per-active-user SaaS across four tiers, with land-and-expand from compliance into skills/SSO/ROI, and multi-tenant architecture protecting gross margin. Prices in INR per active user per month.
+
+--- SLIDE 18 (layout: DEFAULT) pics=10
+  WHERE WE ARE
+  Built, and ready to launch
+  Pre-revenue · launching
+  The full feature set is built — through P7, not a prototype
+  24 production-grade, data-filled product screens
+  Proven multi-tenant, isolated-database architecture
+  Aurora brand identity and tiered pricing locked
+  Ready for first customers and design-partner pilots
+  P0–P7
+  feature set complete
+  24
+  production screens
+  SaaS
+  multi-tenant · cloud/on-prem
+  MavionLearn
+  © Maviontech Pvt Ltd · Investor overview · Confidential
+  17
+  NOTES: De-risking slide. The product is built and real — reduces execution risk for an investor. Pre-revenue, launching to first customers and design partners.
+
+--- SLIDE 19 (layout: DEFAULT) pics=6
+  VISION
+  From an LMS to a skills intelligence cloud
+  Learning is the wedge; the long game is becoming the system of record for workforce capability — the place every enterprise measures, grows and proves what its people can do.
+  Now — launch
+  Multi-tenant LMS with skills, compliance, live & on-demand learning, SSO/SCIM and ROI — shipping.
+  Next
+  Native mobile apps, AI-assisted course & skill recommendations, and deeper workforce analytics.
+  Later
+  A skills marketplace & content, cross-org capability benchmarking, and an integrations ecosystem.
+  MavionLearn
+  © Maviontech Pvt Ltd · Investor overview · Confidential
+  18
+  NOTES: The vision that makes this venture-scale: LMS today, system of record for workforce capability tomorrow. Three horizons: launch, mobile+AI, marketplace+ecosystem.
+
+--- SLIDE 20 (layout: DEFAULT) pics=8
+  THE TEAM
+  Built by enterprise engineers
+  Proven architecture
+  A multi-tenant platform built to production standards, not a demo.
+  Security-first
+  Per-tenant isolation, signed-URL media, audit logging and rate limiting.
+  Deep LMS domain
+  Extracted from a battle-tested enterprise learning module.
+  Deploys your way
+  Multi-tenant SaaS, private cloud or on-prem.
+  Ships continuously
+  A disciplined, additive, deeply-QA’d build process.
+  Customer-led
+  A roadmap shaped by real enterprise needs.
+  Founder-led by the Maviontech team.  [ Add founding team, roles & advisors here ]
+  MavionLearn
+  © Maviontech Pvt Ltd · Investor overview · Confidential
+  19
+  NOTES: Team/credibility. The product quality is the proof of capability. Replace the placeholder with founder name(s), roles and any advisors before sharing with investors.
+
+--- SLIDE 21 (layout: DEFAULT) pics=3
+  THE OPPORTUNITY
+  A built product, a $27B market, | and the skills-first wave.
+  MavionLearn turns training into measurable capability — and it’s ready to launch. Let’s show you the product live and talk about where this goes next.
+  Book a product demo
+  Start a 30-day trial
+  mavionlearn.com    ·    hello@maviontech.com    ·    Skills that compound.
+  NOTES: Close on the opportunity: a finished product, a large growing market, and the skills-first tailwind. Two CTAs: demo or trial.

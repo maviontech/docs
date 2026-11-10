@@ -1,0 +1,608 @@
+DECK: vortex-sales-light.pptx
+Slide size: 13.33 x 7.50 in
+Slides: 25
+Fonts used: ['Inter']  | total pictures: 50 | slides with notes: 0
+Core props: title='' author='' created=2013-01-27 09:14:16 modified=2013-01-27 09:15:58 last_mod_by='Steve Canny'
+
+--- SLIDE 1 (layout: Blank) pics=2
+  VORTEX
+  ENTERPRISE SALES DECK
+  09 NOVEMBER 2026
+  THE UNIFIED PEOPLE PLATFORM
+  Vortex.
+  Hire to retire. Attendance to payroll. Assets to approvals — on one secure surface.
+  AN ENTERPRISE PRODUCT BY
+  MavionTech Pvt. Ltd.
+  VERSION
+  1.0
+
+--- SLIDE 2 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  02 / 25
+  CONVERSATION ROADMAP
+  Agenda
+  01
+  Why workforce platforms break at scale
+  02
+  Introducing Vortex
+  03
+  The Vortex modules
+  04
+  Architecture and security
+  05
+  Value, pricing, and roadmap
+  06
+  Next steps
+  ESTIMATED READ · 18 MINUTES
+  TODAY'S FOCUS
+  A single platform for the entire employee journey. Why it works, what it delivers, and how you can pilot it inside thirty days.
+
+--- SLIDE 3 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  03 / 25
+  ABOUT
+  MavionTech
+  MavionTech builds enterprise software for the way modern work actually happens. Headquartered in India, serving customers globally, our engineering team has shipped production systems across HR, payroll, attendance, biometrics, multi-tenant SaaS, and access control.
+  Vortex is our flagship workforce platform, designed from a clean slate with no legacy baggage.
+  Cloud Engineering
+  AI & Biometrics
+  Multi-tenant SaaS
+  Payroll & Compliance
+  Identity & Access
+  Enterprise Security
+  MODEL
+  Multi-tenant cloud
+  ENGINEERS
+  15+
+  FOCUS
+  Workforce SaaS
+  HQ
+  India  ·  Global
+
+--- SLIDE 4 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  04 / 25
+  SECTION 02 — INTRODUCING VORTEX
+  The unified people platform.
+  Vortex brings hiring to retirement, attendance to payroll, assets to approvals into a single secure surface. Built for organisations of 200 to 20,000 employees.
+  UNIFIED
+  One record per employee. Every event, document, balance, and payslip.
+  INTELLIGENT
+  AI-driven biometric attendance. Policy-first payroll. No-code workflows.
+  SECURE
+  Multi-tenant by design. Strict isolation. Compliance built into the architecture.
+
+--- SLIDE 5 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  05 / 25
+  THE STATUS QUO
+  Why workforce platforms break at scale.
+  Disconnected systems
+  HR, payroll, attendance, and helpdesk live in separate tools that never quite agree.
+  Manual reconciliation
+  Finance reconciles attendance to payroll every cycle, manually, in spreadsheets.
+  Compliance debt
+  Statutory rules change faster than legacy systems can adapt to them.
+  Poor employee experience
+  Five logins, three forms, and a ticket just to update a phone number.
+  Hidden cost of ownership
+  License sprawl, integration tax, vendor coordination, double data entry.
+  No data trust
+  Reports do not match across systems. Decisions get delayed by reconciliation.
+
+--- SLIDE 6 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  06 / 25
+  SOLUTION OVERVIEW
+  One platform. One record. One source of truth.
+  Vortex unifies the entire employee journey. Attendance flows directly into payroll. Approvals flow into balances and ledgers. Documents stay attached to people, not to inboxes. Compliance updates ship as policy changes, not as code releases.
+  Built so the platform never asks your team to do the work the platform should do.
+  VORTEX
+  People
+  Attendance
+  Payroll
+  Leave
+  Assets
+  Approvals
+
+--- SLIDE 7 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  07 / 25
+  SECTION 03 — THE VORTEX MODULES
+  Twelve modules. One platform.
+  Base bundle
+  Premium add-on
+  People Management
+  Records, org, roles & documents
+  Attendance Tracking
+  Punches, shifts, rosters, timesheets
+  Leave Management
+  Policies, balances & approvals
+  Employee Self-Service
+  Dashboards, profile, approvals inbox
+  Company Policies
+  Publish policies everyone can read
+  Payroll Management
+  Payruns, PF / ESI / PT / TDS, payslips
+  Performance
+  Goals, appraisals & reviews (PMS)
+  Expense Management
+  Claims & reimbursements
+  Helpdesk
+  Support tickets with SLAs
+  Asset Management
+  Register, allocation & upkeep
+  HR Document Generation
+  42 branded letters & certificates
+  Learning — LMS
+  Courses, training & certifications
+
+--- SLIDE 8 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  08 / 25
+  MODULE 01 — EMPLOYEE LIFECYCLE
+  Hire to retire, in one record.
+  PURPOSE
+  Manage the entire employee journey on a single record, from offer letter to exit interview.
+  CAPABILITIES
+  Pre-boarding tasks, onboarding checklists, profile and document vault, role and reporting changes, transitions, separations, exit clearance, alumni records.
+  WHY IT MATTERS
+  New joiners productive on day one. HR teams free from chasing paperwork. Audit-ready records for every life event.
+  THE VORTEX EMPLOYEE RECORD
+  Unified profile with all life events
+  Document vault per employee
+  Reporting changes with full timeline
+  Configurable onboarding checklists
+  Exit clearance and alumni archive
+
+--- SLIDE 9 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  09 / 25
+  MODULE 02 — SMART ATTENDANCE
+  Friction-free attendance, audit-grade accuracy.
+  PURPOSE
+  Capture attendance with zero friction, anywhere in the world, with audit-grade accuracy.
+  CAPABILITIES
+  Face-recognition punch-in / punch-out, shift and roster management, geo-fenced check-ins, regularization workflows, real-time presence dashboards, biometric terminal and access control integration.
+  WHY IT MATTERS
+  No buddy punching. No paper rosters. No reconciliation surprises at payroll time.
+  WHY TEAMS PICK VORTEX ATTENDANCE
+  Face-AI matching, sub-second
+  Shift, roster, weekend & holiday logic
+  Geo-fenced field force support
+  Self-service regularization workflows
+  Live presence by location, team, role
+
+--- SLIDE 10 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  10 / 25
+  MODULE 03 — PAYROLL ENGINE
+  Run payroll on policy, not on spreadsheets.
+  PURPOSE
+  Run payroll on policy. Every component, every deduction, every audit trail.
+  CAPABILITIES
+  Configurable salary structures, automated payruns, payslip generation, statutory deductions and tax computation, attendance and leave linked adjustments, payroll re-runs with full versioning, period locks, bank file output.
+  WHY IT MATTERS
+  Payroll closes on time, every cycle. Finance trusts the numbers. Employees trust their payslip.
+  THE PAYROLL CLOSE, IN FIVE STEPS
+  Inputs locked at cutoff
+  Engine computes per policy
+  HR reviews, finance signs off
+  Disbursement file generated
+  Period locked, audit logged
+
+--- SLIDE 11 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  11 / 25
+  MODULE 04 — LEAVE & COMP-OFF
+  Honour every policy, automatically.
+  PURPOSE
+  Honour every leave policy and every comp-off rule the business wants to enforce, automatically.
+  CAPABILITIES
+  Configurable leave types, accrual & carry-forward rules, multi-step approval chains, half-day & quarter-day support, weekend / holiday work credits, policy-driven compensatory-off generation, balance ledgers per employee per year.
+  WHY IT MATTERS
+  Employees see real balances. Managers approve in one click. HR stops mediating disputes.
+  A MODERN BALANCE, NOT A SPREADSHEET
+  Live remaining vs. allocated view
+  Year-on-year carry-forward rules
+  Comp-off credit ledger per source
+  Half-day and quarter-day grain
+  Multi-step, mobile-first approvals
+
+--- SLIDE 12 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  12 / 25
+  MODULE 05 — ASSETS & HELPDESK
+  Every laptop tracked. Every ticket routed.
+  PURPOSE
+  Track every asset issued to every employee, and route every internal request to the right team in minutes.
+  CAPABILITIES
+  Asset register with categories and warranties, allocation history, maintenance schedules, return workflows, IT & HR helpdesk with SLAs, queue dashboards, self-service knowledge base, mail and chat integrations.
+  WHY IT MATTERS
+  Zero lost laptops at exit. Faster resolution on day-to-day issues. Happier employees, lower attrition.
+  OPERATIONAL BACKBONE FOR HR & IT
+  Asset register with full history
+  Maintenance & warranty tracking
+  Internal ticket queues per team
+  SLA timers and escalations
+  Knowledge base for self-service
+
+--- SLIDE 13 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  13 / 25
+  MODULE 06 — APPROVALS & WORKFLOWS
+  Decisions at the speed of policy.
+  PURPOSE
+  Route every people decision through a configurable, auditable, policy-aware workflow.
+  CAPABILITIES
+  Multi-step approval chains, approver substitution and out-of-office rules, parallel and sequential paths, role-based routing, audit trails per request, escalation timers, mobile-first approvals, no-code configuration.
+  WHY IT MATTERS
+  Decisions move at the speed of policy, not the speed of inboxes. Every approval is recorded, defensible, and instant.
+  THE WORKFLOW CHASSIS
+  No-code policy editor
+  Sequential & parallel paths
+  Substitution & out-of-office logic
+  Mobile-first approver experience
+  Full audit trail per request
+
+--- SLIDE 14 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  14 / 25
+  WHERE VORTEX IS DIFFERENT
+  Six differentiators that matter.
+  01
+  AI-driven biometric attendance
+  Built in, not bolted on. Sub-second matching, audit-grade evidence.
+  02
+  Multi-tenant by design
+  Strict data isolation per customer. Database-per-tenant architecture.
+  03
+  Policy-first payroll engine
+  Configurable without code. Every component, every cycle, fully auditable.
+  04
+  Unified workflow engine
+  One chassis powers leaves, regularizations, comp-off, expenses, approvals.
+  05
+  Mobile-first experience
+  Punch-in, leave, approvals, payslips, helpdesk — all on the phone.
+  06
+  Cloud-native, multi-region
+  Light & dark themes. Region of residency choice. Zero-downtime updates.
+
+--- SLIDE 15 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  15 / 25
+  SECTION 04 — ARCHITECTURE
+  Built for scale, secured by design.
+  EDGE LAYER
+  Web · Mobile · Biometric devices · Access gates
+  APPLICATION LAYER
+  People · Attendance · Leave · Payroll · Performance · Expenses · Learning · Assets · Helpdesk · Approvals · Dashboards
+  DATA LAYER
+  Multi-tenant DB per customer · Encrypted at rest · Replicated across regions
+  AROUND IT
+  Identity & SSO
+  Integration APIs
+  Audit & event bus
+  Observability
+  TECH BACKBONE
+  Django + Python
+  MySQL multi-tenant
+  Face-AI (InsightFace)
+  Tailwind UI
+  REST APIs
+  SSO ready
+
+--- SLIDE 16 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  16 / 25
+  ILLUSTRATIVE DEPLOYMENTS
+  Three ways Vortex shows up.
+  MANUFACTURING GROUP
+  Consolidates eight HR and payroll tools into Vortex. Closes monthly payroll in hours, not days.
+  8 → 1
+  tools consolidated
+  PROFESSIONAL SERVICES
+  Replaces card-punch terminals with Face-AI across 40 offices. Eliminates buddy punching globally.
+  40
+  offices · zero buddy punches
+  TECHNOLOGY SCALE-UP
+  Adopts Vortex from 100 to 1,200 employees in 18 months. Zero compromise on isolation or audit posture.
+  12×
+  headcount · same platform
+  Illustrative scenarios composed from platform capabilities. Customer references available under NDA.
+
+--- SLIDE 17 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  17 / 25
+  SECTION 05 — VALUE & PRICING
+  Where the value comes from.
+  Consolidation savings
+  Retire three to five overlapping tools.
+  −30 to −45%
+  vendor cost
+  Productivity savings
+  Reduce HR Ops manual hours, every cycle.
+  −40 to −60%
+  manual effort
+  Compliance savings
+  Cut statutory error & rework cost.
+  −70%
+  audit findings
+  Workforce savings
+  Eliminate revenue leakage from incorrect time tracking.
+  1 to 3%
+  of payroll cost
+  Strategic value
+  Faster decisions, better data, happier employees.
+  Material
+  and durable
+  Ranges based on industry benchmarks for HR-tech consolidations and Vortex platform capability. Customer-specific model on request.
+
+--- SLIDE 18 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  18 / 25
+  WHERE VORTEX WINS
+  How Vortex compares.
+  Against legacy suites
+  Modern, mobile-first, biometric core. No implementation army required.
+  Against point HR tools
+  Vortex is the platform of record, not another module the customer must integrate.
+  Against generic SaaS
+  Multi-tenant with strict isolation. India + emerging-market compliance built in. AI attendance native.
+  Against build-internal
+  Vortex ships every feature your team would build, plus the ones they would never get to.
+
+--- SLIDE 19 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  19 / 25
+  TRUST & ASSURANCE
+  Security & compliance — by design.
+  Data protection
+  End-to-end encryption in transit and at rest. AES-256 standard.
+  Tenant isolation
+  Database per tenant. Separate credentials. No shared schema.
+  Identity
+  SSO and directory support. Role-based access. Audit-logged.
+  Operational security
+  Encrypted daily backups. RTO and RPO committed in contract.
+  Compliance posture
+  GDPR-ready. ISO 27001 aligned. SOC 2 in progress. Regional residency.
+  Privacy by default
+  Right-to-be-forgotten flows. Consent capture. Granular data export.
+  99.99%
+  UPTIME SLA
+  AES-256
+  ISO 27001 aligned
+  SOC 2 in progress
+  GDPR-ready
+
+--- SLIDE 20 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  20 / 25
+  SECTION 05 — PRICING
+  One base. Then add exactly what you need.
+  BASIC SERVICES
+  The full core-HR suite — one bundled price.
+  ₹45
+  / employee / month
+  EVERY EMPLOYEE GETS
+  People Management
+  Records, org, roles & documents
+  Attendance Tracking
+  Punches, shifts, rosters, timesheets
+  Leave Management
+  Policies, balances, approvals, calendars
+  Employee Self-Service
+  Dashboards, profile, approvals, comp-off
+  Company Policies
+  Publish policies everyone can read
+  PREMIUM MODULES
+  Switch on only
+what you need.
+  Priced per employee, per month — and editable per tenant.
+  Independently gated — on or off any month
+  Billing follows exactly what's switched on
+  No re-platforming, no data migration
+  Add-ons start from ₹9 / employee / month
+  The full module menu follows  →
+  Priced per active employee  ·  modules editable per tenant  ·  30-day free trial  ·  no credit card  ·  GST extra
+
+--- SLIDE 21 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  21 / 25
+  PRICING
+  The premium module menu.
+  Every module is optional, independently gated, and priced per employee / month — switch on what fits and change it any month.
+  CORE PREMIUM MODULES
+  Payroll Management
+  Salaries, bonuses & statutory deductions
+  ₹49
+  Expense Management
+  Claims & reimbursements, multi-level approvals
+  ₹19
+  HR Document Generation
+  42 branded letters & certificates as PDFs
+  ₹19
+  Performance Management
+  Goals, appraisal cycles & reviews (PMS)
+  ₹39
+  Learning — LMS
+  Courses, compliance training, certifications
+  ₹55
+  Helpdesk Support
+  Employee support ticketing with SLAs
+  ₹19
+  Asset Management
+  Company assets & inventory tracking
+  ₹19
+  ATTENDANCE & MOBILE ADD-ONS
+  VortexGo Mobile App
+  ₹49
+  Remote Punch-In
+  ₹59
+  Geo-Fence Attendance
+  ₹39
+  On-Shift Location Sharing
+  ₹39
+  Punch Step-up Verification
+  ₹19
+  Remote Check-in · add-on
+  ₹9
+  All prices per employee / month, editable per tenant  ·  Remote Check-in is a ₹9 add-on to the VortexGo app  ·  GST extra
+
+--- SLIDE 22 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  22 / 25
+  PRICING — BUILD YOUR PLAN
+  Build your plan. Pay only for what you switch on.
+  CORE HR
+  Everyone starts here
+  ₹45
+  / employee / month
+  Basic Services bundle
+  The full core-HR suite — people, attendance, leave, self-service and policies.
+  ★  MOST CHOSEN
+  GROWING TEAM
+  Where most teams start
+  ₹132
+  / employee / month
+  Basic Services
+  Payroll Management
+  Expense Management
+  Helpdesk Support
+  Add payroll, reimbursements and a support desk as the organisation scales.
+  FULL PLATFORM
+  The complete workforce OS
+  from ₹313
+  / employee / month
+  Basic Services bundle
+  Payroll · Performance · Learning
+  Expense · HR Docs · Helpdesk
+  Assets · VortexGo mobile app
+  Every core module switched on. Attendance & security add-ons priced on top.
+  Illustrative stacks — totals are the sum of list prices. Mix any modules you like; switch them on or off any month. GST extra.
+
+--- SLIDE 23 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  23 / 25
+  PRODUCT ROADMAP
+  Already a lot. About to become more.
+  NOW
+  LIVE TODAY
+  Employee management & profiles
+  Onboarding workflows
+  Document vault per employee
+  Face-AI attendance
+  Shift & roster management
+  Geo-fenced check-ins
+  Leave management
+  Compensatory-off engine
+  Multi-step approval workflows
+  Payroll engine & payslips
+  Statutory compliance (PF · ESI · PT · TDS)
+  Performance, goals & appraisals
+  Expense claims & reimbursements
+  Learning & development (LMS)
+  Asset register & maintenance
+  IT & HR helpdesk with SLAs
+  HR document generation
+  VortexGo employee mobile app
+  Multi-entity payroll
+  Multi-tenant data isolation
+  Role-based access control
+  Live dashboards & analytics
+  Audit logging end-to-end
+  NEXT
+  WITHIN 6 MONTHS
+  Recruitment & applicant tracking
+  Employee engagement & surveys
+  Benefits & insurance administration
+  Advanced BI & custom reports
+  Native mobile manager app
+  LATER
+  12+ MONTHS
+  Predictive workforce analytics
+  Generative-AI policy authoring
+  Regional payroll engines
+  Vortex app marketplace
+  Over twenty production-grade capabilities live today — and we ship every fortnight.
+
+--- SLIDE 24 (layout: Blank) pics=2
+  VORTEX
+  ·  YOUR WORKFORCE, IN MOTION
+  BY MAVIONTECH
+  24 / 25
+  SECTION 06 — NEXT STEPS
+  Start with a 45-minute working session.
+  We will walk through your current people stack. Map it to Vortex modules. Surface quick wins. Share a tailored value model and pilot proposal. No commitment, no contract — until you see the platform on your data.
+  01
+  Discover
+  We map your current people stack
+  02
+  Model
+  Tailored value & pilot proposal
+  03
+  Pilot
+  Live on your data in 30 days
+  BOOK THE WORKING SESSION  →
+
+--- SLIDE 25 (layout: Blank) pics=2
+  VORTEX
+  END OF PRESENTATION
+  09 NOVEMBER 2026
+  LET'S KEEP THE CONVERSATION GOING
+  Thank you.
+  Ready to see Vortex on your data? Book a 45-minute working session.
+  AN ENTERPRISE PRODUCT BY
+  MavionTech Pvt. Ltd.
+  WEB
+  vortex.maviontech.com
+  EMAIL
+  sales@maviontech.com
+  PHONE
+  +91 XXXXX XXXXX

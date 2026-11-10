@@ -1,0 +1,66 @@
+{
+ "Agastya_Enterprise_Sales_Deck.pptx": {
+  "slides": 32,
+  "pics": 168,
+  "notes": 32,
+  "fonts": [],
+  "size": 9593148
+ },
+ "MavionLearn_Sales_Deck.pptx": {
+  "slides": 16,
+  "pics": 65,
+  "notes": 0,
+  "fonts": [
+   "Calibri",
+   "Sora"
+  ],
+  "size": 933148
+ },
+ "MavionLearn_Sales_Investor_Deck.pptx": {
+  "slides": 21,
+  "pics": 124,
+  "notes": 21,
+  "fonts": [
+   "Segoe UI"
+  ],
+  "size": 5726135
+ },
+ "PragyanNxt_Enterprise_Sales_Deck.pptx": {
+  "slides": 20,
+  "pics": 14,
+  "notes": 20,
+  "fonts": [
+   "Calibri"
+  ],
+  "size": 1874283
+ },
+ "Protonnxt_Sales_Demo_Revised.pptx": {
+  "slides": 42,
+  "pics": 74,
+  "notes": 0,
+  "fonts": [
+   "Calibri",
+   "Georgia"
+  ],
+  "size": 20582494
+ },
+ "SalesPulse_CRM_Sales_Deck.pptx": {
+  "slides": 26,
+  "pics": 107,
+  "notes": 22,
+  "fonts": [
+   "Calibri",
+   "Segoe UI Emoji"
+  ],
+  "size": 1224056
+ },
+ "vortex-sales-light.pptx": {
+  "slides": 25,
+  "pics": 50,
+  "notes": 0,
+  "fonts": [
+   "Inter"
+  ],
+  "size": 226120
+ }
+}

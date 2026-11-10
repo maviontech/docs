@@ -1,0 +1,546 @@
+DECK: Protonnxt_Sales_Demo_Revised.pptx
+Slide size: 13.33 x 7.50 in
+Slides: 42
+Fonts used: ['Calibri', 'Georgia']  | total pictures: 74 | slides with notes: 0
+Core props: title='' author='' created=2013-01-27 09:14:16 modified=2026-04-24 02:39:38 last_mod_by='Sant Anurag Deo'
+
+--- SLIDE 1 (layout: Blank) pics=2
+  ProtonNxt
+  Enterprise Applicant Tracking Platform
+  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  SALES OVERVIEW
+  The ProtonNxt ATS
+  From requisition to hire, beautifully.
+  Enterprise-grade applicant tracking for recruitment firms and talent teams. Multi-tenant, AI-assisted, built for speed, structure, and clarity across every hire.
+  Crafted by MavionTech Pvt. Ltd.  ·  Enterprise Software Solutions  ·  mvtech.in
+
+--- SLIDE 2 (layout: Blank) pics=1
+  01
+  PROTONNXT  ·  SALES OVERVIEW
+  A MavionTech product
+  SECTION 01
+  Executive Overview
+  Protonnxt is a modern, multi-tenant applicant tracking platform built for recruitment firms and enterprise talent teams who need speed, structure, and clarity across every hire.
+  SECTION   ·   PROTONNXT  |  MAVIONTECH
+  Enterprise Software Solutions
+  2
+
+--- SLIDE 3 (layout: Blank) pics=1
+  SECTION 02  ·  PLATFORM OBJECTIVES
+  Three outcome pillars
+  What every release, every tenant, every hire gets from Protonnxt.
+  OPERATIONAL
+  Faster time-to-hire
+  •  AI-assisted resume parsing | •  Single-page Talent Intake workflow | •  Structured interview cadence | •  Clear recruiter ownership
+  GOVERNANCE
+  Enterprise multi-tenancy
+  •  Isolated tenant databases | •  Role-based access (Admin, Team Lead, User) | •  Tenant branding and settings | •  Audit-ready subscription lifecycle
+  INSIGHT
+  Decision-ready analytics
+  •  Candidate reporting + Executive summaries | •  Tenant-wide candidate database search | •  Client Engagement scoring (BETA) | •  Exportable, role-aware Excel packs
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  3
+
+--- SLIDE 4 (layout: Blank) pics=1
+  SECTION 03  ·  THE PROTONNXT ECOSYSTEM
+  One platform, three experiences
+  Tenant workspace, tenant admin, and candidate surfaces — designed together.
+  TENANT ATS
+  Recruiter workspace
+  •  Req, Intake, Tracking, Offers | •  Reports, Client Analytics BETA | •  Team and recruiter workflows
+  TENANT ADMIN
+  Platform controls
+  •  Subscription + billing | •  Custom candidate schema | •  Email, notifications, sessions
+  CANDIDATE
+  Public + portal surfaces
+  •  Branded careers URL | •  Invite-based upload | •  Portal with application history
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  4
+
+--- SLIDE 5 (layout: Blank) pics=1
+  SECTION 04  ·  FEATURE LANDSCAPE
+  Everything that ships with every tenant
+  One product, every surface of the hiring lifecycle — built-in, no add-ons.
+  HIRING PIPELINE
+  Req → Intake → Track
+  ✓  Job Requisitions with SPOC + skills | ✓  Talent Intake & Matching (single / multi / ZIP) | ✓  AI resume parsing (GPT + Gemini) | ✓  Candidate Pipeline & Muster | ✓  Interview Workflow (L1 / L2 / L3) | ✓  Offer Management + joining lifecycle | ✓  Dedupe at candidate creation | ✓  Attach existing candidate to JD
+  OPERATIONS
+  Ownership + Collaboration
+  ✓  JD Assignment to recruiters / teams | ✓  Teams with lead + members + roles | ✓  Role-aware visibility | ✓  Candidate activity notes + audit | ✓  Real-time notifications (Channels) | ✓  Dual-login: web + mobile | ✓  Session management | ✓  Email configuration per tenant
+  ANALYTICS & REPORTING
+  Decision-ready data
+  ✓  Admin Dashboard + KPI tiles | ✓  Team Reports + Performance charts | ✓  Status Report + Conversion Analytics | ✓  Candidate Reports (8 curated presets) | ✓  Attribute Builder + Saved Templates | ✓  Executive Summary (donut / bar / trend) | ✓  Skill Search across the talent pool | ✓  Client Engagement Analytics (BETA)
+  ADMIN & PARTNER SURFACES
+  Governance + Portal
+  ✓  Custom Candidate Schema (tenant-defined) | ✓  Settings: users, roles, permissions | ✓  Subscription + billing dashboard | ✓  Enterprise XLSX export everywhere | ✓  HMAC-signed read-only share URLs | ✓  Public careers URL (tenant-branded) | ✓  Invite-based JD upload links | ✓  Candidate Portal across tenants
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  5
+
+--- SLIDE 6 (layout: Blank) pics=1
+  SECTION 05  ·  THE PLATFORM MODULES
+  Every step of the hiring lifecycle, built-in
+  No add-ons required. Every module ships to every tenant from day one.
+  MODULE 01
+  Job Requisitions
+  JDs with SPOC, skills, positions, lifecycle.
+  MODULE 02
+  Candidate Sourcing
+  Careers URL, invite upload, AI auto-assign.
+  MODULE 03
+  Talent Intake & Matching
+  Single / multi / ZIP upload, AI parsing.
+  MODULE 04
+  Applicant Tracking
+  Pipeline, muster, finalized-candidate view.
+  MODULE 05
+  JD Assignment
+  Recruiter / team ownership with workload view.
+  MODULE 06
+  Team Collaboration
+  Teams, roles, real-time notifications.
+  MODULE 07
+  Interview Workflow
+  L1 / L2 / L3 scheduling + outcomes.
+  MODULE 08
+  Offer Management
+  Structured offer + joining lifecycle.
+  MODULE 09
+  Public + Portal
+  Careers submission + candidate portal.
+  MODULE 10
+  Reports & Analytics
+  Team, status, conversion, candidate reports.
+  MODULE 11
+  Client Analytics
+  Scoring, segmentation, signed-URL sharing. BETA.
+  MODULE 12
+  Settings & Admin
+  Subscriptions, custom schema, notifications.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  6
+
+--- SLIDE 7 (layout: Blank) pics=2
+  TENANT OVERVIEW
+  Admin Dashboard
+  One screen for every tenant admin to land on after login.
+  KEY CAPABILITIES
+  •  KPI tiles for active JDs, candidates, teams and customers | •  Customer distribution and JD volume chart | •  Recruitment funnel by stage across the tenant | •  Team-wise contribution and workload view | •  Unworked-JD alerts surface idle pipelines
+  BUSINESS VALUE
+  Admins see pipeline health in one glance — no ad-hoc spreadsheets, no Monday-morning triage.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  7
+
+--- SLIDE 8 (layout: DEFAULT) pics=1
+
+--- SLIDE 9 (layout: Blank) pics=2
+  MODULE 01
+  Job Requisition Management
+  Create, assign, and track every requisition with structured ownership.
+  KEY CAPABILITIES
+  •  Must-have and good-to-have skill framing | •  JD SPOC name + email for customer-side updates | •  Positions, budget CTC and experience bands | •  Team and recruiter assignment per JD | •  Lifecycle states: Active / On-hold / Closed
+  BUSINESS VALUE
+  Requisitions become a contract between recruiter, hiring lead, and the platform — not a spreadsheet row.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  8
+
+--- SLIDE 10 (layout: Blank) pics=2
+  MODULE 02
+  Candidate Sourcing
+  Multiple intake channels flowing into one structured pipeline.
+  KEY CAPABILITIES
+  •  Public branded careers URL per tenant | •  Invite-based upload via signed per-JD URL | •  AI Auto-Assign of public submissions to active JDs | •  Recruiter-driven resume upload with dedupe at candidate save | •  PUBSUB generic-JD routing for unclaimed profiles
+  BUSINESS VALUE
+  Recruiters collect profiles from any channel and land them in the same structured candidate view, immediately.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  9
+
+--- SLIDE 11 (layout: Blank) pics=2
+  MODULE 03
+  Talent Intake & Matching
+  The recruiter's single page for resume upload, parsing, and JD attachment.
+  KEY CAPABILITIES
+  •  Single, multi-file, and ZIP archive resume upload | •  File-type validation at upload; dedupe at candidate creation | •  AI resume parsing (GPT + Gemini) with manual override | •  Attach existing tenant candidate to a JD without re-parsing | •  Batch tracking via resume_upload_batches with per-row status
+  BUSINESS VALUE
+  Upload stays fast and simple; duplicates are prevented where it matters — at the candidate save step.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  10
+
+--- SLIDE 12 (layout: Blank) pics=2
+  IN THE PRODUCT  ·  MODULE 03
+  Bulk Resume Upload — Files, ZIP, or single-file intake
+  PDF / DOC / DOCX single + multi-file + ZIP archive uploads, all through one overlay, scoped to the target JD.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  11
+
+--- SLIDE 13 (layout: Blank) pics=2
+  MODULE 04
+  Applicant Tracking
+  Candidate Pipeline + Candidate Muster + Finalized-candidate view.
+  KEY CAPABILITIES
+  •  Screen status, L1 / L2 / L3 interview outcomes, offer status | •  Joining status with joining date + comments | •  Recruiter + HR-member ownership per candidate | •  Activity log of notes, feedback, and status moves | •  One-click conversion reports from the same data
+  BUSINESS VALUE
+  The pipeline always tells the truth — stage, owner, and next action are never ambiguous.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  12
+
+--- SLIDE 14 (layout: Blank) pics=2
+  MODULE 05
+  JD Assignment
+  Operator-grade assignment of requisitions to recruiters and teams.
+  KEY CAPABILITIES
+  •  Drag-free structured assignment interface | •  Multi-recruiter coverage per JD | •  Visible load and active-JD counts per recruiter | •  Customer + JD + recruiter filter bar | •  Assignment-driven reports out of the box
+  BUSINESS VALUE
+  No more tribal knowledge about who owns what — the platform keeps ownership explicit.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  13
+
+--- SLIDE 15 (layout: Blank) pics=2
+  MODULE 06
+  Team Collaboration
+  Members, roles, teams, and real-time notifications baked in.
+  KEY CAPABILITIES
+  •  Teams with lead + members + membership management | •  Roles: SuperUser, Admin, Team Lead, User | •  Candidate activity notes shared within the team | •  Real-time notifications via Channels + Redis | •  Dual-login (web + mobile) per user
+  BUSINESS VALUE
+  Teams operate in the same context, see the same pipeline, and hand-off without email threads.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  14
+
+--- SLIDE 16 (layout: Blank) pics=2
+  MODULE 07
+  Interview Workflow
+  Scheduling, interviewer coordination, and result capture across L1 / L2 / L3.
+  KEY CAPABILITIES
+  •  Level-wise scheduling (L1 / L2 / L3) per candidate | •  Interviewer name + email + location + type | •  Status lifecycle: scheduled / completed / canceled | •  Structured feedback capture tied to the candidate | •  Outcome visible in Pipeline + Reports instantly
+  BUSINESS VALUE
+  Interview context never leaves the platform — scheduling, outcomes, and feedback live in one record.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  15
+
+--- SLIDE 17 (layout: Blank) pics=2
+  MODULE 08
+  Offer Management
+  Structured offer letters tied to the candidate record.
+  KEY CAPABILITIES
+  •  Basic, HRA, Special Allowance, PF, Gratuity, Bonus, Other | •  Total CTC auto-aggregated | •  Joining date captured at offer time | •  Accept / Decline / Released / Joined lifecycle | •  Offer-to-join conversion visible in reports
+  BUSINESS VALUE
+  Offers stop living in email attachments and move into the pipeline as a first-class artifact.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  16
+
+--- SLIDE 18 (layout: Blank) pics=2
+  MODULE 09
+  Public Submission & Candidate Portal
+  Tenant-branded career URL + aggregated candidate portal.
+  KEY CAPABILITIES
+  •  Tenant-scoped careers URL (no long signed blobs) | •  Opt-in Candidate Portal registration at submit time | •  Spam / abuse controls with per-tenant token lifecycle | •  Auto-route into the sourcing pool via AI Auto-Assign | •  Aggregated candidate view across every tenant they apply to
+  BUSINESS VALUE
+  A careers page that is brand-consistent, safe, and wired straight into your pipeline.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  17
+
+--- SLIDE 19 (layout: Blank) pics=2
+  MODULE 10
+  Reports & Analytics
+  Operational reports your recruitment leadership already relies on.
+  KEY CAPABILITIES
+  •  Team Reports with recruiter workload and conversion | •  Task Progress reports across teams and JDs | •  Status Report, Candidate Conversion Rates | •  Skill Search across the parsed candidate database | •  Exportable Excel packs with filter metadata
+  BUSINESS VALUE
+  Leaders open one set of reports before every hiring review — nobody improvises metrics on a Monday morning.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  18
+
+--- SLIDE 20 (layout: Blank) pics=2
+  REPORTING 10A
+  Candidate Reports · Curated + Builder
+  A dedicated reporting workspace for workflow and tenant-global candidate data.
+  KEY CAPABILITIES
+  •  Two scopes: JD / Workflow and Tenant Candidate Database | •  Eight curated presets (Selected, Pipeline, Aging, Rejected, Interview Outcome, Global Inventory, Talent Pool, Freshness) | •  Role-aware filters: customer, JD, team, recruiter, status, experience, location | •  15-row server-side pagination with clean empty-state handling | •  Saved report templates — personal and shared-to-admins
+  BUSINESS VALUE
+  Recruiter ops and leadership share the same reporting surface — governed filters, not free-form SQL.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  19
+
+--- SLIDE 21 (layout: Blank) pics=2
+  REPORTING 10B
+  Executive Summary  ·  Visualization
+  Every report run also produces chart summaries over the same filtered dataset.
+  KEY CAPABILITIES
+  •  Tile strip: candidates, JDs, customers, recruiters | •  Stage Distribution donut with stable colour map | •  Top Recruiters and Top Customers bar charts (Top 10) | •  Movement Trend line chart over the selected date type | •  Totals invariant: chart sums always match the table row count
+  BUSINESS VALUE
+  Leadership gets one-screen visual answers — and the numbers cannot drift from the table below.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  20
+
+--- SLIDE 22 (layout: Blank) pics=2
+  REPORTING SHOWCASE  ·  MODULE 10B
+  Executive Summary in action
+  Donut + bar charts + trend line rendered live on the same filtered dataset powering the table below.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  21
+
+--- SLIDE 23 (layout: Blank) pics=2
+  REPORTING 10C
+  Attribute Builder + Enterprise Excel Export
+  Ad-hoc candidate reporting, still safe, still role-aware.
+  KEY CAPABILITIES
+  •  Build AND-logic reports on the fixed candidate field catalog | •  Opt-in custom candidate fields (via show_in_reports) | •  Validated field / operator / value catalog prevents bad SQL | •  XLSX export: title banner, metadata, summary, applied-filter section | •  Dedicated Report Context sheet for leadership review packs
+  BUSINESS VALUE
+  Recruiter ops can answer any candidate question on demand — and deliver a ready-to-share Excel pack.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  22
+
+--- SLIDE 24 (layout: Blank) pics=1
+  FEATURE SPOTLIGHT · 10D
+  Skill Search & Talent Discovery
+  Turn the tenant candidate base into a searchable talent layer.
+  SEARCH INPUTS
+  Stacked skill queries
+  Look up skills, combinations, and priority terms across parsed resumes and profile data. Searchable custom fields (marked searchable) also participate.
+  FILTERS
+  Operational context
+  Refine by experience, notice period, location, and current status before opening a profile.
+  OUTCOME
+  From search to shortlist
+  Open the profile, export the shortlist, or attach an existing tenant candidate to the target JD — without creating a duplicate.
+  ENTERPRISE VALUE
+  Reuse the talent pool
+  Cuts spreadsheet-driven profile hunting. Makes Protonnxt a real talent discovery surface, not just an intake tool.
+  DEEP DIVE   ·   PROTONNXT
+  Enterprise Software Solutions
+  23
+
+--- SLIDE 25 (layout: Blank) pics=2
+  MODULE 11
+  Client Engagement Analytics (BETA)
+  Tenant-admin module: which clients are premium, dormant, risky, or trending up.
+  KEY CAPABILITIES
+  •  Engagement score per client (Volume + Conversion + Velocity + Consistency − Rejection penalty) | •  Seven deterministic segments: Premium, Growth, Active, Dormant, Backbench, Risky, High Rejection | •  Donut for distribution, Top Movers ranked by current score | •  Tenant Engagement Index and delta-vs-previous-window pills | •  Cron-refreshable rollup with on-demand 'Refresh now'
+  BUSINESS VALUE
+  Tenant admins finally answer 'which clients are worth the extra investment?' — without opening Excel.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  24
+
+--- SLIDE 26 (layout: Blank) pics=2
+  CLIENT ANALYTICS SHOWCASE  ·  MODULE 11
+  Client Engagement · Overview at a glance
+  KPI strip with delta pills, Segment Distribution donut, and Top Movers list drive the tenant's engagement story.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  25
+
+--- SLIDE 27 (layout: Blank) pics=2
+  MODULE 11A
+  Leaderboard, Drill-down, and Compare
+  Per-client pipeline view, 12-week trends, side-by-side radar.
+  KEY CAPABILITIES
+  •  Leaderboard with segment pills, gradient score bars, and 12-week sparklines | •  Per-client drill-down: pipeline funnel, score breakdown, segment history timeline | •  Multi-metric trend chart (JDs, submissions, selections, rejections, interviews) | •  Compare view: KPI matrix with best/worst highlighting + 5-axis engagement radar | •  Every segment pill carries a 'why?' explainability tooltip with the rule that fired
+  BUSINESS VALUE
+  Account managers have an evidence-based conversation with every customer, every quarter.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  26
+
+--- SLIDE 28 (layout: Blank) pics=2
+  CLIENT ANALYTICS SHOWCASE  ·  MODULE 11A
+  Compare up to 10 clients on 5 engagement dimensions
+  Volume, Conversion, Velocity, Consistency, Low-Rejection — one polygon per client, KPI matrix with best/worst highlighting.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  27
+
+--- SLIDE 29 (layout: Blank) pics=2
+  CLIENT ANALYTICS SHOWCASE  ·  MODULE 11
+  Seven deterministic segments, tenant-tunable rules
+  Premium / Growth / Active / Dormant / Backbench / Risky / High Rejection — every pill explains the rule that fired.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  28
+
+--- SLIDE 30 (layout: Blank) pics=2
+  MODULE 11B
+  Tunable Scoring, Signed Snapshots, Accessibility
+  Tenant-admin controls plus a public snapshot surface for stakeholder sharing.
+  KEY CAPABILITIES
+  •  Editable scoring weights and segment thresholds per tenant | •  Enterprise XLSX export (Summary + Leaderboard + About sheets) | •  HMAC-signed share URLs — read-only, 7-day expiry, no login required | •  Append-only audit log: view / export / refresh / snapshot | •  WCAG 2.1 AA: sr-only tables, ARIA tablist, keyboard nav
+  BUSINESS VALUE
+  Admins tune 'premium' for their business and share evidence outside the ATS safely.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  29
+
+--- SLIDE 31 (layout: Blank) pics=2
+  MODULE 12
+  Settings & Tenant Controls
+  Everything an administrator needs to shape, secure, and operate the platform.
+  KEY CAPABILITIES
+  •  Users, roles, permissions with active / inactive status | •  Notification settings and email-config per tenant | •  Session management with dual-login (web + mobile) | •  Subscription + billing dashboard; Razorpay-backed lifecycle | •  Tenant branding and module toggles
+  BUSINESS VALUE
+  Administrators are in control — without engineering tickets, without surprises.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  30
+
+--- SLIDE 32 (layout: Blank) pics=2
+  SETTINGS SHOWCASE  ·  MODULE 12
+  Subscription & Billing Dashboard
+  Tenant admins track plan, usage, invoices, and renewal directly inside the ATS.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  31
+
+--- SLIDE 33 (layout: Blank) pics=2
+  SETTINGS SHOWCASE  ·  MODULE 12
+  Session Management — web + mobile, governed
+  Dual-login session inventory with forced-logout controls for security reviews.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  32
+
+--- SLIDE 34 (layout: Blank) pics=2
+  ADMIN CONTROL 12A
+  Custom Candidate Schema
+  Each tenant extends the candidate record with its own fields, safely.
+  KEY CAPABILITIES
+  •  Field types: text, number, date/datetime, boolean, select, multi-select, email, phone, URL | •  Four visibility toggles: detail / exports / search / reports | •  Reordering + activate / deactivate without data loss | •  Tenant-scoped — strict isolation, no cross-tenant bleed | •  Custom fields render across create, profile, and finalized views
+  BUSINESS VALUE
+  One product, many tenant-specific hiring models — no code forks, no support tickets.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  33
+
+--- SLIDE 35 (layout: Blank) pics=1
+  DEEP DIVE · CANDIDATE PORTAL
+  The Candidate Portal  ·  Up Close
+  Why the portal is the single most visible difference your candidates will notice.
+  ONE IDENTITY
+  One login, every employer
+  Platform-level candidate identity. A single portal account works across every tenant using Protonnxt.
+  AGGREGATED
+  All applications, one screen
+  A single dashboard listing every active and closed application across every employer the candidate has applied to.
+  REAL-TIME
+  Status updates within a second
+  When a recruiter moves them to L2, the candidate sees it on their screen within a second via the Channels layer.
+  RESUME LIBRARY
+  Upload once, fan out
+  Candidates upload a resume once; it is delivered to every tenant they have applied to, with per-tenant delivery status.
+  DEEP DIVE   ·   PROTONNXT
+  Enterprise Software Solutions
+  34
+
+--- SLIDE 36 (layout: DEFAULT) pics=1
+
+--- SLIDE 37 (layout: Blank) pics=1
+  6
+  PROTONNXT  ·  SALES OVERVIEW
+  A MavionTech product
+  SECTION 06
+  Latest additions
+  Shipped since this deck's last revision: Vendor Management, Calendar & Video Interviews, and a full mobile recruiter app, plus advanced recruitment reporting. One multi-tenant platform, no add-ons.
+  SECTION   ·   PROTONNXT  |  MAVIONTECH
+  Enterprise Software Solutions
+  37
+
+--- SLIDE 38 (layout: Blank) pics=2
+  MODULE 13
+  Vendor Management
+  Bring external staffing agencies into the hiring flow, governed, measured, and fully audited.
+  KEY CAPABILITIES
+  •  Invite agencies; manage vendor users and roles (admin / recruiter / finance) | •  Publish specific requisitions to selected vendors with per-vendor caps | •  Vendors submit candidates straight into your pipeline, with duplicate protection | •  Review, accept or reject submissions; track contracts, invoices and payments | •  Separate vendor login + JWT, deny-by-default; nothing leaks across tenants
+  BUSINESS VALUE
+  Your agency channel becomes a first-class, accountable part of the pipeline, not an inbox of forwarded resumes.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  38
+
+--- SLIDE 39 (layout: Blank) pics=2
+  MODULE 14
+  Calendar & Video Interviews
+  Schedule interviews on a real calendar with one-click video meetings, invites, reminders and outcomes in one place.
+  KEY CAPABILITIES
+  •  Per-recruiter calendar with scheduling, rescheduling and progression gates | •  One-click video meetings via MavionMeet with auto-generated guest join links | •  Automatic candidate + panel invites, ICS calendar files and reminders | •  Live status sync from the meeting: started / ended / recorded / minutes | •  Encrypted per-recruiter keys; hourly reconciliation so no outcome is lost
+  BUSINESS VALUE
+  Interviews move from ad-hoc emails and manual meeting links to a governed, trackable scheduling workflow.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  39
+
+--- SLIDE 40 (layout: Blank) pics=2
+  MODULE 15
+  Mobile Recruiter App
+  The full ProtonNxt workspace in your pocket, built for the in-between moments between meetings.
+  KEY CAPABILITIES
+  •  Today dashboard: interviews, approvals, agenda and company KPIs at a glance | •  Candidate pipeline, JDs, interviews and search with fast windowed pagination | •  Act on the move: advance, hold, reject, call / WhatsApp / share CV, record results | •  Biometric app-lock, secure token auth, offline-aware, light + dark themes | •  Push + real-time notifications; one governed login across web and mobile
+  BUSINESS VALUE
+  Recruiters keep hiring moving between meetings; approvals and interview actions no longer wait for a desk.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  40
+
+--- SLIDE 41 (layout: Blank) pics=1
+  USPS & DIFFERENTIATORS
+  Why Protonnxt beats every ATS you have evaluated
+  01
+  Multi-tenant by design
+  Each tenant on an isolated MySQL database. No shared tables, no cross-tenant bleed, no retrofitted multitenancy.
+  02
+  AI parsing without lock-in
+  Pluggable parsing with OpenAI + Gemini paths. Recruiter manual override always available.
+  03
+  Tenant-governed custom schema
+  Tenants extend the candidate model with their own fields — without forking the product.
+  04
+  Reporting done right
+  Curated presets, attribute builder, saved templates, and an Executive Summary visualization layer, all role-aware.
+  05
+  Client Engagement Analytics
+  Proprietary scoring + segmentation tells admins which clients to grow and which are slipping.
+  06
+  Candidate Portal
+  One candidate login across every Protonnxt tenant — resumes fanned out, statuses updated in real time.
+  07
+  Enterprise-grade exports
+  Every exportable surface ships a styled multi-sheet XLSX — not a raw CSV dump.
+  08
+  Audit-ready operations
+  Append-only audit logs on sensitive surfaces, session management, and subscription governance.
+  PROTONNXT  ·  A MAVIONTECH PRODUCT
+  Enterprise Software Solutions
+  35
+
+--- SLIDE 42 (layout: DEFAULT) pics=3
+  Thank you.
+  Let's build your next hire — together.
+  SALES
+  communications@maviontech.com
+  WEB
+  protonnxt.com
+  DEMO
+  protonnxt.com/demo
+  Crafted by MavionTech Pvt. Ltd.  ·  Enterprise Software Solutions
+  PROTONNXT
+  Enterprise ATS
+  A MAVIONTECH PRODUCT
+  Built for recruitment firms. Proven at enterprise scale.

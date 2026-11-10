@@ -1,0 +1,301 @@
+DECK: PragyanNxt_Enterprise_Sales_Deck.pptx
+Slide size: 13.33 x 7.50 in
+Slides: 20
+Fonts used: ['Calibri']  | total pictures: 14 | slides with notes: 20
+Core props: title='PragyanNxt Enterprise Sales Deck' author='MavionTech' created=2026-11-09 19:59:17 modified=2026-11-09 19:59:17 last_mod_by='MavionTech'
+
+--- SLIDE 1 (layout: DEFAULT) pics=3
+  MavionTech
+  ENTERPRISE SALES OVERVIEW
+  ASSESSMENT · PROCTORING · CERTIFICATION
+  The enterprise platform for secure assessment & verifiable certification
+  Built for corporates and academic institutions that need remote testing they can defend — and credentials the world can trust.
+  Crafted by MavionTech Pvt. Ltd.
+Enterprise Software Solutions
+  ASSESS · LEARN · PROGRESS
+  NOTES: Opening slide. PragyanNxt is MavionTech's enterprise assessment and certification platform. One platform across the whole lifecycle that also issues verifiable credentials, for hiring and education.
+
+--- SLIDE 2 (layout: DEFAULT) pics=0
+  THE PROBLEM
+  Online testing scaled. Trust didn't.
+  Organizations moved assessment online for speed and reach — then found the result was only as good as its integrity. Impersonation, collaboration and leaked content quietly erode every score.
+  For hiring teams
+  Gamed screening tests push the wrong candidates forward — while strong talent walks away from a process it doesn't trust.
+  For academic institutions
+  Unmonitored exams devalue the certificate, invite disputes and grade appeals, and put accreditation and reputation at risk.
+  PragyanNxt   ·   Enterprise Assessment & Certification
+  NOTES: The problem framed for both buyers. A result you cannot defend is worthless — and it hurts hiring teams and institutions in different but equally damaging ways.
+
+--- SLIDE 3 (layout: DEFAULT) pics=0
+  WHY IT MATTERS
+  An assessment you can't defend is a liability.
+  The wrong hire
+  Every bad hire that cleared a gamed test costs months of ramp, lost output and re-hiring — across every role screened online.
+  The disputed result
+  Contested scores trigger appeals, manual re-grading and reputational damage — and a credential nobody fully trusts.
+  The leaked exam
+  Once a question bank leaks, the whole assessment is compromised and has to be rebuilt from scratch.
+  PragyanNxt is built so the integrity of the result — and the credential that follows — is never in question.
+  PragyanNxt   ·   Enterprise Assessment & Certification
+  NOTES: Three failure modes that cost real money and reputation. No fabricated statistics. Pivot to PragyanNxt as the answer.
+
+--- SLIDE 4 (layout: DEFAULT) pics=0
+  PROBLEMS WE SOLVE
+  Real problems. Directly solved.
+  THE CHALLENGE
+  HOW PRAGYANNXT SOLVES IT
+  Candidates cheat in unsupervised remote exams
+  →
+  AI proctoring plus an integrity score on every attempt
+  Scores get disputed and appealed
+  →
+  A defensible evidence trail with formal appeals and review
+  Certificates are trivial to forge
+  →
+  Cryptographically signed credentials anyone can verify
+  Authoring quality assessments takes days
+  →
+  Bulk import and AI generation from your own content
+  Point tools don't talk to each other
+  →
+  One platform from authoring to verifiable credential
+  Mixing organizations' data is a security risk
+  →
+  A separate, isolated database for every tenant
+  PragyanNxt   ·   Enterprise Assessment & Certification
+  NOTES: The crisp problem-to-solution map. Six real pains, each answered by a specific capability. Bridge from the problem act into the platform tour.
+
+--- SLIDE 5 (layout: DEFAULT) pics=1
+  THE SOLUTION
+  One platform for the entire assessment lifecycle.
+  PragyanNxt unifies authoring, secure delivery, AI proctoring, integrity scoring, analytics and verifiable certification — so every result is defensible and every credential is trusted.
+  ✓   Multi-tenant SaaS with per-organization data isolation
+  ✓   AI proctoring and behavioural integrity scoring
+  ✓   Cryptographically signed, verifiable certificates
+  app.pragyannxt.com
+  PragyanNxt   ·   Enterprise Assessment & Certification
+  NOTES: The pivot slide. Left: the one-platform promise and three defensible proof points. Right: the real, live admin dashboard — the actual product, not a mock-up.
+
+--- SLIDE 6 (layout: DEFAULT) pics=0
+  HOW IT WORKS
+  Five stages, one closed loop of trust.
+  01
+  Author
+  Tagged question banks, bulk import and AI generation.
+  02
+  Deliver
+  Scheduled, assigned or invite-link exams, randomized per candidate.
+  03
+  Proctor
+  Live monitoring, recording and AI visual integrity analysis.
+  04
+  Score
+  Auto-scoring, manual grading, integrity scores and reports.
+  05
+  Certify
+  Signed, verifiable certificates the world can trust.
+  Each stage feeds the next — so the certificate at the end carries the integrity evidence from every step before it.
+  PragyanNxt   ·   Enterprise Assessment & Certification
+  NOTES: Five stages, one loop. Certify is gold because it is the differentiator — most tools stop at Score. Integrity evidence travels with the credential.
+
+--- SLIDE 7 (layout: DEFAULT) pics=0
+  EVERYTHING IN ONE PLATFORM
+  Eight modules. One integrated system.
+  Authoring
+  Question bank · Bulk import · AI generation · Bloom's & difficulty
+  Delivery
+  Public / assigned / invite · Randomization · Timers & auto-submit · Retakes
+  Proctoring
+  Live monitoring · Screen & webcam recording · AI visual analysis · Media library
+  Integrity
+  Integrity engine · Behavioural signals · Non-proctored scoring · Answer-similarity
+  Results & analytics
+  Auto & manual grading · Report PDFs · Dashboards · AI summaries
+  Certification
+  Signed certificates · Public verification · Portable badges · LTI · Appeals
+  Multi-tenancy & admin
+  Tenant isolation · Control plane · Roles & RBAC · Activity logging
+  Commerce & AI
+  Subscriptions & billing · Entitlements · AI credits · Email invites
+  PragyanNxt   ·   Enterprise Assessment & Certification
+  NOTES: The everything-at-a-glance slide customers ask for: all eight modules and their key features on one screen. Certification is gold to keep the differentiator visible. Each module is expanded later.
+
+--- SLIDE 8 (layout: DEFAULT) pics=1
+  AUTHOR
+  A question bank built for scale.
+  Organize reusable questions by subject and topic, tag by difficulty and Bloom's level, and search a library of thousands in seconds.
+  ✓   Bulk import from CSV and Excel — thousands of items in one upload
+  ✓   AI generation from a prompt, a job description or documents
+  ✓   Difficulty and Bloom's-taxonomy targeting for balanced papers
+  app.pragyannxt.com/questions
+  PragyanNxt   ·   Enterprise Assessment & Certification
+  NOTES: Live screen: a real question bank with 1,225 items across five subjects, loaded during this demo.
+
+--- SLIDE 9 (layout: DEFAULT) pics=0
+  AI-NATIVE
+  AI that does the heavy lifting.
+  Generate questions
+  Draft fresh, on-topic questions from a prompt, a job description or your own source documents — then review and keep what fits.
+  Build whole exams
+  Turn a role or a syllabus into a complete, balanced assessment in minutes instead of days of manual authoring.
+  Summarize results
+  Automatic performance summaries translate raw scores into readable strengths and gaps for every candidate.
+  Model usage is metered and cost-aware, so AI stays an advantage — not a runaway bill.
+  PragyanNxt   ·   Enterprise Assessment & Certification
+  NOTES: AI as a productivity multiplier across authoring, exam build and reporting. Generation is assisted (human reviews output); usage is metered.
+
+--- SLIDE 10 (layout: DEFAULT) pics=1
+  DELIVER
+  Flexible delivery, locked-down experience.
+  Run public campaigns, assign to named candidates, or send single-use invite links — even to people without an account.
+  ✓   A unique randomized paper per candidate, by section and difficulty
+  ✓   Server-enforced timers, auto-submit and draft-answer protection
+  ✓   Reconnect and resume — a dropped connection never loses an answer
+  app.pragyannxt.com/exams
+  PragyanNxt   ·   Enterprise Assessment & Certification
+  NOTES: Live screen: the Assessments workspace with active exams. Three delivery modes cover hiring campaigns, named cohorts and external candidates.
+
+--- SLIDE 11 (layout: DEFAULT) pics=1
+  PROCTOR
+  See every session. Catch every anomaly.
+  Live monitoring, screen and webcam recording, and AI visual analysis work together to keep remote exams honest.
+  ✓   Real-time monitoring with resilient screen & webcam recording
+  ✓   AI flags no-face, multiple faces, a second person or a phone
+  ✓   From full live proctoring to lightweight recorded supervision
+  app.pragyannxt.com/proctoring
+  PragyanNxt   ·   Enterprise Assessment & Certification
+  NOTES: Live screen: the real-time proctoring dashboard (shown idle — sessions and alerts populate as candidates start proctored exams). AI signals: no-face, multiple faces, extra person, phone.
+
+--- SLIDE 12 (layout: DEFAULT) pics=0
+  INTEGRITY ENGINE
+  Integrity you can put a number on.
+  Integrity score
+  92  / 100
+  Every attempt starts at 100. Weighted risk signals subtract points, producing a defensible score and a low / medium / high / critical risk level.
+  Weighted behavioural signals
+  Tab switch  -4.2
+  Paste attempt  -3.5
+  Window blur  -3.2
+  Copy attempt  -2.5
+  Fullscreen exit  -2.5
+  ✓   Works even without a camera — focus, tab and clipboard telemetry score non-proctored exams too.
+  ✓   Answer-similarity detection surfaces collusion and AI-written responses across candidates.
+  PragyanNxt   ·   Enterprise Assessment & Certification
+  NOTES: The integrity engine turns suspicion into a defensible number. Point weights are the real engine values. It scores non-proctored exams from browser telemetry alone and detects collusion/AI answers. 92 is illustrative.
+
+--- SLIDE 13 (layout: DEFAULT) pics=1
+  SCORE & ANALYZE
+  From raw answers to decisions.
+  Auto-scoring and manual grading feed a live analytics layer — completion funnels, pass rates and per-candidate reports.
+  ✓   Assigned → started → completed → passed, at a glance
+  ✓   Downloadable report PDFs and CSV export for every assessment
+  ✓   Integrity reports attached to every result — proctored or not
+  app.pragyannxt.com/reports
+  PragyanNxt   ·   Enterprise Assessment & Certification
+  NOTES: Live screen: the Performance Reports workspace with the completion funnel (empty on a fresh tenant — it fills as assessments complete).
+
+--- SLIDE 14 (layout: DEFAULT) pics=0
+  CERTIFY · THE DIFFERENTIATOR
+  Not just a PDF — a credential the world can verify.
+  Most assessment tools stop at a score. PragyanNxt runs a full certification authority — issuing tamper-proof, independently verifiable credentials.
+  Cryptographically signed
+  Ed25519-signed credentials that cannot be forged or altered.
+  Public verification
+  Anyone can confirm a certificate is genuine, instantly.
+  Portable credentials
+  Open Badges and verifiable-credential exports that travel anywhere.
+  Plugs into your LMS
+  LTI 1.3 integration writes results back to Canvas, Moodle and more.
+  Employer verification
+  Hiring teams verify a candidate's credential before they interview.
+  Appeals & due process
+  A 14-day appeal window with independent case review.
+  PragyanNxt   ·   Enterprise Assessment & Certification
+  NOTES: The flagship differentiator. A certification authority, not a certificate generator: signed, verifiable, portable, LMS-integrated, employer-verifiable, with due process. Enabled per deployment.
+
+--- SLIDE 15 (layout: DEFAULT) pics=1
+  ENTERPRISE-GRADE
+  Built like enterprise software.
+  A control plane provisions each organization into its own isolated database — with durable processing that never loses a submission.
+  ✓   Database-per-tenant isolation — one organization's data never touches another's
+  ✓   Durable background processing — reports and recordings survive restarts
+  ✓   Role-based access, activity logging and signed, expiring media URLs
+  app.pragyannxt.com/tenant-manager
+  PragyanNxt   ·   Enterprise Assessment & Certification
+  NOTES: Live screen: the Tenant Manager control plane. The headline fact is database-per-tenant isolation — a hard boundary, not a shared table with a tenant column.
+
+--- SLIDE 16 (layout: DEFAULT) pics=1
+  FOR CORPORATES
+  Hire on evidence, not guesswork.
+  Screen faster, at any volume
+  Run thousands of applicants through one fair, automated funnel.
+  Defensible decisions
+  Every score carries a proctoring and integrity trail you can stand behind.
+  Verify skills before you interview
+  Confirm a candidate's credential is genuine in one click.
+  app.pragyannxt.com/users
+  PragyanNxt   ·   Enterprise Assessment & Certification
+  NOTES: The hiring buyer's outcomes: speed, defensibility, verifiable skills. The user directory separates candidates from staff — candidates are not priced as staff seats.
+
+--- SLIDE 17 (layout: DEFAULT) pics=1
+  FOR ACADEMIC INSTITUTIONS
+  Exams you can stand behind.
+  Remote exams at cohort scale
+  Deliver and proctor whole batches without a physical hall.
+  Academic integrity, documented
+  An integrity report on every attempt protects the value of the degree.
+  Verify & plug into your LMS
+  Signed credentials and LTI write-back to your existing platform.
+  app.pragyannxt.com/subjects
+  PragyanNxt   ·   Enterprise Assessment & Certification
+  NOTES: The education buyer's outcomes: scale, documented integrity, verifiable certificates with LMS integration. LTI matters to institutions on Canvas or Moodle.
+
+--- SLIDE 18 (layout: DEFAULT) pics=0
+  OUR USPS · WHY PRAGYANNXT
+  One platform where others give you three.
+  Author, proctor and certify — together
+  No stitching point tools together and leaking data between them. One system, one trail of trust.
+  Integrity is built in, not bolted on
+  A defensible integrity score on every exam — even the ones with no camera.
+  Real multi-tenant isolation
+  A separate database per organization — a hard security boundary, not a shared table.
+  AI-native and cost-aware
+  Generation and summaries that speed up work, with metered spend you control.
+  PragyanNxt   ·   Enterprise Assessment & Certification
+  NOTES: The USP summary. Competitors sell one slice; PragyanNxt owns the whole chain from authoring to verifiable credential, with integrity and isolation as first-class.
+
+--- SLIDE 19 (layout: DEFAULT) pics=0
+  PACKAGING
+  Pay for the platform. Scale with usage.
+  Platform access with an assessment allowance, plus AI credits and recorded-proctoring capacity bought as you need them.
+  Basic
+  For teams getting started with secure online assessment.
+  •  500 assessments / month
+  •  Authoring, delivery & scoring
+  •  Integrity scoring included
+  Plus
+  Popular
+  For growing programs that certify and report.
+  •  5,000 assessments / month
+  •  Reports & certificates
+  •  Recorded proctoring capacity
+  Pro
+  For enterprises and institutions at full scale.
+  •  25,000 assessments / month
+  •  Full proctoring & control room
+  •  Priority support & onboarding
+  ★   Start with a 14-day trial — real assessments, AI credits and a bounded proctoring demo included.
+  Allowances shown; plans and pricing scoped to your volume · INR and annual options available
+  NOTES: Packaging philosophy: platform + assessment allowance, with AI credits and recorded-proctoring capacity sold separately. Three tiers by volume. Prices scoped per customer. Lead with the 14-day trial.
+
+--- SLIDE 20 (layout: DEFAULT) pics=3
+  MavionTech
+  GET STARTED
+  Let's build assessment you can trust.
+  Start a 14-day trial, or book a walkthrough tailored to your hiring or academic program.
+  Book a demo
+  Start free trial
+  Crafted by MavionTech Pvt. Ltd.
+Enterprise Software Solutions · maviontech.com
+  ASSESS · LEARN · PROGRESS
+  NOTES: The branded close. PragyanNxt + MavionTech on first and last slides. One clear ask, two actions. Contact details are placeholders — confirm before sending.
